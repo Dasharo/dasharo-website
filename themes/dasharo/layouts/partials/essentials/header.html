@@ -1,0 +1,42 @@
+<nav class="navigation__container">
+  <div class="navigation__logo-wrapper">
+    <a href="{{if $.IsHome}}#home{{else}}{{site.BaseURL | relLangURL}}{{end}}" class="navigation__logo-link {{if $.IsHome}}smooth-scroll{{end}}">
+      {{ partial "image.html" (dict "Src" site.Params.logo "Alt" "Dasharo logo" "Class" "navigation__logo" "Resize" false) }}
+    </a>
+    <a href="{{if $.IsHome}}#home{{else}}{{site.BaseURL | relLangURL}}{{end}}" {{if $.IsHome}}class="smooth-scroll"{{end}}>
+      {{ partial "image.html" (dict "Src" site.Params.brand_name "Alt" "Dasharo brand name" "Class" "navigation__brand" "Resize" false) }}
+    </a>
+  </div>
+  <span class="navigation__logo-background"></span>
+  <div class="navigation__menu-wrapper">
+    <nav class="navigation__menu">
+      <ul class="navigation__menu-list">
+        <li class="navigation__menu-list-item">
+          <a href="{{if $.IsHome}}#home{{else}}/{{end}}" {{if $.IsHome}}class="smooth-scroll"{{end}}>
+            <span data-content="Dasharo Home Page">Start</span>
+          </a>
+          {{ partial "image.html" (dict "Src" "images/logo/dasharo-logo.png" "Alt" "Dasharo logo" "Class" "navigation__menu-list-item-icon" "Resize" false) }}
+        </li>
+        
+        {{ range site.Menus.main }}
+        <li class="navigation__menu-list-item">
+          <a
+            {{if findRE `^http` .URL}}target="_blank" rel="noopener"{{end}}
+            href="{{if findRE `^#` .URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{.URL}}{{else}}{{.URL | relLangURL}}{{end}}"
+            {{if findRE `^#` .URL}}class="smooth-scroll"{{end}}
+          ><span data-content="{{.Post}}">{{ .Name }}</span></a>
+          {{ partial "image.html" (dict "Src" "images/logo/dasharo-logo.png" "Alt" "Dasharo logo" "Class" "navigation__menu-list-item-icon" "Resize" false) }}
+        </li>
+        {{ end }}
+      </ul>
+    </nav>
+  </div>
+  <div class="burger hover">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</nav>

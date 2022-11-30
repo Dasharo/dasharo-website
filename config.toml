@@ -1,0 +1,55 @@
+# This file is for render site varibles and plugins
+# don't remove this file.
+# The presence of this file is for compatibility with Blogdown and Forestry.
+#
+# The actual configuration files are stored in the `config/_default/` folder.
+
+
+######################### site variables ##############################
+# customize your color and font from here.
+[params.variables]
+white = "#fff"
+black = "#000"
+greenOne = "#99b998"
+greenTwo = "#38d430"
+greenThree = "#849a84"
+salmon = "#fdcea9"
+redOne = "#f4837d"
+redTwo = "#ea495f"
+carbon = "#29363b"
+grey = "#808080"
+darkGrey = "#46494c"
+ultraDarkGrey = "#24272b"
+
+# go to https://fonts.google.com/ to find the font you want to use. select your font and copy only the bold part from the URL. and paste it here.
+# example: "Work+Sans:wght@400;500;600"
+font_primary = "Oswald:wght@200;300;400;500;600;700"
+font_primary_type = "sans-serif"            # [serif/sans-serif]
+font_secondary = ""
+font_secondary_type = ""                    # [serif/sans-serif]
+font_icon = "Font Awesome 6 Free"           # https://fontawesome.com/v6.0/icons/
+
+
+############################# Plugins ##############################
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/font-awesome/v6/regular.css"
+[[params.plugins.css]]
+link = "plugins/font-awesome/v6/brands.css"
+[[params.plugins.css]]
+link = "plugins/font-awesome/v6/solid.css"
+[[params.plugins.css]]
+link = "plugins/font-awesome/v6/icons.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/webfont/webfont-loader-2.js"
+[[params.plugins.js]]
+link = "js/cookies.js"
+[[params.plugins.js]]
+link = "js/navigation.js"
+[[params.plugins.js]]
+link = "js/scrollMouseInfo.js"
+[[params.plugins.js]]
+link = "js/smoothScroll.js"

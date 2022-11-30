@@ -1,0 +1,18 @@
+<footer>
+  <div class="footer__container">
+    {{ partial "image.html" (dict "Src" "images/icons/king-chess-dark-grey.png" "Alt" "king chess icon" "Class" "footer__icon" "Resize" false) }}
+    <div class="footer_info-wrapper">
+      <p class="footer_info-right">
+        © {{ .Date.Format "2006" }} {{site.Params.copyright | markdownify}}
+      </p>
+      <a href="{{site.BaseURL | relLangURL}}/pages/terms/">Terms of Service</a>
+    </div>
+    <div class="footer__socials-wrapper">
+      {{ range site.Params.social }}
+      <a href="{{.link | safeURL}}" target="_blank" title="{{.title}}">
+        <i class="{{.icon}}"></i>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</footer>

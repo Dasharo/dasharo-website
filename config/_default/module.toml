@@ -1,0 +1,27 @@
+[hugoVersion]
+extended = true
+min = "0.105.0"
+
+[[imports]]
+path = "github.com/gethugothemes/hugo-modules/components/render-link"
+
+[[imports]]
+path = "github.com/gethugothemes/hugo-modules/icons/font-awesome"
+
+[[imports]]
+path = "github.com/gethugothemes/hugo-modules/pwa"
+
+[[imports]]
+path = "github.com/gethugothemes/hugo-modules/images"
+
+[[imports]]
+path = "github.com/gethugothemes/hugo-modules/shortcodes/image"
+
+[[imports]]
+path = "github.com/gethugothemes/hugo-modules/seo-tools/site-verifications"
+
+[[imports]]
+path = "github.com/gethugothemes/hugo-modules/seo-tools/basic-seo"
+
+[[imports]]
+path = "github.com/gethugothemes/hugo-modules/gzip-caching"

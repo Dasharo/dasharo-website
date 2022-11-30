@@ -1,0 +1,367 @@
+.how-dasharo-works__container {
+  position: relative;
+  width: 100%;
+  background: $carbon;
+  height: auto;
+  padding-bottom: 120px;
+
+  .how-dasharo-works__wrapper {
+    padding: 50px;
+
+    .how-dasharo-works__title {
+      color: $white;
+      font-size: calc(20px + 20 * ((100vw - 320px) / 680));
+      letter-spacing: -0.04em;
+      line-height: 90%;
+
+      span {
+        color: $greenTwo;
+        text-transform: uppercase;
+      }
+    }
+
+    .how-dasharo-works__content-wrapper {
+      margin: 50px auto 0 auto;
+      width: 100%;
+      display: flex;
+
+      .how-dasharo-works__descriptions-container {
+        width: 40%;
+        padding: 5% 5% 5% 0;
+        display: flex;
+        flex-direction: column;
+
+        .how-dasharo-works__descriptions-container-header {
+          line-height: 180%;
+          font-size: calc(20px + 4 * ((100vw - 320px) / 680));
+          color: $white;
+          margin-bottom: 60px;
+        }
+
+        .how-dasharo-works__descriptions-container-logo {
+          opacity: 0.05;
+          display: block;
+          width: 40%;
+          margin: 40% auto;
+        }
+
+        .how-dasharo-works__descriptions-container-element {
+          font-size: calc(18px + 2 * ((100vw - 320px) / 680));
+          line-height: 180%;
+          color: $white;
+
+          span {
+            color: $greenTwo;
+            font-weight: 500;
+          }
+        }
+
+        .how-dasharo-works__descriptions-container-link {
+          display: flex;
+          margin: auto;
+          margin-top: 70px;
+          color: $white;
+          font-size: calc(20px + 2 * ((100vw - 320px) / 680));
+          transition: 0.5s;
+          background: $greenTwo;
+          text-align: center;
+          padding: 10px 20px;
+          border-radius: 2px;
+          justify-content: center;
+          align-items: center;
+
+          img {
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+            transition: 0.5s;
+          }
+
+          &:hover {
+            background: grey;
+
+            img {
+              transform: scaleX(-1);
+            }
+          }
+        }
+      }
+
+      .how-dasharo-works__image-container {
+        width: 60%;
+        border-radius: 5px;
+        background: $white;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .how-dasharo-works__icon {
+    position: absolute;
+    bottom: 100%;
+    right: 10%;
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 1420px) {
+  .how-dasharo-works__container {
+    .how-dasharo-works__wrapper {
+      .how-dasharo-works__content-wrapper {
+        .how-dasharo-works__descriptions-container {
+          .how-dasharo-works__descriptions-container-logo {
+            margin: 25% auto;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .how-dasharo-works__container {
+    .how-dasharo-works__wrapper {
+      .how-dasharo-works__content-wrapper {
+        .how-dasharo-works__descriptions-container {
+          .how-dasharo-works__descriptions-container-logo {
+            margin: 20% auto;
+          }
+
+          .how-dasharo-works__descriptions-container-link {
+            font-size: calc(18px + 2 * ((100vw - 320px) / 680));
+            padding: 10px 25px 10px 10px;
+
+            img {
+              width: 40px;
+              height: 40px;
+              margin: 0 10px;
+              transition: 0.5s;
+              align-self: center;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .how-dasharo-works__container {
+    .how-dasharo-works__wrapper {
+      .how-dasharo-works__title {
+        font-size: calc(18px + 20 * ((100vw - 320px) / 680));
+      }
+      .how-dasharo-works__content-wrapper {
+        .how-dasharo-works__descriptions-container {
+          .how-dasharo-works__descriptions-container-header {
+            font-size: calc(18px + 4 * ((100vw - 320px) / 680));
+            margin-bottom: 50px;
+          }
+
+          .how-dasharo-works__descriptions-container-logo {
+            margin: 20% auto;
+          }
+
+          .how-dasharo-works__descriptions-container-link {
+            img {
+              width: 30px;
+              height: 30px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .how-dasharo-works__container {
+    .how-dasharo-works__wrapper {
+      .how-dasharo-works__content-wrapper {
+        .how-dasharo-works__descriptions-container {
+          .how-dasharo-works__descriptions-container-logo {
+            margin: 10% auto;
+          }
+
+          .how-dasharo-works__descriptions-container-link {
+            img {
+              width: 50px;
+              height: 50px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .how-dasharo-works__container {
+    .how-dasharo-works__wrapper {
+      .how-dasharo-works__content-wrapper {
+        .how-dasharo-works__descriptions-container {
+          .how-dasharo-works__descriptions-container-header {
+            margin-bottom: 50px;
+          }
+
+          .how-dasharo-works__descriptions-container-logo {
+            width: 20%;
+          }
+
+          .how-dasharo-works__descriptions-container-link {
+            margin-top: 50px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .how-dasharo-works__container {
+    .how-dasharo-works__wrapper {
+      .how-dasharo-works__content-wrapper {
+        .how-dasharo-works__descriptions-container {
+          .how-dasharo-works__descriptions-container-logo {
+            margin: 5% auto;
+            width: 15%;
+          }
+
+          .how-dasharo-works__descriptions-container-link {
+            margin-top: 50px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .how-dasharo-works__container {
+    .how-dasharo-works__wrapper {
+      .how-dasharo-works__title {
+        font-size: calc(16px + 20 * ((100vw - 320px) / 680));
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .how-dasharo-works__container {
+    .how-dasharo-works__wrapper {
+      .how-dasharo-works__content-wrapper {
+        display: block;
+        .how-dasharo-works__descriptions-container {
+          width: 100%;
+          padding: 0;
+
+          .how-dasharo-works__descriptions-container-header {
+            margin-bottom: 50px;
+          }
+
+          .how-dasharo-works__descriptions-container-logo {
+            margin: 50px auto;
+            width: 10%;
+          }
+
+          .how-dasharo-works__descriptions-container-link {
+            margin: 80px auto 0px auto;
+
+            img {
+              width: 40px;
+              height: 40px;
+            }
+          }
+        }
+
+        .how-dasharo-works__image-container {
+          width: 100%;
+          margin-top: 80px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .how-dasharo-works__container {
+    .how-dasharo-works__wrapper {
+      .how-dasharo-works__title {
+        font-size: calc(14px + 20 * ((100vw - 320px) / 680));
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .how-dasharo-works__container {
+    .how-dasharo-works__wrapper {
+      width: 100%;
+      margin: 0;
+
+      .how-dasharo-works__title {
+        font-size: calc(20px + 20 * ((100vw - 320px) / 680));
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .how-dasharo-works__container {
+    .how-dasharo-works__wrapper {
+      padding: 50px 25px;
+
+      .how-dasharo-works__content-wrapper {
+        .how-dasharo-works__descriptions-container {
+          .how-dasharo-works__descriptions-container-logo {
+            width: 20%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .how-dasharo-works__container {
+    .how-dasharo-works__wrapper {
+      .how-dasharo-works__content-wrapper {
+        .how-dasharo-works__descriptions-container {
+          .how-dasharo-works__descriptions-container-link {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .how-dasharo-works__container {
+    .how-dasharo-works__wrapper {
+      .how-dasharo-works__content-wrapper {
+        .how-dasharo-works__descriptions-container {
+          .how-dasharo-works__descriptions-container-link {
+            width: 100%;
+            display: block;
+            padding: 10px 0px;
+
+            img {
+              width: 40px;
+              height: 40px;
+              margin-right: 0;
+            }
+
+            span {
+              display: block;
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{{ define "main" }}
+
+<div class="contact__container">
+  <div class="contact__company-info">
+    {{ with .Params.banner }}
+    <div class="contact__title-wrapper">
+      <h1 class="contact__title">{{.title | markdownify}}</h1>
+      <p class="contact__description">{{.description | markdownify}}</p>
+    </div>
+    {{ end }}
+    <div class="contact-address-wrapper">
+      <div class="contact-address-section">
+        <h3 class="contact-address-section-title">
+          <i class="fas fa-map-marker-alt"></i><span>Our office</span>
+        </h3>
+        <p>{{.Params.our_office | markdownify}}</p>
+
+        <button id="copy-address-button" class="contact-address-section-btn copy-adress clipboard" data-clipboard-text="{{.Params.our_office | plainify}}"><i class="far fa-copy"></i></button>
+      </div>
+
+      <div class="contact-address-section">
+        <h3 class="contact-address-section-title">
+          <i class="far fa-envelope"></i><span>General Support</span>
+        </h3>
+        <a href="mailto:{{.Params.email}}" class="contact-address-section-email">{{.Params.email}}</a>
+
+        <button id="copy-mail-button" class="contact-address-section-btn copy-email clipboard" data-clipboard-text="{{.Params.email}}"><i class="far fa-copy"></i></button>
+      </div>
+    </div>
+  </div>
+  <div class="contact__content-container">
+    <div class="contact-form-wrapper">
+      <h2 class="contact-form__header-title">Send us a message</h2>
+      <form id="contact" class="contact-form__form" action="" method="post">
+        <div id="email-sent"></div>
+        <div class="form-group contact-form__form-field">
+          <label for="name">Name</label>
+          <input id="name" class="form-input" placeholder="enter your name" type="text" maxlength="40" tabindex="1" required="" autofocus="">
+        </div>
+        <div class="form-group contact-form__form-field">
+          <label for="user_email">Email</label>
+          <input id="user_email" class="form-input" placeholder="enter your email" type="email" tabindex="2" maxlength="40" title="" required="">
+        </div>
+        <div class="form-group contact-form__form-field">
+          <label for="mobile">Phone</label>
+          <input id="mobile" class="form-input" placeholder="enter your phone number (optional)" type="text" maxlength="12" required="">
+        </div>
+        <div class="form-group contact-form__form-field">
+          <label for="subject">Subject</label>
+          <input id="subject" class="form-input" placeholder="subject" type="text" maxlength="40" tabindex="4" required="">
+        </div>
+        <div class="form-group contact-form__form-field">
+          <label class="contact-form__form-field-textarea" for="textarea1">
+            <span>Message</span>
+            {{ partial "image.html" (dict "Src" "images/icons/knight-black-chess-right-white.png" "Alt" "form icon" "Resize" false "Size" "50x") }}
+          </label>
+          <textarea id="textarea1" class="form-input" placeholder="enter your message" tabindex="5" maxlength="1000" required=""></textarea>
+        </div>
+        <div class="form-group contact-form__form-field contact-form__form-field-button">
+          <button id="send_email" class="contact-button contact-form__contact-button" name="submit" type="submit" data-submit="...Sending">
+            {{ partial "image.html" (dict "Src" "images/logo/dasharo-logo.png" "Alt" "Dasharo logo" "Resize" false "Size" "30x") }}
+            <span>Submit</span>
+          </button>
+        </div>
+      </form>
+      {{ partial "image.html" (dict "Src" "images/icons/king-chess-grey.png" "Alt" "king chess icon" "Class" "contact-form__icon" "Resize" false "Size" "100x") }}
+    </div>
+  </div>
+</div>
+
+<script src="{{ (resources.Get `js/copyToClipBoard.js`).RelPermalink }}"></script>
+<script src="{{ (resources.Get `js/contactPageForm.js`).RelPermalink }}"></script>
+
+{{ end }}

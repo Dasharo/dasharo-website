@@ -1,0 +1,183 @@
+.what-is-dasharo__container {
+  position: relative;
+  width: 100%;
+  background: $carbon;
+  height: auto;
+  padding-bottom: 160px;
+
+  .what-is-dasharo__wrapper {
+    width: 50%;
+    padding: 50px 5% 0 50px;
+
+    .what-is-dasharo__title {
+      color: $white;
+      font-size: calc(20px + 20 * ((100vw - 320px) / 680));
+      letter-spacing: -0.04em;
+      line-height: 90%;
+
+      span {
+        color: $greenTwo;
+        text-transform: uppercase;
+      }
+    }
+
+    .what-is-dasharo__description {
+      line-height: 180%;
+      text-align: left;
+      font-size: calc(16px + 4 * ((100vw - 320px) / 680));
+      color: $white;
+
+      &:nth-of-type(1) {
+        position: absolute;
+        top: 7%;
+        right: 50px;
+        width: calc(50% - 50px);
+      }
+    }
+
+    .what-is-dasharo__list-wrapper {
+      .what-is-dasharo__list-header {
+        margin: 50px 0 20px 0;
+        font-size: calc(16px + 4 * ((100vw - 320px) / 680));
+        color: $white;
+        font-weight: 500;
+      }
+
+      .what-is-dasharo__list {
+        width: 100%;
+        padding: 20px 0;
+
+        .what-is-dasharo__list-item {
+          display: flex;
+          margin-bottom: 25px;
+
+          .what-is-dasharo__list-item-img {
+            width: 25px;
+            height: 100%;
+            margin-top: 5px;
+            filter: invert(51%) sepia(100%) saturate(400%) hue-rotate(69deg)
+              brightness(110%) contrast(91%);
+            margin-right: 15px;
+          }
+
+          .what-is-dasharo__list-item-name {
+            color: $white;
+            font-size: calc(16px + 2 * ((100vw - 320px) / 680));
+          }
+        }
+      }
+
+      .what-is-dasharo__signature {
+        margin: 20px 0;
+        color: $greenTwo;
+        font-size: calc(16px + 2 * ((100vw - 320px) / 680));
+      }
+    }
+  }
+
+  .what-is-dasharo__image-wrapper {
+    position: absolute;
+    z-index: 2;
+    bottom: -10%;
+    right: 0;
+    width: 50%;
+    height: 70%;
+    background: $greenTwo;
+    border-radius: 3px 0 0 3px;
+
+    .what-is-dasharo__image {
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      opacity: 0.7;
+      -webkit-filter: grayscale(1);
+      filter: grayscale(1);
+      border-radius: 3px 0 0 3px;
+    }
+  }
+
+  .what-is-dasharo__icon {
+    position: absolute;
+    bottom: 100%;
+    right: 10%;
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .what-is-dasharo__container {
+    .what-is-dasharo__wrapper {
+      .what-is-dasharo__title {
+        font-size: calc(18px + 20 * ((100vw - 320px) / 680));
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .what-is-dasharo__container {
+    .what-is-dasharo__wrapper {
+      .what-is-dasharo__description {
+        &:nth-of-type(1) {
+          top: 6%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .what-is-dasharo__container {
+    .what-is-dasharo__wrapper {
+      .what-is-dasharo__title {
+        font-size: calc(16px + 20 * ((100vw - 320px) / 680));
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .what-is-dasharo__container {
+    .what-is-dasharo__wrapper {
+      .what-is-dasharo__title {
+        font-size: calc(14px + 20 * ((100vw - 320px) / 680));
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .what-is-dasharo__container {
+    padding-bottom: 140px;
+
+    .what-is-dasharo__wrapper {
+      width: 100%;
+      margin: 0;
+      padding: 50px 10%;
+
+      .what-is-dasharo__title {
+        font-size: calc(20px + 20 * ((100vw - 320px) / 680));
+      }
+
+      .what-is-dasharo__description {
+        &:nth-of-type(1) {
+          position: relative;
+          top: 0;
+          right: 0;
+          width: 100%;
+          margin-top: 30px;
+        }
+      }
+    }
+
+    .what-is-dasharo__image-wrapper {
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 300px;
+    }
+  }
+}

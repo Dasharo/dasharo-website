@@ -1,0 +1,214 @@
+{{ define "main" }}
+
+{{ with .Params.banner }}
+<section>
+  <div class="learn-header__container">
+    <div class="learn-header__title-wrapper">
+      <h1 class="learn-header__title">{{.title | markdownify}}</h1>
+      <p class="learn-header__description">{{.description | markdownify}}</p>
+    </div>
+    {{ with .page_content_list }}
+    <ul class="learn-header__questions-list">
+      {{ range . }}
+      <li class="learn-header__questions-item-wrapper">
+        <a href="{{.link}}" class="smooth-scroll">
+          {{ partial "image.html" (dict "Src" .icon "Alt" "chess figure icon" "Class" "learn-header__questions-item-img" "Resize" false "Size" "80x") }}
+          <p class="learn-header__questions-item">{{.title | markdownify}}</p>
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+    {{ end }}
+    {{ partial "image.html" (dict "Src" "images/icons/mouse-neon-green.png" "Alt" "mouse icon" "Class" "learn-header__mouse-icon mouse-scroll" "Resize" false "Size" "50x") }}
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.how_dasharo_works }}
+<section>
+  <div id="{{.title | plainify | urlize}}" class="how-dasharo-works__container">
+    <div class="how-dasharo-works__wrapper">
+      <a href="{{.title | plainify | urlize}}">
+        <h2 class="how-dasharo-works__title">{{.title | markdownify}}</h2>
+      </a>
+      {{ with .how_dasharo_works_details }}
+      <div class="how-dasharo-works__content-wrapper">
+        <div class="how-dasharo-works__descriptions-container">
+          <h3 class="how-dasharo-works__descriptions-container-header">{{.title | markdownify}}</h3>
+
+          <p class="how-dasharo-works__descriptions-container-element">{{.content_block_1 | markdownify }}</p>
+
+          {{ partial "image.html" (dict "Src" "images/logo/dasharo-logo.png" "Alt" "Dasharo logo" "Class" "how-dasharo-works__descriptions-container-logo" "Resize" false "Size" "178x") }}
+
+          <p class="how-dasharo-works__descriptions-container-element">{{.content_block_2 | markdownify }}</p>
+          
+          {{ partial "image.html" (dict "Src" "images/logo/dasharo-logo.png" "Alt" "Dasharo logo" "Class" "how-dasharo-works__descriptions-container-logo" "Resize" false "Size" "178x") }}
+
+          <p class="how-dasharo-works__descriptions-container-element">{{.content_block_3 | markdownify }}</p>
+
+          <a href="products/" class="how-dasharo-works__descriptions-container-link">
+            {{ partial "image.html" (dict "Src" "images/icons/knight-black-chess-right-white.png" "Alt" "link icon" "Resize" false "Size" "40x") }}
+            <span>Check ready-to-buy Dasharo products</span>
+          </a>
+        </div>
+
+        <div class="how-dasharo-works__image-container">
+          {{ partial "image.html" (dict "Src" .dasharo_graph_image "Alt" "How Dasharo works graph") }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+    {{ partial "image.html" (dict "Src" "images/icons/king-chess-carbon.png" "Alt" "king chess icon" "Class" "how-dasharo-works__icon" "Resize" false "Size" "100x") }}
+  </div>
+</section>
+{{ end }}
+
+
+{{ with .Params.dasharo_modules }}
+<section>
+  <div id="dasharo-modules" class="dasharo-features__container">
+    <div class="dasharo-features__wrapper">
+      <a href="{{.title | plainify | urlize}}">
+        <h2 class="dasharo-features__title">{{.title | markdownify}}</h2>
+      </a>
+      <div class="dasharo-features__content-wrapper">
+        <h3 class="dasharo-features__content-wrapper-header">{{.description | markdownify}}</h3>
+
+        {{ range .modules_category }}
+        <h4 class="dasharo-features__content-item-header">
+          {{ partial "image.html" (dict "Src" "images/icons/rook-white.png" "Alt" "modules icon" "Resize" false "Size" "40x") }}
+          <span>{{.title | markdownify}}</span>
+        </h4>
+
+        {{ range .modules_list }}
+        <div class="dasharo-features__content-item-wrapper">
+          <h5 class="dasharo-features__content-item-title description-item">
+            {{ partial "image.html" (dict "Src" "images/icons/arrow-white.png" "Alt" "btn icon" "Class" "description-item-img" "Resize" false "Size" "40x") }}
+            <span>{{.title | markdownify}}</span>
+          </h5>
+          <div class="dasharo-features__content-item-description description-hidden">
+            {{ range $i, $e := .features }}
+            <p {{if ne $i 0}}style="margin-top:15px"{{end}}>
+              {{ partial "image.html" (dict "Src" "images/logo/dasharo-logo.png" "Alt" "Dasharo logo" "Resize" false "Class" "align-bottom" "Size" "40x") }}
+              <span>{{. | markdownify}}</span>
+            </p>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+        {{ end }}
+
+      </div>
+    </div>
+    {{ partial "image.html" (dict "Src" "images/icons/king-chess-white.png" "Alt" "king chess icon" "Class" "dasharo-features__icon" "Resize" false "Size" "100x") }}
+  </div>
+</section>
+{{ end }}
+
+
+{{ with .Params.dasharo_diy }}
+<section>
+  <div id="{{.title | plainify | urlize}}" class="diy__container">
+    <div class="diy__wrapper">
+      <a href="#{{.title | plainify | urlize}}">
+        <h2 class="diy__title">{{.title | markdownify}}</h2>
+      </a>
+      <div class="diy__content-wrapper">
+        {{ with .coreboot_yourself }}
+        <div class="diy__content-element">
+          <h2 class="diy__content-element-header">
+            {{ partial "image.html" (dict "Src" .logo "Alt" "Coreboot logo" "Class" "diy__content-element-img-coreboot" "Resize" false "Size" "60x") }}
+            <span>{{.title | markdownify}}</span>
+          </h2>
+          <p class="diy__content-element-description">{{.content | markdownify}}</p>
+        </div>
+        {{ end }}
+
+        {{ with .coreboot_with_dasharo }}
+        <div class="diy__content-element">
+          <h2 class="diy__content-element-header">
+            <span>{{.title | markdownify}}</span>
+            {{ partial "image.html" (dict "Src" .logo "Alt" "Dasharo logo" "Class" "diy__content-element-img-dasharo" "Resize" false "Size" "60x") }}
+          </h2>
+          <p class="diy__content-element-description">{{.content | markdownify}}</p>
+
+          {{ with .what_can_you_gain }}
+          <h3 class="diy__content-element-list-header">{{.title | markdownify}}</h3>
+          <ul class="diy__content-element-list">
+            {{ range .features }}
+            <li class="diy__content-element-list-item">
+              {{ partial "image.html" (dict "Src" "images/logo/dasharo-logo.png" "Alt" "Dasharo logo" "Resize" false "Size" "40x") }}
+              <span>{{. | markdownify}}</span>
+            </li>
+            {{ end }}
+          </ul>
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+    </div>
+    {{ partial "image.html" (dict "Src" "images/icons/king-chess-carbon.png" "Alt" "king chess icon" "Class" "diy__icon" "Resize" false "Size" "100x") }}
+  </div>
+</section>
+{{ end }}
+
+
+{{ with .Params.dasharo_faq }}
+<section>
+  <div id="{{.title | plainify | urlize}}" class="faq__container">
+    <div class="faq__wrapper">
+      <a href="#{{.title | plainify | urlize}}">
+        <h2 class="faq__title">{{.title | markdownify}}</h2>
+      </a>
+      <div class="faq__content-wrapper">
+        <h3 class="faq__content-wrapper-header">Question categories:</h3>
+        <ul class="faq__content-wrapper-category-list">
+          {{ range .faq_category }}
+          <li class="faq__content-wrapper-category-list-item">
+            <a href="#faq-{{.title | plainify | urlize }}" class="smooth-scroll">
+              {{ partial "image.html" (dict "Src" .icon "Alt" "chess figure icon" "Class" "faq__content-wrapper-category-list-item-img" "Resize" false "Size" "40x") }}
+              <p class="faq__content-wrapper-category-list-item-title">
+                <span>{{.title | markdownify}}</span>
+              </p>
+            </a>
+          </li>
+          {{ end }}
+        </ul>
+
+        {{ $faqcategory := "" }}
+        {{ range .faq_category }}
+        {{ $faqcategory = .title | lower | urlize }}
+        <h4 id="faq-{{$faqcategory}}" class="faq__content-item-header">
+          {{ partial "image.html" (dict "Src" .icon_white "Alt" "faq icon" "Resize" false "Size" "40x") }}
+          <span>{{.title | markdownify}}</span>
+        </h4>
+        
+        {{ range $i, $e := .faq_list }}
+        <div id="q-{{$faqcategory}}-{{add $i 1}}" class="faq__content-item-wrapper">
+          <h5 class="faq__content-item-title description-item">
+            {{ partial "image.html" (dict "Src" "images/icons/arrow-white.png" "Alt" "btn icon" "Class" "description-item-img" "Resize" false "Size" "40x") }}
+            <span>{{.title | markdownify}}</span>
+            <a id="question1" class="anchor-links" data-clipboard-text="{{$.Permalink}}#q-{{$faqcategory}}-{{add $i 1}}">
+              <i class="fas fa-link"></i>
+              <p class="tooltip">Copied</p>
+            </a>
+          </h5>
+
+          <div class="faq__content-item-description description-hidden">
+            {{ partial "image.html" (dict "Src" "images/logo/dasharo-logo.png" "Alt" "Dasharo logo" "Resize" false "Size" "40x") }}
+            <span class="content">{{.content | markdownify}}</span>
+          </div>
+        </div>
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+    {{ partial "image.html" (dict "Src" "images/icons/king-chess-white.png" "Alt" "king chess icon" "Class" "faq__icon" "Resize" false "Size" "100x") }}
+  </div>
+</section>
+{{ end }}
+
+<script src="{{ (resources.Get `js/showHideInfo.js`).RelPermalink }}"></script>
+<script src="{{ (resources.Get `js/copyAnchorLinks.js`).RelPermalink }}"></script>
+
+{{ end }}

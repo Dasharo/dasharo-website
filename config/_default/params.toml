@@ -1,0 +1,52 @@
+#################### default parameters ################################
+# favicon
+favicon = "images/icons/favicon.png"
+# logo
+logo = "images/logo/dasharo-logo.png"
+brand_name = "images/logo/dasharo-header.png"
+# logo text will only show when logo is missing.
+logo_text = "Dasharo"
+# purgeCSS
+purge_css = false
+# google tag manager, see https://developers.google.com/tag-manager/
+google_tag_manager = "GTM-KKH326X" # example: G-XXXXXXXXXX
+# custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
+custom_script = ""
+# copyright
+theme_copyright = false
+copyright = "[3mdeb](https://3mdeb.com/) | All rights reserved."
+
+# seo meta data for OpenGraph / Twitter Card
+[metadata]
+keywords = ["coreboot", "training", "3mdeb", "course", "platform"]
+description = "A complete ecosystem of tools and products that are used in the process of creating a firmware binary."
+author = "Dasharo"
+image = "images/favicon.png" 
+
+# Subscription
+[subscription]
+enable = false
+# mailchimp subsciption
+mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
+mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"                                                           # replace this code with yours
+
+############################# social site ########################
+# [[social]]
+# title = "facebook"
+# icon = "fab fa-facebook"
+# link = "https://www.facebook.com/dasharo.official/"
+
+[[social]]
+title = "twitter"
+icon = "fab fa-twitter-alt"
+link = "https://twitter.com/Dasharo_com"
+
+[[social]]
+title = "instagram"
+icon = "fab fa-youtube"
+link = "https://www.youtube.com/channel/UCTYvdwdFZ7NAtGK_XRvelaw"
+
+[[social]]
+title = "github"
+icon = "fab fa-reddit"
+link = "https://www.reddit.com/r/3mdeb/"

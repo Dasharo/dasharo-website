@@ -1,0 +1,20 @@
+{{ define "main" }}
+
+<div class="cookies">
+  <section>
+    {{ with .Params.banner }}
+    <div class="cookies-header__container">
+      <div class="cookies-header__title-wrapper">
+        <h1 class="cookies-header__title">{{.title | markdownify}}</h1>
+        <p class="cookies-header__description">{{.description | markdownify}}</p>
+      </div>
+    </div>
+    {{ end }}
+  </section>
+
+  <section class="cookies__container">
+    <article>{{.Content}}</article>
+  </section>
+</div>
+
+{{ end }}

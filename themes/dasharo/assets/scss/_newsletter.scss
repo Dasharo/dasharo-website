@@ -1,0 +1,264 @@
+.newsletter__container {
+  position: relative;
+  background: $grey;
+  padding-bottom: 120px;
+
+  .newsletter {
+    width: 80%;
+    margin: 0 auto;
+    .newsletter__header {
+      padding: 80px 0 0 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .newsletter__header-title {
+        margin-right: 20px;
+        color: $white;
+        font-size: calc(20px + 20 * ((100vw - 320px) / 680));
+        letter-spacing: -0.04em;
+        line-height: 90%;
+
+        span {
+          color: $greenTwo;
+        }
+
+        & span:last-child {
+          color: $carbon;
+        }
+      }
+
+      .fa-envelope-open-text {
+        font-size: 60px;
+        color: $white;
+      }
+    }
+
+    .newsletter__form {
+      width: 640px;
+      margin: 6% 0 0 0;
+
+      .newsletter__form-inputs-wrapper {
+        .newsletter__form-input-field {
+          display: flex;
+          input {
+            height: 50px;
+            width: 420px;
+            margin: 0 0 30px 0;
+            padding: 10px 30px;
+            border-radius: 0 3px 3px 0;
+            font-size: calc(12px + 3 * ((100vw - 320px) / 680));
+            -webkit-box-shadow: inset 0px 0px 3px 0px rgba(128, 128, 128, 1);
+            -moz-box-shadow: inset 0px 0px 3px 0px rgba(128, 128, 128, 1);
+            box-shadow: inset 0px 0px 3px 0px rgba(128, 128, 128, 1);
+          }
+
+          label {
+            height: 50px;
+            width: 220px;
+            line-height: 50px;
+            font-size: calc(18px + 3 * ((100vw - 320px) / 680));
+            border-radius: 3px 0 0 3px;
+            color: $white;
+            padding: 0 15px;
+            background: $carbon;
+            font-weight: 500;
+            text-align: center;
+          }
+        }
+      }
+
+      .newsletter__form-button-wrapper {
+        position: relative;
+        background: $carbon;
+        height: 50px;
+        width: 200px;
+        border-radius: 3px;
+        transition: 0.5s;
+        margin-left: auto;
+
+        .newsletter__form-button-img {
+          position: absolute;
+          z-index: 1;
+          top: 20%;
+          left: 15px;
+          height: 60%;
+        }
+
+        .newsletter__form-button-input {
+          position: relative;
+          color: $white;
+          z-index: 2;
+          width: 100%;
+          height: 100%;
+          line-height: 50px;
+          font-size: calc(12px + 3 * ((100vw - 320px) / 680));
+          background: transparent;
+          text-align: center;
+          padding-left: 15%;
+          cursor: pointer;
+        }
+        &:hover {
+          background: $greenTwo;
+        }
+      }
+    }
+  }
+
+  .newsletter__icon {
+    position: absolute;
+    bottom: 100%;
+    left: 10%;
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .newsletter__container {
+    .newsletter {
+      .newsletter__header {
+        .newsletter__header-title {
+          font-size: calc(18px + 20 * ((100vw - 320px) / 680));
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .newsletter__container {
+    .newsletter {
+      .newsletter__header {
+        .newsletter__header-title {
+          font-size: calc(16px + 20 * ((100vw - 320px) / 680));
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .newsletter__container {
+    .newsletter {
+      .newsletter__header {
+        .newsletter__header-title {
+          font-size: calc(14px + 20 * ((100vw - 320px) / 680));
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .newsletter__container {
+    padding-bottom: 140px;
+    .newsletter {
+      .newsletter__header {
+        padding: 60px 0 0 0;
+        .newsletter__header-title {
+          font-size: calc(20px + 20 * ((100vw - 320px) / 680));
+        }
+      }
+
+      .newsletter__form {
+        width: 100%;
+        margin: 40px 0 0 0;
+
+        .newsletter__form-inputs-wrapper {
+          .newsletter__form-input-field {
+            input {
+              width: 360px;
+              padding: 0 10px;
+            }
+
+            label {
+              width: 180px;
+            }
+          }
+        }
+
+        .newsletter__form-button-wrapper {
+          width: 160px;
+          margin-left: 380px;
+
+          .newsletter__form-button-input {
+            font-size: calc(12px + 4 * ((100vw - 320px) / 680));
+            padding-left: 35px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .newsletter__container {
+    .newsletter {
+      .newsletter__form {
+        .newsletter__form-inputs-wrapper {
+          .newsletter__form-input-field {
+            input {
+              width: calc(100% - 140px);
+              font-size: calc(12px + 2 * ((100vw - 320px) / 680));
+            }
+
+            label {
+              width: 140px;
+              font-size: calc(14px + 2 * ((100vw - 320px) / 680));
+            }
+          }
+        }
+
+        .newsletter__form-button-wrapper {
+          margin-left: auto;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .newsletter__container {
+    .newsletter {
+      .newsletter__form {
+        .newsletter__form-inputs-wrapper {
+          .newsletter__form-input-field {
+            display: block;
+            input {
+              width: 100%;
+              font-size: calc(12px + 2 * ((100vw - 320px) / 680));
+              border-radius: 0 0 3px 3px;
+            }
+
+            label {
+              height: 40px;
+              line-height: 40px;
+              display: block;
+              width: 100%;
+              font-size: calc(14px + 2 * ((100vw - 320px) / 680));
+              border-radius: 3px 3px 0 0;
+            }
+          }
+        }
+
+        .newsletter__form-button-wrapper {
+          margin-left: auto;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .newsletter__container {
+    .newsletter {
+      .newsletter__header {
+        padding: 40px 0 0 0;
+        .fa-envelope-open-text {
+          font-size: 50px;
+          color: $white;
+        }
+      }
+    }
+  }
+}

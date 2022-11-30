@@ -1,0 +1,130 @@
+.footer__container {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background: $ultraDarkGrey;
+  padding: 0 50px;
+  align-items: center;
+  justify-content: flex-end;
+
+  .footer_info-wrapper {
+    margin-right: 30px;
+    display: flex;
+
+    .footer_info-right {
+      color: $white;
+      margin-right: 20px;
+
+      a {
+        color: $white;
+        transition: 0.5s;
+
+        &:hover {
+          color: $greenTwo;
+        }
+      }
+    }
+
+    a {
+      color: $white;
+      transition: 0.5s;
+
+      &:hover {
+        color: $greenTwo;
+      }
+    }
+  }
+
+  .footer__socials-wrapper {
+    margin-right: calc(10% - 35px);
+
+    a {
+      color: $white;
+      font-size: 40px;
+      transition: 0.5s;
+      cursor: pointer;
+      margin-right: 20px;
+
+      &:hover {
+        color: $greenTwo;
+      }
+    }
+  }
+
+  .footer__icon {
+    position: absolute;
+    bottom: 100%;
+    right: 10%;
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .footer__container {
+    justify-content: center;
+
+    .footer_info-wrapper {
+      margin-top: 0;
+      display: block;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .footer__container {
+    justify-content: center;
+
+    .footer_info-wrapper {
+      margin-top: 0;
+
+      .footer_info-right {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .footer__container {
+    display: block;
+    height: auto;
+    padding: 30px 25px;
+
+    .footer_info-wrapper {
+      margin-top: 0;
+      margin-right: 0;
+      text-align: center;
+
+      .footer_info-right {
+        margin-bottom: 10px;
+      }
+    }
+    .footer__socials-wrapper {
+      margin-right: 0;
+      margin-top: 20px;
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .footer__container {
+    padding: 30px 50px;
+  }
+}
+
+@media screen and (max-width: 315px) {
+  .footer__container {
+    .footer__socials-wrapper {
+      .fa-twitter,
+      .fa-facebook-f {
+        margin-right: 15px;
+      }
+
+      .fa-youtube {
+        margin-right: 10px;
+      }
+    }
+  }
+}

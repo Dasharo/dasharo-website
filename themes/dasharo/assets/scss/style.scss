@@ -1,0 +1,43 @@
+// Color Variables
+{{ with site.Params.variables }}
+$white: {{.white | default "#777"}};
+$black: {{.black | default "#0AA8A7"}};
+$greenOne: {{.greenOne | default "#777"}};
+$greenTwo: {{.greenTwo | default "#222"}};
+$greenThree: {{.greenThree | default "#999"}};
+$salmon: {{.salmon | default "#fff"}};
+$redOne: {{.redOne | default "#ECECEC"}};
+$redTwo: {{.redTwo | default "#000"}};
+$carbon: {{.carbon | default "#fff"}};
+$grey: {{.grey | default "#222"}};
+$darkGrey: {{.darkGrey | default "#EDF6F5"}};
+$ultraDarkGrey: {{.ultraDarkGrey | default "#EDF6F5"}};
+
+// Font Variables
+$font-primary: '{{replace (replaceRE ":[ital,]*[ital@]*[wght@]*[0-9,;]+" "" .font_primary | default "Lato") "+" " "}}', {{.font_primary_type | default "sans-serif"}};
+$font-secondary: '{{replace (replaceRE ":[ital,]*[ital@]*[wght@]*[0-9,;]+" "" .font_secondary | default "Lato") "+" " "}}', {{.font_secondary_type | default "sans-serif"}};
+{{ end }}
+
+@import "common";
+@import "navigationBar";
+@import "navigationBurger";
+@import "navigationMenu";
+@import "header";
+@import "whatIsDasharo";
+@import "needDasharo";
+@import "breakCycle";
+@import "quote";
+@import "newsletter";
+@import "footer";
+@import "productsHeader";
+@import "useCases";
+@import "dataSheets";
+@import "learnHeader";
+@import "howDasharoWorks";
+@import "dasharoFeatures";
+@import "diy";
+@import "faq";
+@import "contact";
+@import "cookies";
+@import "terms";
+@import "custom";

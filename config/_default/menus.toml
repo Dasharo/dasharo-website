@@ -1,0 +1,38 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Products"
+post = "Dasharo product lines"
+url = "/products/"
+weight = 5
+
+[[main]]
+name = "Learn"
+post = "Explore Dasharo"
+url = "/pages/learn/"
+weight = 10
+
+[[main]]
+name = "Docs"
+post = "Deep Dive"
+url = "https://docs.dasharo.com/"
+weight = 15
+
+[[main]]
+name = "FAQ"
+post = "Find the answer"
+url = "/pages/learn/#dasharo-faq"
+weight = 20
+
+[[main]]
+name = "vPub"
+post = "Meet Us Online"
+url = "https://vpub.dasharo.com/"
+weight = 25
+
+[[main]]
+name = "Contact"
+post = "Contact Us"
+url = "/pages/contact/"
+weight = 30

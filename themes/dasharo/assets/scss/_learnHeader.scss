@@ -1,0 +1,195 @@
+.learn-header__container {
+  position: relative;
+  width: 100%;
+  min-height: 90vh;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 0 10% 80px 10%;
+
+  .learn-header__title-wrapper {
+    margin: 10vh 0 0 0;
+
+    .learn-header__title {
+      color: $grey;
+      font-size: calc(50px + 76 * ((100vw - 320px) / 680));
+      letter-spacing: -0.04em;
+      font-weight: 700;
+      line-height: 85%;
+
+      span {
+        color: $carbon;
+      }
+    }
+
+    .learn-header__description {
+      display: block;
+      line-height: 180%;
+      max-width: 550px;
+      font-size: calc(16px + 4 * ((100vw - 320px) / 680));
+      color: $carbon;
+      padding: 1%;
+    }
+  }
+
+  .learn-header__questions-list {
+    display: flex;
+    margin: 50px 0 100px 0;
+    flex-wrap: wrap;
+
+    .learn-header__questions-item-wrapper {
+      width: 50%;
+
+      a {
+        display: flex;
+        flex-direction: column;
+        min-width: calc(100% / 2 - 20px);
+        margin-right: 30px;
+        align-items: center;
+        cursor: pointer;
+
+        .learn-header__questions-item-img {
+          width: 40px;
+          transition: 0.5s;
+          opacity: 1;
+        }
+
+        .learn-header__questions-item {
+          text-align: center;
+          font-size: calc(22px + 10 * ((100vw - 320px) / 680));
+          color: $grey;
+          transition: 0.5s;
+
+          span {
+            color: $carbon;
+            transition: 0.5s;
+          }
+        }
+      }
+
+      &:hover .learn-header__questions-item-img {
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        opacity: 0.4;
+      }
+
+      &:hover .learn-header__questions-item {
+        color: $carbon;
+
+        span {
+          color: $greenTwo;
+        }
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      &:nth-child(1),
+      &:nth-child(2) {
+        margin-bottom: 25px;
+      }
+    }
+  }
+
+  .learn-header__mouse-icon {
+    position: absolute;
+    top: 40%;
+    left: 90%;
+    width: 50px;
+    transition: 3s;
+    opacity: 1;
+  }
+
+  .mouse-icon-hide {
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .learn-header__container {
+    min-height: 85vh;
+    .learn-header__title-wrapper {
+      margin: 15vh 0 0 0;
+    }
+
+    .learn-header__questions-list {
+      display: block;
+      margin: 10% 0 100px 0;
+
+      .learn-header__questions-item-wrapper {
+        width: 100%;
+        a {
+          flex-direction: row;
+          margin-right: 0;
+          margin-bottom: 2%;
+
+          .learn-header__questions-item-img {
+            margin-right: 10px;
+            width: 40px;
+          }
+        }
+
+        &:nth-child(1),
+        &:nth-child(2) {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .learn-header__container {
+    .learn-header__mouse-icon {
+      position: absolute;
+      top: 80%;
+      left: calc(50% - 25px);
+    }
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .learn-header__container {
+    .learn-header__title-wrapper {
+      margin: 120px 0 0 0;
+    }
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .learn-header__container {
+    .learn-header__questions-list {
+      margin: 10% 0 60px 0;
+
+      .learn-header__questions-item-wrapper {
+        a {
+          .learn-header__questions-item-img {
+            width: 30px;
+          }
+
+          .learn-header__questions-item {
+            font-size: calc(20px + 6 * ((100vw - 320px) / 680));
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .learn-header__container {
+    min-height: 80vh;
+    .learn-header__title-wrapper {
+      margin: 20vh 0 0 0;
+    }
+
+    .learn-header__questions-list {
+      .learn-header__questions-item-wrapper {
+        a {
+          .learn-header__questions-item-img {
+            width: 25px;
+          }
+        }
+      }
+    }
+  }
+}

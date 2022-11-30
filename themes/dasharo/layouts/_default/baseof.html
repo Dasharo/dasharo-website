@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="{{ site.LanguageCode | default `en-US` }}" itemscope itemtype="http://schema.org/WebPage">
+
+<head>
+	<!-- head (don't cache it) -->
+	{{ partial "essentials/head.html" . }}
+
+	<!-- cache partial only in production -->
+	{{ if hugo.IsProduction }}
+	{{ partialCached "essentials/style.html" . }}
+	{{ else }}
+	{{ partial "essentials/style.html" . }}
+	{{ end }}
+
+	<!-- manifest -->
+	{{ partialCached "manifest" . }}
+	
+	<!-- site verifications -->
+	{{ partialCached "site-verifications.html" . }}
+	
+	<!-- opengraph and twitter card -->
+	{{ partial "basic-seo.html" . }}
+	
+	<!-- google tag manager -->
+	{{ partialCached "components/gtm.html" . }}
+</head>
+
+<body>
+	<!-- cache partial only in production -->
+	{{ if hugo.IsProduction }}
+	{{ with site.Params.google_tag_manager }}
+	<noscript>
+		<iframe src="https://www.googletagmanager.com/ns.html?id={{ . }}" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+	</noscript>
+	{{ end }}
+	{{ end }}
+
+	<!-- header (don't cache it) -->
+	{{ partial "essentials/header.html" . }}
+
+	<main>
+		{{ block "main" . }}{{ end }}
+	</main>
+
+	<!-- cache partial only in production -->
+	{{ if hugo.IsProduction }}
+	{{ partialCached "essentials/footer.html" . }}
+	{{ partialCached "essentials/script.html" . }}
+	{{ else }}
+	{{ partial "essentials/footer.html" . }}
+	{{ partial "essentials/script.html" . }}
+	{{ end }}
+</body>
+
+</html>

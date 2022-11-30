@@ -1,0 +1,20 @@
+{{ define "main" }}
+
+<section class="terms__container">
+  <div class="terms__container">
+    {{ with .Params.banner }}
+    <div class="terms__company-info">
+      <div class="terms__title-wrapper">
+        <h1 class="terms__title">{{.title | markdownify}}</h1>
+        <p class="terms__description">{{.description | markdownify}}</p>
+      </div>
+    </div>
+    {{ end }}
+
+    <div class="terms__content-container">
+      {{.Content}}
+    </div>
+  </div>
+</section>
+
+{{ end }}

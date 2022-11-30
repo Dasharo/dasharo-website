@@ -1,0 +1,112 @@
+.terms__container {
+  position: relative;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 0 5% 80px 5%;
+
+  .terms__company-info {
+    width: 100%;
+    .terms__title-wrapper {
+      margin: 10vh 0 0 0;
+
+      .terms__title {
+        color: $grey;
+        font-size: calc(30px + 30 * ((100vw - 320px) / 680));
+        letter-spacing: -0.04em;
+        font-weight: 700;
+        line-height: 85%;
+
+        span {
+          color: $carbon;
+        }
+      }
+
+      .terms__description {
+        display: block;
+        line-height: 180%;
+        max-width: 550px;
+        font-size: calc(16px + 4 * ((100vw - 320px) / 680));
+        color: $carbon;
+        padding: 0 0.5%;
+      }
+    }
+  }
+
+  .terms__content-container {
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    margin-top: 50px;
+    color: $carbon;
+
+    .terms__content-header {
+      margin: 50px 0;
+      font-size: 28px;
+
+      span {
+        color: $grey;
+      }
+    }
+
+    .terms__content-description {
+      display: block;
+      margin-bottom: 25px;
+      font-size: 18px;
+
+      a {
+        color: $carbon;
+        transition: 0.5s;
+
+        &:hover {
+          color: $greenTwo;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .terms__container {
+    display: block;
+    padding: 0 25px 80px 25px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .terms__container {
+    padding: 0 20px 80px 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .terms__container {
+    .terms__company-info {
+      .terms__title-wrapper {
+        .terms__title {
+          font-size: calc(40px + 30 * ((100vw - 320px) / 680));
+        }
+
+        .terms__description {
+          font-size: calc(16px + 8 * ((100vw - 320px) / 680));
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .terms__container {
+    .terms__company-info {
+      .terms__title-wrapper {
+        margin: 120px 0 0 0;
+        .terms__title {
+          font-size: calc(50px + 30 * ((100vw - 320px) / 680));
+        }
+
+        .terms__description {
+          font-size: calc(20px + 8 * ((100vw - 320px) / 680));
+        }
+      }
+    }
+  }
+}

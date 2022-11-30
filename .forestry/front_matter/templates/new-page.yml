@@ -1,0 +1,26 @@
+---
+label: new-page
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: description
+  label: description
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: url
+  label: url
+- type: field_group
+  name: banner
+  label: banner
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: description
+    label: description

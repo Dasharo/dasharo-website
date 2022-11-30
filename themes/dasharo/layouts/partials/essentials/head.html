@@ -1,0 +1,25 @@
+<meta charset="utf-8">
+<title>{{.Title | default site.Title}}</title>
+
+<!-- responsive meta -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+
+<!-- theme meta -->
+<meta name="theme-name" content="gethugothems-project" />
+
+<!-- favicon -->
+{{ $favicon:= site.Params.favicon }}
+{{ if $favicon }}
+<!-- assset -->
+{{ if fileExists (add `assets/` (string $favicon)) }}
+{{ $favicon:= resources.Get $favicon }}
+<link rel="shortcut icon" href="{{$favicon.RelPermalink}}" type="image/x-icon">
+{{ end }}
+{{ end }}
+
+
+{{ $jquery := resources.Get "plugins/jquery/jquery.js" }}
+{{ if hugo.IsProduction }}
+{{ $jquery = $jquery | fingerprint "sha512" }}
+{{ end }}
+<script crossorigin="anonymous" defer {{ if hugo.IsProduction }}integrity="{{ $jquery.Data.Integrity }}"{{end}} type="application/javascript">{{$jquery.Content | safeJS}}</script>

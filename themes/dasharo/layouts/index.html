@@ -1,0 +1,436 @@
+{{ define "main" }}
+
+{{ with .Params.banner }}
+<section id="home">
+  <div class="header__container">
+    <div class="header__title-wrapper">
+      <h1 class="header__title">{{.title | markdownify}}</h1>
+      <p class="header__description">{{.description | markdownify}}</p>
+    </div>
+    {{ with .page_content_list }}
+    <ul class="header__questions-list">
+      {{ range . }}
+      <li class="header__questions-item-wrapper">
+        <a href="{{.link | safeURL}}" class="smooth-scroll">
+          {{ partial "image.html" (dict "Src" .icon "Alt" "chess figure icon" "Class" "header__questions-item-img" "Resize" false "Size" "60x") }}
+          <p class="header__questions-item">{{.title | markdownify}}</p>
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+    {{ end }}
+    <div class="header__image"></div>
+    {{ partial "image.html" (dict "Src" "images/icons/mouse-neon-green.png" "Alt" "mouse icon" "Class" "header__mouse-icon mouse-scroll" "Resize" false "Size" "100x") }}
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.what_is_dasharo }}
+<section>
+  <div id="what-is-dasharo" class="what-is-dasharo__container">
+    <div class="what-is-dasharo__wrapper">
+      <a href="#what-is-dasharo">
+        <h2 class="what-is-dasharo__title">{{.title | markdownify}}</h2>
+        <!-- <button
+          id="copy-mail-button"
+          class="contact-address-section-btn copy-email clipboard"
+          data-clipboard-text="contact@dasharo.com"
+        >
+          <i class="far fa-copy"></i>
+        </button> -->
+      </a>
+
+      <p class="what-is-dasharo__description">{{.description | markdownify}}</p>
+      {{ with .modules }}
+      <div class="what-is-dasharo__list-wrapper">
+        <h3 class="what-is-dasharo__list-header">{{.title | markdownify}}</h3>
+        <ul class="what-is-dasharo__list">
+          {{ range .lists }}
+          <li class="what-is-dasharo__list-item">
+            {{ partial "image.html" (dict "Src" "images/logo/dasharo-logo.png" "Alt" "Dasharo logo" "Class" "what-is-dasharo__list-item-img" "Resize" false "Size" "25x") }}
+            <span class="what-is-dasharo__list-item-name">{{. | markdownify}}</span
+            >
+          </li>
+          {{ end }}
+        </ul>
+        <h3 class="what-is-dasharo__signature">{{.note | markdownify}}</h3>
+      </div>
+      {{ end }}
+    </div>
+    <div class="what-is-dasharo__image-wrapper">
+      <div class="what-is-dasharo__image" {{ partial `bg-image.html` (dict `Src` `/images/img/header-bg.jpg` ) | safeHTMLAttr }}></div>
+    </div>
+    {{ partial "image.html" (dict "Src" "images/icons/king-chess-carbon.png" "Alt" "king chess icon" "Class" "what-is-dasharo__icon" "Resize" false "Size" "200x") }}
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.why_need_dasharo }}
+<section>
+  <div id="why-do-i-need-dasharo" class="need-dasharo__container">
+    <div class="need-dasharo__wrapper">
+      <a href="#why-do-i-need-dasharo">
+        <h2 class="need-dasharo__title">{{.title | markdownify}}</h2>
+      </a>
+      <div class="need-dasharo__content">
+        <p class="need-dasharo__description">{{.description | markdownify}}</p>
+
+        {{ with .features }}
+        <div class="need-dasharo__list-wrapper">
+          {{ with .title }}
+          <h3 class="need-dasharo__list-header">{{. | markdownify}}</h3>
+          {{ end }}
+
+          <ul class="need-dasharo__list">
+            {{ range .lists }}
+            <li class="need-dasharo__list-item">
+              {{ partial "image.html" (dict "Src" "images/logo/dasharo-logo.png" "Alt" "Dasharo logo" "Class" "need-dasharo__list-item-img" "Resize" false "Size" "25x") }}
+              <span class="need-dasharo__list-item-name">{{. | markdownify}}</span>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+    <div class="need-dasharo__image-wrapper">
+      <div class="need-dasharo__image" {{ partial `bg-image.html` (dict `Src` `/images/img/kings-gambit.jpg` ) | safeHTMLAttr }}></div>
+    </div>
+    {{ partial "image.html" (dict "Src" "images/icons/king-chess-white.png" "Alt" "king chess icon" "Class" "need-dasharo__icon" "Resize" false "Size" "100x") }}
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.join_dasharo_family }}
+<section>
+  <div id="break-cycle" class="break-cycle__container">
+    <div class="break-cycle__wrapper">
+      <a href="#break-cycle">
+        <h2 class="break-cycle__title">{{.title | markdownify}}</h2>
+      </a>
+    </div>
+    {{ with .features }}
+    <div class="break-cycle__content">
+      {{ range . }}
+      <div class="break-cycle__content-item">
+        <h3 class="break-cycle__content-item-title">{{.title | markdownify}}</h3>
+
+        <ul class="break-cycle__content-item-title-list">
+          {{ range .lists }}
+          <li class="break-cycle__content-item-title-list-item">
+            {{ partial "image.html" (dict "Src" "images/logo/dasharo-logo.png" "Alt" "Dasharo logo" "Resize" false "Size" "25x") }}
+            <span>{{. | markdownify}}</span>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+    {{ partial "image.html" (dict "Src" "images/icons/king-chess-carbon.png" "Alt" "king chess icon" "Class" "break-cycle__icon" "Resize" false "Size" "100x") }}
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.get_a_quote }}
+<section>
+  <div id="get-a-quote" class="quote__container">
+    <div class="quote__title-wrapper">
+      <a href="#get-a-quote">
+        <h2 class="quote__title">{{.title | markdownify}}</h2>
+      </a>
+    </div>
+    {{ partial "image.html" (dict "Src" "images/logo/king-chess-white.png" "Alt" "king chess" "Class" "quote__icon" "Resize" false "Size" "100x") }}
+
+    <form id="contact" method="post" name="contact" netlify>
+      <div class="steps">
+        <span class="step"></span>
+        <span class="step"></span>
+        <span class="step"></span>
+        <span class="step"></span>
+      </div>
+
+      {{ with .form_step_one }}
+      <div class="tab">
+        <h3 class="quote__step-title">{{.title | markdownify}}</h3>
+        <div class="quote__content">
+          {{ range .options }}
+          <div class="quote__content-item">
+            <label
+              class="label_checkbox quote__label-first-question {{with .class}}{{.}}{{end}}"
+              for="{{.name}}"
+            >
+              <input
+                class="input_checkbox quote__input-first-question"
+                id="{{.name}}"
+                type="checkbox"
+                value="{{.value | markdownify}}"
+                name="{{.name}}"
+              />
+              {{ partial "image.html" (dict "Src" "images/logo/dasharo-logo.png" "Alt" "quote__content-item-img" "Alt" "chess figure icon" "Resize" false "Size" "133x") }}
+              <p>{{.value | markdownify}}</p>
+              
+              {{ with .download_datasheets }}
+              <div class="downloadDatasheets">
+                <a
+                  href="{{.file_link | absURL}}"
+                  download="{{.file_link | absURL}}"
+                >
+                  {{.label | markdownify}} <i class="fas fa-download"></i
+                ></a>
+              </div>
+              {{ end }}
+            </label>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+
+      {{ with .form_step_two }}
+      <div class="tab">
+        <h3 class="quote__step-title">{{.title | markdownify}}</h3>
+        <div class="quote__content quote__content-second-question">
+          {{ range .options }}
+          <div class="quote__content-item">
+            <label
+              class="label_checkbox quote__label-second-question"
+              for="{{.name}}"
+            >
+              <input
+                class="input_checkbox quote__input-second-question"
+                id="{{.name}}"
+                type="checkbox"
+                value="{{.value | markdownify}}"
+                name="{{.name}}"
+              />
+              <img
+                src="images/logo/dasharo-logo.png"
+                class="quote__content-item-img"
+                alt="chess figure icon"
+              />
+              <p>
+                {{.value | markdownify}}
+                {{ with .info_links }}:
+                <br />
+                {{ range . }}
+                <a
+                  class="quote__content-item-link"
+                  href="{{.link | relURL}}"
+                >
+                  {{.label | markdownify}}</a
+                ><br />
+                {{ end }}
+                {{ end }}
+              </p>
+            </label>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+
+      {{ with .form_step_three }}
+      <div class="tab budget">
+        <h3 class="quote__step-title">{{.title | markdownify}}</h3>
+        <div class="quote__content budget-wrapper">
+          {{ range .options }}
+          <label class="quote__label-third-question" for="{{.id}}">
+            <input
+              class="quote__input-third-question"
+              id="{{.id}}"
+              type="checkbox"
+              value="{{.value | markdownify}}"
+              name="budget"
+            />
+            {{.value | markdownify}}</label
+          >
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+
+      {{ with .form_step_four }}
+      <div class="tab contact">
+        <h3 class="quote__contact-us-title">{{.title | markdownify}}</h3>
+        <div class="container contact-wrapper">
+          <div id="email-sent"></div>
+          {{ with .book_a_call_link }}
+          <a class="bookCall" href="{{. | safeURL}}"
+            >Book a call with us
+          </a>
+          {{ end }}
+          <div>
+            <div class="form-group">
+              <label class="form-label" for="name">Your name</label>
+              <input
+                id="name"
+                class="form-input"
+                type="text"
+                maxlength="40"
+                tabindex="1"
+                required
+                autofocus
+              />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="user_email"
+                >Your Email Address</label
+              >
+              <input
+                id="user_email"
+                class="form-input"
+                type="email"
+                tabindex="2"
+                maxlength="40"
+                title=""
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="mobile"
+                >Your Phone Number (optional)</label
+              >
+              <input
+                id="mobile"
+                class="form-input"
+                type="text"
+                maxlength="12"
+              />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="subject">Subject</label>
+              <input
+                id="subject"
+                class="form-input"
+                type="text"
+                maxlength="40"
+                tabindex="4"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="textarea1"
+                >Type your message here....</label
+              >
+              <textarea
+                id="textarea1"
+                class="form-input guote__input-textarea"
+                tabindex="5"
+                maxlength="1000"
+                required
+              ></textarea>
+            </div>
+          </div>
+          <!-- <a href="#">Instant question? Chat to us </a> -->
+          <button
+            id="send_email"
+            class="contact-button quote__form-submit-btn"
+            name="submit"
+            type="submit"
+            data-submit="...Sending"
+          >
+            {{ partial "image.html" (dict "Src" "images/logo/dasharo-logo.png" "Alt" "Dasharo logo" "Resize" false "Size" "30x") }}
+            <span>Submit</span>
+          </button>
+        </div>
+      </div>
+      {{ end }}
+
+      <div class="quote__buttons-wrapper">
+        <button
+          class="quote__buttons-btn"
+          type="button"
+          id="prevBtn"
+          onclick="nextPrev(-1)"
+        >
+          <span> Previous</span>
+        </button>
+        <button
+          class="quote__buttons-btn"
+          type="button"
+          id="nextBtn"
+          onclick="nextPrev(1)"
+        >
+          <span> Next</span>
+        </button>
+      </div>
+    </form>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.newsletter }}
+<section>
+  <div class="newsletter__container">
+    <div id="newsletter" class="newsletter">
+      <div class="newsletter__header">
+        <a href="#newsletter">
+          <h2 class="newsletter__header-title">{{.title | markdownify}}</h2>
+        </a>
+        <i class="fas fa-envelope-open-text"></i>
+      </div>
+      <iframe name="main" title="newsletter"> dd</iframe>
+      <form
+        action="{{.mailchimp_form_action}}"
+        method="post"
+        id="mc-embedded-subscribe-form"
+        name="mc-embedded-subscribe-form"
+        class="validate newsletter__form"
+        target="_blank"
+      >
+        <div class="newsletter__form-inputs-wrapper">
+          <div class="newsletter__form-input-field">
+            <label class="news-label" for="mce-EMAIL">email address</label>
+            <input
+              type="email"
+              name="EMAIL"
+              class="email"
+              id="mce-EMAIL"
+              required
+              placeholder="enter your email"
+            />
+          </div>
+          <!-- <div class="newsletter__form-input-field">
+            <label class="news-label" for="mce-NAME">name</label>
+            <input
+              type="name"
+              name="NAME"
+              class="name"
+              id="mce-NAME"
+              required
+              placeholder="enter your name"
+            />
+          </div> -->
+        </div>
+        <p style="display: none">
+          <input
+            id="df0d0"
+            type="checkbox"
+            name="l"
+            value="{{.mailchimp_form_name}}"
+            checked
+          />
+          <label for="df0d0">Dasharo</label>
+        </p>
+        <div class="newsletter__form-button-wrapper">
+          {{ partial "image.html" (dict "Src" "images/logo/dasharo-logo.png" "Alt" "Dasharo logo" "Class" "newsletter__form-button-img" "Resize" false "Size" "32x30") }}
+          <input
+            id="subscribe-button"
+            class="newsletter__form-button-input"
+            type="submit"
+            value="SUBSCRIBE"
+          />
+        </div>
+      </form>
+      <div id="checkEmail"></div>
+    </div>
+    {{ partial "image.html" (dict "Src" "images/icons/king-chess-grey.png" "Alt" "king chess icon" "Class" "newsletter__icon" "Resize" false "Size" "100x") }}
+  </div>
+</section>
+{{ end }}
+
+<script src="{{ (resources.Get `js/formContact.js`).RelPermalink }}"></script>
+<script src="{{ (resources.Get `js/userActivityCapturing.js`).RelPermalink }}"></script>
+
+{{ end }}
