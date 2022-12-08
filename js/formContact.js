@@ -220,7 +220,7 @@ $(document).ready(function () {
       handleInvalidEmail();
     } else {
       $.post(
-        "http://localhost:8000/send",
+        "https://dasharo.com/send",
         {
           to: to,
           name: name,
@@ -268,7 +268,7 @@ $(document).ready(function () {
         handleInvalidEmail();
       } else {
         $.post(
-          "http://localhost:8000/send",
+          "https://dasharo.com/send",
           {
             to: to,
             name: name,
