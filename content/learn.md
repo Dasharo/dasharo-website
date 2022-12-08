@@ -267,7 +267,7 @@ dasharo_faq:
 
     - title: How can I learn more about Dasharo?
       content: >-
-        If you want to know more about how Dasharo works, [visit](#how-dasharo-works) if you want to get details about particular features, [visit](#dasharo-modules) If you want to see, where Dasharo can be already found, check our [use cases](/products#use-cases) If you want to talk and ask questions, contact us or book a [meeting online](/contact/).
+        If you want to know more about how Dasharo works, [visit](#how-dasharo-works) if you want to get details about particular features, [visit](#dasharo-modules) If you want to see, where Dasharo can be already found, check our [use cases](/products#use-cases) If you want to talk and ask questions, contact us or book a [meeting online](https://calendly.com/3mdeb).
 
     - title: What is the difference between Dasharo and coreboot?
       content: >-
