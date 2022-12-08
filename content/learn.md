@@ -11,7 +11,7 @@ banner:
 
   page_content_list:
   - title: How Dasharo <span> works</span>
-    icon: images/icons/knight-black-chess-right-grey.png
+    icon: images/icons/knight-grey.png
     link: "#how-dasharo-works"
     
   - title: Dasharo <span>modules</span>
@@ -19,11 +19,11 @@ banner:
     link: "#dasharo-modules"
     
   - title: DI<span>Y</span>
-    icon: images/icons/bishop-chess-piece-grey.png
+    icon: images/icons/bishop-grey.png
     link: "#dasharo-diy"
     
   - title: FA<span>Q</span>
-    icon: images/icons/queen-chess-piece-grey.png
+    icon: images/icons/queen-grey.png
     link: "#dasharo-faq"
 
 
@@ -47,6 +47,7 @@ dasharo_modules:
 
   modules_category:
   - title: Security Module
+    icon: "images/icons/rook-white.png"
     modules_list:
     - title: Static Code and Dynamic Root of Trust for Measurement (S-CRTM and D-RTM)
       features:
@@ -90,6 +91,7 @@ dasharo_modules:
       - To increase the security of the running target software to the highest possible level.
 
   - title: Compatibility Module
+    icon: "images/icons/bishop-white.png"
     modules_list:
     - title: Regression Test Results (RTR)
       features:
@@ -132,6 +134,7 @@ dasharo_modules:
       - To recover BIOS even in offline environment.
 
   - title: Performance Module
+    icon: "images/icons/knight-white.png"
     modules_list:
     - title: CPU Boost
       features:
@@ -147,6 +150,7 @@ dasharo_modules:
 
 
   - title: Marketing
+    icon: "images/icons/queen-white.png"
     modules_list:
     - title: Newsletter
       features:
@@ -225,7 +229,7 @@ dasharo_faq:
 
     - title: Can I request any demo?
       content: >-
-        [Visit dasharo.com/products](products/) where product line implementations and details will be available soon.
+        [Visit dasharo.com/products](/products/) where product line implementations and details will be available soon.
 
     - title: Why do I need Dasharo?
       content: >-
@@ -242,8 +246,8 @@ dasharo_faq:
         If you don’t have a solution yet, let Dasharo become your answer. [Contact us](/#get-a-quote)
 
   - title: Product Info
-    icon: images/icons/knight-black-chess-right-grey.png
-    icon_white: images/icons/knight-black-chess-right-white.png
+    icon: images/icons/knight-grey.png
+    icon_white: images/icons/knight-white.png
     faq_list:
     - title: What are Dasharo modules?
       content: >-
@@ -263,7 +267,7 @@ dasharo_faq:
 
     - title: How can I learn more about Dasharo?
       content: >-
-        If you want to know more about how Dasharo works, [visit](/#how-dasharo-works) if you want to get details about particular features, [visit](/#dasharo-modules) If you want to see, where Dasharo can be already found, check our [use cases](products#use-cases) If you want to talk and ask questions, contact us or book a [meeting online](contact).
+        If you want to know more about how Dasharo works, [visit](#how-dasharo-works) if you want to get details about particular features, [visit](#dasharo-modules) If you want to see, where Dasharo can be already found, check our [use cases](/products#use-cases) If you want to talk and ask questions, contact us or book a [meeting online](/contact/).
 
     - title: What is the difference between Dasharo and coreboot?
       content: >-
@@ -271,7 +275,7 @@ dasharo_faq:
 
     - title: What in case of potential sudden vulnerabilities during maintenance period?
       content: >-
-        In case of any suddenly discovered vulnerabilities, according to Dasharo Maintenance Agreement, we will provide you with emergency release to prevent your platform from the potential threat. If you want to know more – [contact us](contact/).
+        In case of any suddenly discovered vulnerabilities, according to Dasharo Maintenance Agreement, we will provide you with emergency release to prevent your platform from the potential threat. If you want to know more – [contact us](/contact/).
 
     - title: What OS do I have to choose for my Dasharo Platform?
       content: >-
@@ -295,7 +299,7 @@ dasharo_faq:
 
     - title: Do I need to have my platform already chosen to request Dasharo?
       content: >-
-        No, you don’t. Dasharo is a complete ecosystem of tools and components that are crucial to create, adapt and maintain firmware. Platform architecture and microarchitecture largely determines which components can be implemented. If you have a platform you can get a quote[ref] or, if not you can [contact us](contact/), to gain detailed information about the possible solutions.
+        No, you don’t. Dasharo is a complete ecosystem of tools and components that are crucial to create, adapt and maintain firmware. Platform architecture and microarchitecture largely determines which components can be implemented. If you have a platform you can get a quote[ref] or, if not you can [contact us](/contact/), to gain detailed information about the possible solutions.
 
     - title: What Dasharo consists of?
       content: >-
@@ -322,8 +326,8 @@ dasharo_faq:
         - Each Dasharo release contains a detailed description of the components version and a link to the scope of changes introduced since the last release
       
   - title: Payment
-    icon: images/icons/bishop-chess-piece-grey.png
-    icon_white: images/icons/bishop-chess-piece-white.png
+    icon: images/icons/bishop-grey.png
+    icon_white: images/icons/bishop-white.png
     faq_list:
     - title: How much does Dasharo cost?
       content: >-
@@ -331,15 +335,15 @@ dasharo_faq:
 
     - title: How can I buy Dasharo?
       content: >-
-        [Contact us](contact/) to set the details of your Dasharo product. Book a call or leave a message so we will call you back.
+        [Contact us](/contact/) to set the details of your Dasharo product. Book a call or leave a message so we will call you back.
 
     - title: What is the payment policy and who pays for Dasharo?
       content: >-
         Typically, firmware solutions are sold through royalty payment or subscription-based models. The first option relies on the volume of offered products, what effectively eliminates industries with low volume but high-value platforms e.g. medical robots. Subscription-based models, although better, are still tied to firmware solution providers and similarly lead to all the scope of negative effects of vendor lock-in. Dasharo’s pricing model does not rely on volume and since most components are open-source, you can always change vendor and re-own your firmware code. Dasharo can be purchased by OEM/ODM providers, community crowdfunding, individuals, companies that are looking for dedicated/confidential firmware solutions. To get more dedicated payment information, fill [Get a quote](/#get-a-quote).
       
   - title: Platforms
-    icon: images/icons/queen-chess-piece-grey.png
-    icon_white: images/icons/queen-chess-piece-white.png
+    icon: images/icons/queen-grey.png
+    icon_white: images/icons/queen-white.png
     faq_list:
     - title: How are Dasharo firmware updates requested?
       content: >-

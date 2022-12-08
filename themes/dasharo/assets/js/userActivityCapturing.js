@@ -33,7 +33,7 @@ const sendData = () => {
     choice2: userChoices[1].choice,
     choice3: userChoices[2].choice,
   };
-  fetch("http://localhost:8000/activity", {
+  fetch("https://dasharo.com/activity", {
     method: "post",
     headers: {
       "Content-Type": "application/json",

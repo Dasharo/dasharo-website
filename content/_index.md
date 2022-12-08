@@ -8,11 +8,11 @@ banner:
 
   page_content_list:
   - title: What is <span>Dasharo</span>
-    icon: images/icons/knight-black-chess-right-grey.png
+    icon: images/icons/knight-grey.png
     link: "#what-is-dasharo"
     
   - title: Why do I need <span>Dasharo</span>
-    icon: images/icons/bishop-chess-piece-grey.png
+    icon: images/icons/bishop-grey.png
     link: "#why-do-i-need-dasharo"
 
   - title: I want to get a <span>Quote</span>
@@ -98,10 +98,10 @@ get_a_quote:
       name: moreInfo
       info_links:
       - label: Dasharo stack
-        link: pages/learn.html#how-dasharo-works
+        link: pages/learn/#how-dasharo-works
 
       - label: Dasharo modules
-        link: pages/learn.html#dasharo-modules
+        link: pages/learn/#dasharo-modules
 
     - value: I need a help in choosing Dasharo features for my Platform
       name: needHelp

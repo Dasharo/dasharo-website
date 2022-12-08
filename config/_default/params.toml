@@ -21,7 +21,7 @@ copyright = "[3mdeb](https://3mdeb.com/) | All rights reserved."
 keywords = ["coreboot", "training", "3mdeb", "course", "platform"]
 description = "A complete ecosystem of tools and products that are used in the process of creating a firmware binary."
 author = "Dasharo"
-image = "images/favicon.png" 
+image = "images/favicon.png"
 
 # Subscription
 [subscription]
@@ -31,14 +31,10 @@ mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463e
 mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"                                                           # replace this code with yours
 
 ############################# social site ########################
-# [[social]]
-# title = "facebook"
-# icon = "fab fa-facebook"
-# link = "https://www.facebook.com/dasharo.official/"
 
 [[social]]
 title = "twitter"
-icon = "fab fa-twitter-alt"
+icon = "fab fa-twitter"
 link = "https://twitter.com/Dasharo_com"
 
 [[social]]

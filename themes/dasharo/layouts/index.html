@@ -20,7 +20,7 @@
     </ul>
     {{ end }}
     <div class="header__image"></div>
-    {{ partial "image.html" (dict "Src" "images/icons/mouse-neon-green.png" "Alt" "mouse icon" "Class" "header__mouse-icon mouse-scroll" "Resize" false "Size" "100x") }}
+    {{ partial "image.html" (dict "Src" "images/icons/mouse-neon-green.png" "Alt" "mouse icon" "Class" "header__mouse-icon mouse-scroll" "Resize" false "Size" "512x") }}
   </div>
 </section>
 {{ end }}
@@ -60,7 +60,7 @@
     <div class="what-is-dasharo__image-wrapper">
       <div class="what-is-dasharo__image" {{ partial `bg-image.html` (dict `Src` `/images/img/header-bg.jpg` ) | safeHTMLAttr }}></div>
     </div>
-    {{ partial "image.html" (dict "Src" "images/icons/king-chess-carbon.png" "Alt" "king chess icon" "Class" "what-is-dasharo__icon" "Resize" false "Size" "200x") }}
+    {{ partial "image.html" (dict "Src" "images/icons/king-carbon.png" "Alt" "king chess icon" "Class" "what-is-dasharo__icon" "Resize" false "Size" "200x") }}
   </div>
 </section>
 {{ end }}
@@ -96,7 +96,7 @@
     <div class="need-dasharo__image-wrapper">
       <div class="need-dasharo__image" {{ partial `bg-image.html` (dict `Src` `/images/img/kings-gambit.jpg` ) | safeHTMLAttr }}></div>
     </div>
-    {{ partial "image.html" (dict "Src" "images/icons/king-chess-white.png" "Alt" "king chess icon" "Class" "need-dasharo__icon" "Resize" false "Size" "100x") }}
+    {{ partial "image.html" (dict "Src" "images/icons/king-white.png" "Alt" "king chess icon" "Class" "need-dasharo__icon" "Resize" false "Size" "512x") }}
   </div>
 </section>
 {{ end }}
@@ -127,7 +127,7 @@
       {{ end }}
     </div>
     {{ end }}
-    {{ partial "image.html" (dict "Src" "images/icons/king-chess-carbon.png" "Alt" "king chess icon" "Class" "break-cycle__icon" "Resize" false "Size" "100x") }}
+    {{ partial "image.html" (dict "Src" "images/icons/king-carbon.png" "Alt" "king chess icon" "Class" "break-cycle__icon" "Resize" false "Size" "512x") }}
   </div>
 </section>
 {{ end }}
@@ -140,9 +140,9 @@
         <h2 class="quote__title">{{.title | markdownify}}</h2>
       </a>
     </div>
-    {{ partial "image.html" (dict "Src" "images/logo/king-chess-white.png" "Alt" "king chess" "Class" "quote__icon" "Resize" false "Size" "100x") }}
+    {{ partial "image.html" (dict "Src" "images/icons/king-white.png" "Alt" "king chess" "Class" "quote__icon" "Resize" false "Size" "512x") }}
 
-    <form id="contact" method="post" name="contact" netlify>
+    <form id="contact" method="POST" name="contact">
       <div class="steps">
         <span class="step"></span>
         <span class="step"></span>
@@ -210,8 +210,7 @@
                 alt="chess figure icon"
               />
               <p>
-                {{.value | markdownify}}
-                {{ with .info_links }}:
+                {{.value | markdownify}}{{with .info_links}}:
                 <br />
                 {{ range . }}
                 <a
@@ -425,7 +424,7 @@
       </form>
       <div id="checkEmail"></div>
     </div>
-    {{ partial "image.html" (dict "Src" "images/icons/king-chess-grey.png" "Alt" "king chess icon" "Class" "newsletter__icon" "Resize" false "Size" "100x") }}
+    {{ partial "image.html" (dict "Src" "images/icons/king-grey.png" "Alt" "king chess icon" "Class" "newsletter__icon" "Resize" false "Size" "512x") }}
   </div>
 </section>
 {{ end }}

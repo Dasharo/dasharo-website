@@ -14,7 +14,7 @@
 <!-- image -->
 {{ $image:= .Params.image }}
 {{ if $image }}
-{{ partial "image.html" (dict "Src" $image "Size" "100x" "Alt" .Title) }}
+{{ partial "image.html" (dict "Src" $image "Size" "512x" "Alt" .Title) }}
 {{ end }}
 
 {{ end }} 

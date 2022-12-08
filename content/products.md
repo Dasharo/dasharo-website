@@ -10,7 +10,7 @@ banner:
 
   page_content_list:
   - title: Use <span>cases</span>
-    icon: images/icons/knight-black-chess-right-grey.png
+    icon: images/icons/knight-grey.png
     link: "#use-cases"
     
   - title: Data <span>sheets</span>
