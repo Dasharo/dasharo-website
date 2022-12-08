@@ -1,11 +1,11 @@
 <footer>
   <div class="footer__container">
-    {{ partial "image.html" (dict "Src" "images/icons/king-chess-dark-grey.png" "Alt" "king chess icon" "Class" "footer__icon" "Resize" false) }}
+    {{ partial "image.html" (dict "Src" "images/icons/king-dark-grey.png" "Alt" "king chess icon" "Class" "footer__icon" "Resize" false) }}
     <div class="footer_info-wrapper">
       <p class="footer_info-right">
-        © {{ .Date.Format "2006" }} {{site.Params.copyright | markdownify}}
+        © {{ now.Format "2006" }} {{site.Params.copyright | markdownify}}
       </p>
-      <a href="{{site.BaseURL | relLangURL}}/pages/terms/">Terms of Service</a>
+      <a href="/pages/terms/">Terms of Service</a>
     </div>
     <div class="footer__socials-wrapper">
       {{ range site.Params.social }}

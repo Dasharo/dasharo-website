@@ -46,8 +46,8 @@
 
           <p class="how-dasharo-works__descriptions-container-element">{{.content_block_3 | markdownify }}</p>
 
-          <a href="products/" class="how-dasharo-works__descriptions-container-link">
-            {{ partial "image.html" (dict "Src" "images/icons/knight-black-chess-right-white.png" "Alt" "link icon" "Resize" false "Size" "40x") }}
+          <a href="/products/" class="how-dasharo-works__descriptions-container-link">
+            {{ partial "image.html" (dict "Src" "images/icons/knight-white.png" "Alt" "link icon" "Resize" false "Size" "40x") }}
             <span>Check ready-to-buy Dasharo products</span>
           </a>
         </div>
@@ -58,7 +58,7 @@
       </div>
       {{ end }}
     </div>
-    {{ partial "image.html" (dict "Src" "images/icons/king-chess-carbon.png" "Alt" "king chess icon" "Class" "how-dasharo-works__icon" "Resize" false "Size" "100x") }}
+    {{ partial "image.html" (dict "Src" "images/icons/king-carbon.png" "Alt" "king chess icon" "Class" "how-dasharo-works__icon" "Resize" false "Size" "512x") }}
   </div>
 </section>
 {{ end }}
@@ -76,7 +76,7 @@
 
         {{ range .modules_category }}
         <h4 class="dasharo-features__content-item-header">
-          {{ partial "image.html" (dict "Src" "images/icons/rook-white.png" "Alt" "modules icon" "Resize" false "Size" "40x") }}
+          {{ partial "image.html" (dict "Src" .icon "Alt" "modules icon" "Resize" false "Size" "40x") }}
           <span>{{.title | markdownify}}</span>
         </h4>
 
@@ -100,7 +100,7 @@
 
       </div>
     </div>
-    {{ partial "image.html" (dict "Src" "images/icons/king-chess-white.png" "Alt" "king chess icon" "Class" "dasharo-features__icon" "Resize" false "Size" "100x") }}
+    {{ partial "image.html" (dict "Src" "images/icons/king-white.png" "Alt" "king chess icon" "Class" "dasharo-features__icon" "Resize" false "Size" "512x") }}
   </div>
 </section>
 {{ end }}
@@ -147,7 +147,7 @@
         {{ end }}
       </div>
     </div>
-    {{ partial "image.html" (dict "Src" "images/icons/king-chess-carbon.png" "Alt" "king chess icon" "Class" "diy__icon" "Resize" false "Size" "100x") }}
+    {{ partial "image.html" (dict "Src" "images/icons/king-carbon.png" "Alt" "king chess icon" "Class" "diy__icon" "Resize" false "Size" "512x") }}
   </div>
 </section>
 {{ end }}
@@ -203,7 +203,7 @@
         {{ end }}
       </div>
     </div>
-    {{ partial "image.html" (dict "Src" "images/icons/king-chess-white.png" "Alt" "king chess icon" "Class" "faq__icon" "Resize" false "Size" "100x") }}
+    {{ partial "image.html" (dict "Src" "images/icons/king-white.png" "Alt" "king chess icon" "Class" "faq__icon" "Resize" false "Size" "512x") }}
   </div>
 </section>
 {{ end }}

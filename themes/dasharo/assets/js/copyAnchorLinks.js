@@ -19,9 +19,9 @@ window.setTimeout(offsetAnchor, 0);
 //   let targetLink = linksArray[i];
 //   let att = document.createAttribute("data-clipboard-text");
 //   if (location.href.includes("localhost")) {
-//     att.value = "http://localhost:3000/pages/learn.html#q" + i;
+//     att.value = "http://localhost:3000/pages/learn/#q" + i;
 //   } else {
-//     att.value = "https://dasharo.com/pages/learn.html#q" + i;
+//     att.value = "https://dasharo.com/pages/learn/#q" + i;
 //   }
 //   targetLink.setAttributeNode(att);
 // }
