@@ -1,7 +1,6 @@
 ---
 title: Dasharo Learn
 description: Discover and see how it works
-
 layout: learn
 url: pages/learn
 
@@ -267,7 +266,7 @@ dasharo_faq:
 
     - title: How can I learn more about Dasharo?
       content: >-
-        If you want to know more about how Dasharo works, [visit](#how-dasharo-works) if you want to get details about particular features, [visit](#dasharo-modules) If you want to see, where Dasharo can be already found, check our [use cases](/products#use-cases) If you want to talk and ask questions, contact us or book a [meeting online](/contact/).
+        If you want to know more about how Dasharo works, [visit](#how-dasharo-works) if you want to get details about particular features, [visit](#dasharo-modules) If you want to see, where Dasharo can be already found, check our [use cases](/products#use-cases) If you want to talk and ask questions, contact us or book a [meeting online](https://calendly.com/3mdeb).
 
     - title: What is the difference between Dasharo and coreboot?
       content: >-
@@ -275,7 +274,7 @@ dasharo_faq:
 
     - title: What in case of potential sudden vulnerabilities during maintenance period?
       content: >-
-        In case of any suddenly discovered vulnerabilities, according to Dasharo Maintenance Agreement, we will provide you with emergency release to prevent your platform from the potential threat. If you want to know more – [contact us](/contact/).
+        In case of any suddenly discovered vulnerabilities, according to Dasharo Maintenance Agreement, we will provide you with emergency release to prevent your platform from the potential threat. If you want to know more – [contact us](/pages/contact/).
 
     - title: What OS do I have to choose for my Dasharo Platform?
       content: >-
@@ -299,7 +298,7 @@ dasharo_faq:
 
     - title: Do I need to have my platform already chosen to request Dasharo?
       content: >-
-        No, you don’t. Dasharo is a complete ecosystem of tools and components that are crucial to create, adapt and maintain firmware. Platform architecture and microarchitecture largely determines which components can be implemented. If you have a platform you can get a quote[ref] or, if not you can [contact us](/contact/), to gain detailed information about the possible solutions.
+        No, you don’t. Dasharo is a complete ecosystem of tools and components that are crucial to create, adapt and maintain firmware. Platform architecture and microarchitecture largely determines which components can be implemented. If you have a platform you can get a quote[ref] or, if not you can [contact us](/pages/contact/), to gain detailed information about the possible solutions.
 
     - title: What Dasharo consists of?
       content: >-
@@ -335,7 +334,7 @@ dasharo_faq:
 
     - title: How can I buy Dasharo?
       content: >-
-        [Contact us](/contact/) to set the details of your Dasharo product. Book a call or leave a message so we will call you back.
+        [Contact us](/pages/contact/) to set the details of your Dasharo product. Book a call or leave a message so we will call you back.
 
     - title: What is the payment policy and who pays for Dasharo?
       content: >-
