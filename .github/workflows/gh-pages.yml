@@ -29,6 +29,8 @@ jobs:
             ${{ runner.os }}-hugomod-
 
       - name: Build
+        env:
+          CNAME: www.dasharo.com
         run: hugo --minify
 
       - name: Deploy
