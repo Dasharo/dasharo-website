@@ -505,5 +505,5 @@ to these Terms of Service constitutes acceptance of those changes.
 ## Section 20 <span>Contact Information</span>
 {.terms__content-header}
 
-Questions about the Terms of Service should be sent to us at [contact@3mdeb.com](mailto:contact@3mdeb.com).
+Questions about the Terms of Service should be sent to [us by email](mailto:contact@dasharo.com).
 {.terms__content-description}
