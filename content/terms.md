@@ -105,7 +105,7 @@ The headings used in this agreement are included for convenience
 only and will not limit or otherwise affect these Terms.
 {.terms__content-description}
 
-## Section 3<span>Accuracy, completeness and timelines off information</span>
+## Section 3 <span>Accuracy, completeness and timelines off information</span>
 {.terms__content-header}
 
 
@@ -353,7 +353,7 @@ Service or any related website for violating any of the prohibited
 uses.
 {.terms__content-description}
 
-## Section 13<span>Disclaimer of warranties; Limitation of liability</span>
+## Section 13 <span>Disclaimer of warranties; Limitation of liability</span>
 {.terms__content-header}
 
 
