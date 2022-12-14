@@ -23,9 +23,9 @@ use_cases:
   content_in_progress: false
 
   content_list:
-  - title: Dasharo Workstation
-    link: "https://kingsgambit.dasharo.com/"
-    description: Dasharo firmware for reference platform Dell Optiplex 7010/9010. The products included and the hardware compatibility list will be published soon.
+  - title: Dasharo Supported Hardware
+    link: "https://docs.dasharo.com/unified/novacustom/overview/"
+    description: Dasharo open-source firmware distribution support multiple platforms from various segments laptops, desktops, workstation, servers and embedded.
     
   - title: Dasharo Firewall
     link: "https://pcengines.github.io/"
@@ -39,6 +39,6 @@ data_sheets:
   content_list:
   - title: Datasheet Dasharo Firewall
     link: "/"
-    description: Features and specification of Dasharo Swiss Gambit for PC Engines apu2
+    description: Features and specification of Dasharo for PC Engines apu2
 
 ---

@@ -35,7 +35,7 @@ how_dasharo_works:
 
     content_block_1: <span>The first layer is a target platform.</span> Most clients have it already chosen when starting a journey with Dasharo, however sometimes the platform is only adapted to a pre-selected set of features. With the knowledge about it’s specification we can proceed further.
 
-    content_block_2: <span>The next step is about the firmware layer.</span> The most common is coreboot due to it's strong focus on boot speed, security and flexibility, however the choice depends on targeted users of the platform. Further, depending on the chosen firmware, integration of Intel FSP or AMD AGESA is set. Having it all confirmed, the payload and the operating system may become the next layer – The stack may differ at this point. For example, UEFI firmware doesn't need payload to be implemented, due to it's compatibility with UEFI specification.
+    content_block_2: <span>The next step is about the firmware layer.</span> The most common is coreboot due to its strong focus on boot speed, security and flexibility, however the choice depends on targeted users of the platform. Further, depending on the chosen firmware, integration of Intel FSP or AMD AGESA is set. Having it all confirmed, the payload and the operating system may become the next layer – The stack may differ at this point. For example, UEFI firmware doesn't need payload to be implemented, due to its compatibility with UEFI specification.
 
     content_block_3: <span>Followingly, selected set of features is implemented.</span> The choice depends on platform specification and it's overall destination. The list of the sample features is available below. The process of creating dedicated Dasharo firmware is performed with the constant support of our team, from the early advisory steps to the constant maintenance process.
 
@@ -145,7 +145,7 @@ dasharo_modules:
 
     - title: Power consumption optimization
       features:
-      - To reach reach a lower power consumption.
+      - To reach a lower power consumption.
 
 
   - title: Marketing
