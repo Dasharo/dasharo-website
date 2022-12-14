@@ -246,7 +246,7 @@ $(document).ready(function () {
     var user, to, name, subject, text;
     $("#send_email").click(function () {
       event.preventDefault();
-      to = "contact@3mdeb.com'";
+      to = "contact@dasharo.com'";
       name = $("#name").val();
       user = $("#user_email").val();
       subject = $("#subject").val();
