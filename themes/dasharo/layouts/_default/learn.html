@@ -28,7 +28,7 @@
 <section>
   <div id="{{.title | plainify | urlize}}" class="how-dasharo-works__container">
     <div class="how-dasharo-works__wrapper">
-      <a href="{{.title | plainify | urlize}}">
+      <a href="#{{.title | plainify | urlize}}">
         <h2 class="how-dasharo-works__title">{{.title | markdownify}}</h2>
       </a>
       {{ with .how_dasharo_works_details }}
@@ -68,7 +68,7 @@
 <section>
   <div id="dasharo-modules" class="dasharo-features__container">
     <div class="dasharo-features__wrapper">
-      <a href="{{.title | plainify | urlize}}">
+      <a href="#{{.title | plainify | urlize}}">
         <h2 class="dasharo-features__title">{{.title | markdownify}}</h2>
       </a>
       <div class="dasharo-features__content-wrapper">
