@@ -18,8 +18,8 @@ copyright = "[3mdeb](https://3mdeb.com/) | All rights reserved."
 
 # seo meta data for OpenGraph / Twitter Card
 [metadata]
-keywords = ["coreboot", "training", "3mdeb", "course", "platform"]
-description = "A complete ecosystem of tools and products that are used in the process of creating a firmware binary."
+keywords = ["coreboot", "BIOS", "UEFI", "firmware", "open-source"]
+description = "Open-source firmware distribution focusing on clean and simple code, long-term maintenance, transparent validation, privacy-respecting implementation, liberty for the owners, and trustworthiness for all."
 author = "Dasharo"
 image = "images/favicon.png"
 
@@ -45,4 +45,4 @@ link = "https://www.youtube.com/channel/UCTYvdwdFZ7NAtGK_XRvelaw"
 [[social]]
 title = "github"
 icon = "fab fa-reddit"
-link = "https://www.reddit.com/r/3mdeb/"
+link = "https://www.reddit.com/r/dasharo/"

@@ -1,6 +1,6 @@
 ---
 title: Dasharo cookies
-description: A complete ecosystem of tools and products that are used in the process of creating a firmware binary.
+description: Open-source firmware distribution focusing on clean and simple code, long-term maintenance, transparent validation, privacy-respecting implementation, liberty for the owners, and trustworthiness for all.
 
 layout: policy
 url: pages/policy/

@@ -48,10 +48,13 @@ dasharo_modules:
   - title: Security Module
     icon: "images/icons/rook-white.png"
     modules_list:
-    - title: Static Code and Dynamic Root of Trust for Measurement (S-CRTM and D-RTM)
+    - title: Static Code Root of Trust for Measurement (S-CRTM)
       features:
-      - Static Code and Dynamic Root of Trust for Measurement (S-CRT and D-RTM)
-      - To reestablish trust in a compromised environment without reboot (D-RTM)
+      - To establish trust anchor for all integrity measurements gathered during boot process.
+
+    - title: Dynamic Root of Trust for Measurement (D-RTM)
+      features:
+      - To reestablish trust in a compromised environment without reboot.
 
     - title: Secure, verified and measured boot integration
       features:

@@ -1,10 +1,11 @@
 ---
 title: Dasharo
-description: A complete ecosystem of tools and products that are used in the process of creating a firmware binary.
+description: Open-source firmware distribution focusing on clean and simple code, long-term maintenance, transparent validation, privacy-respecting implementation, liberty for the owners, and trustworthiness for all.
 
 banner:
   title: meet <br> **DASHARO**
-  description: A complete ecosystem of tools and products that are used in the process of creating a firmware binary.
+  description: Open-source firmware distribution focusing on clean and simple code, long-term maintenance, transparent validation, privacy-respecting implementation, liberty for the owners, and trustworthiness for all.
+
 
   page_content_list:
   - title: What is <span>Dasharo</span>
