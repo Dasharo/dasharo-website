@@ -4,6 +4,7 @@
 #
 # The actual configuration files are stored in the `config/_default/` folder.
 
+enableRobotsTXT = true
 
 ######################### site variables ##############################
 # customize your color and font from here.
