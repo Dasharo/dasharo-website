@@ -259,6 +259,10 @@ dasharo_faq:
         integration, and more. If you are interested in our services, feel free
         to [contact us](/pages/contact).
 
+    - title: What kind of consulting services that 3mdeb can provide other than online course?
+      content: >-
+        In addition to training, we provide in-house development and maintenance to keep hardwar and softwar up to date, or provide ad-hoc support to your development team.
+
   - title: Product Info
     icon: images/icons/knight-grey.png
     icon_white: images/icons/knight-white.png
@@ -354,6 +358,11 @@ dasharo_faq:
     - title: What is the payment policy and who pays for Dasharo?
       content: >-
         Typically, firmware solutions are sold through royalty payment or subscription-based models. The first option relies on the volume of offered products, what effectively eliminates industries with low volume but high-value platforms e.g. medical robots. Subscription-based models, although better, are still tied to firmware solution providers and similarly lead to all the scope of negative effects of vendor lock-in. Dasharo’s pricing model does not rely on volume and since most components are open-source, you can always change vendor and re-own your firmware code. Dasharo can be purchased by OEM/ODM providers, community crowdfunding, individuals, companies that are looking for dedicated/confidential firmware solutions. To get more dedicated payment information, fill [Get a quote](/#get-a-quote).
+
+    - title: What about price plan?
+      content: >-
+        First, there is no license fee. By choosing the support package, we start cooperation for a longer period of at least half a year. the plan is presented at the beginning of each month. The payment depends on the senior developer's time worked. exceeding the working time inconsistent with the assumed plan are reported to the client. We also assume time for management and meetings with the client, which is necessary to run the project.
+        
       
   - title: Platforms
     icon: images/icons/queen-grey.png
