@@ -259,9 +259,27 @@ dasharo_faq:
         integration, and more. If you are interested in our services, feel free
         to [contact us](/pages/contact).
 
-    - title: What kind of consulting services that 3mdeb can provide other than online course?
+    - title: What kind of consulting services that 3mdeb can provide other than online courses?
       content: >-
-        In addition to training, we provide in-house development and maintenance to keep hardwar and softwar up to date, or provide ad-hoc support to your development team.
+         In addition to training, we provide in-house development and maintenance to keep hardware and software up to date or provide ad-hoc support to your development team.
+
+    - title: Where I can find your GitHub/issues?
+      content: >-
+        - Visit [github.com/Dasharo](https://github.com/Dasharo) where you can find details about our company and repositories.
+
+        - [Matrix Dasharo Space] is a place where you can find solutions to many problems and if not - our community will gladly help you. We encourage you to troubleshoot your open-source firmware issues there. Here is the invitation [Link](https://matrix.to/#/#dasharo:matrix.org).
+
+    - title: Can I have got Dasharo individually?
+      content: >-
+        Yes, you can get it four ways:
+        
+        - Join the newsletter with the latest firmware realease 
+
+        - Find firmware links products on our and client's websites
+
+        - Find "Supported hardware" on [Docs Dasharo](https://docs.dasharo.com/)
+
+        - Do it yourself, visit [github.com/Dasharo](https://github.com/Dasharo)
 
   - title: Product Info
     icon: images/icons/knight-grey.png
@@ -357,13 +375,48 @@ dasharo_faq:
 
     - title: What is the payment policy and who pays for Dasharo?
       content: >-
-        Typically, firmware solutions are sold through royalty payment or subscription-based models. The first option relies on the volume of offered products, what effectively eliminates industries with low volume but high-value platforms e.g. medical robots. Subscription-based models, although better, are still tied to firmware solution providers and similarly lead to all the scope of negative effects of vendor lock-in. Dasharo’s pricing model does not rely on volume and since most components are open-source, you can always change vendor and re-own your firmware code. Dasharo can be purchased by OEM/ODM providers, community crowdfunding, individuals, companies that are looking for dedicated/confidential firmware solutions. To get more dedicated payment information, fill [Get a quote](/#get-a-quote).
+        Typically, firmware solutions are sold through royalty payment or subscription-based models. The first option relies on the volume of offered products, what effectively eliminates industries with low volume but high-value platforms e.g. medical robots. Subscription-based models, although better, are still tied to firmware solution providers and similarly lead to all the scope of negative effects of vendor lock-in. 
 
-    - title: What about price plan?
+    - title: What services include in the price plan?
       content: >-
-        First, there is no license fee. By choosing the support package, we start cooperation for a longer period of at least half a year. the plan is presented at the beginning of each month. The payment depends on the senior developer's time worked. exceeding the working time inconsistent with the assumed plan are reported to the client. We also assume time for management and meetings with the client, which is necessary to run the project.
+        First, there is no license fee. By choosing the support package, we start cooperation for a longer period of at least half a year. The plan is presented at the beginning of each month. The payment depends on the senior developer's time worked. exceeding the working time inconsistent with the assumed plan is reported to the client. We also assume time for management and meetings with the client, which is necessary to run the project.
+
+    - title: What pricing model do you offer?
+      content: >-
+        Dasharo’s pricing model does not rely on volume and since most components are open-source, you can always change vendor and re-own your firmware code. Dasharo can be purchased by OEM/ODM providers, community crowdfunding, individuals, companies that are looking for dedicated/confidential firmware solutions. To get more dedicated payment information, fill [Get a quote](/#get-a-quote).
+
+    - title: Can I introduce UEFI firmware into my existing platform/estate?
+      content: >-
+        i dont know
+# odwołanie do pytania Can I have got Dasharo individually?
+    - title: Can I implement Coreboot (as boot fw) + iPXE (as payload) to my device?
+      content: >-
+        i dont know
+# odwołanie do pytania Can I have got Dasharo individually?
+    - title: Can I port Core boot to use in my production environment?
+      content: >-
+# odwołanie do pytania Can I have got Dasharo individually?
+    - title: Can I design a BIOS base system or pre-boot software or environment that would forcefully install our management software itself
+      content: >-
+        Yes, this is possible.
+
+    - title: Can I develop, maintain and support such a software for common laptops, desktops produced by OEMs such as HP, Dell, and Lenovo?
+      content: >-
+        Yes, we would be but details of the such project should be discussed. How we
+        typically operate:
+
+        - Introductory call - if is fit then we continue to 2
+
+        - Project Discovery phase which results in a clean Project Charter giving
+        project scope, budget, licensing, and delivery dates.
+
+        - Project execution
+
+        - Project maintenance
         
-      
+        We would be glad to start with point 1. Feel free to book a matching time
+        in our [calendar](https://calendly.com/3mdeb/consulting-remote-meeting)
+
   - title: Platforms
     icon: images/icons/queen-grey.png
     icon_white: images/icons/queen-white.png
