@@ -259,7 +259,7 @@ dasharo_faq:
         integration, and more. If you are interested in our services, feel free
         to [contact us](/pages/contact).
 
-    - title: What kind of consulting services that 3mdeb can provide other than online courses?
+    - title: What consulting services can 3mdeb provide beyond online courses?
       content: >-
          In addition to training, we provide in-house development and maintenance to keep hardware and software up to date or provide ad-hoc support to your development team.
 
@@ -269,17 +269,47 @@ dasharo_faq:
 
         - [Matrix Dasharo Space] is a place where you can find solutions to many problems and if not - our community will gladly help you. We encourage you to troubleshoot your open-source firmware issues there. Here is the invitation [Link](https://matrix.to/#/#dasharo:matrix.org).
 
-    - title: Can I have got Dasharo individually?
+    - title: Can I get the Dasharo individually?
       content: >-
         Yes, you can get it four ways:
-        
-        - Join the newsletter with the latest firmware realease 
 
-        - Find firmware links products on our and client's websites
+          Join the newsletter with the latest firmware realease
 
-        - Find "Supported hardware" on [Docs Dasharo](https://docs.dasharo.com/)
+        - [Dasharo External newsletter](https://newsletter.3mdeb.com/subscription/wwL90UkXP)
 
-        - Do it yourself, visit [github.com/Dasharo](https://github.com/Dasharo)
+         Find "Supported hardware" in the web tab on our website
+
+        - [Docs Dasharo](https://docs.dasharo.com/)
+
+         Find firmware links on client's websites with desired products which supports Dasharo firmware
+
+        - [Dasharo KGPE-D16](https://newsletter.3mdeb.com/subscription/ozes4Jxuo)
+
+        - [Dasharo open-source firmware compatible with MSI PRO Z690-A release](https://newsletter.3mdeb.com/subscription/aKgTJjYEA)
+
+        - [Dasharo OSF vPub](https://newsletter.3mdeb.com/subscription/0_K65I7ro)
+
+        - [Dasharo Tools Suite](https://newsletter.3mdeb.com/subscription/ttzqCq9fy)
+
+        - [Dasharo Trustworthy Computing](https://newsletter.3mdeb.com/subscription/w2Y2G4Rrj)
+
+        - [Dell OptiPlex 7010/9010 Dasharo Release](https://newsletter.3mdeb.com/subscription/8dp1vv5mR)
+
+        - [NovaCustom Dasharo Release](https://newsletter.3mdeb.com/subscription/T61MyO2sP)
+
+        - [NovaCustom NS5x/7x 11th Generation Dasharo](https://newsletter.3mdeb.com/subscription/4X0c3e5Y6)
+
+        - [NovaCustom NS5x/7x 12th Generation Dasharo](https://newsletter.3mdeb.com/subscription/RJrTXDhWR)
+
+        - [NovaCustom NV4x 11th Generation Dasharo](https://newsletter.3mdeb.com/subscription/S5ze5u_qN)
+
+        - [NovaCustom NV4x 12th Generation Dasharo](https://newsletter.3mdeb.com/subscription/ZkbNv4qdO)
+
+        - [PC Engines Open Source Firmware Release](https://newsletter.3mdeb.com/subscription/ReBpt3IZY)
+
+         Build it yourself, visit
+
+        - [github.com/Dasharo](https://github.com/Dasharo)
 
   - title: Product Info
     icon: images/icons/knight-grey.png
@@ -387,23 +417,23 @@ dasharo_faq:
 
     - title: Can I introduce UEFI firmware into my existing platform/estate?
       content: >-
-        i dont know
-# odwołanie do pytania Can I have got Dasharo individually?
-    - title: Can I implement Coreboot (as boot fw) + iPXE (as payload) to my device?
+        [Find out here](//localhost:1313/pages/learn/#q-general-9)
+
+    - title: Can I implement coreboot (as boot fw) + iPXE (as payload) to my device?
       content: >-
-        i dont know
-# odwołanie do pytania Can I have got Dasharo individually?
+        [Find out here](//localhost:1313/pages/learn/#q-general-9)
+
     - title: Can I port Core boot to use in my production environment?
       content: >-
-# odwołanie do pytania Can I have got Dasharo individually?
+        [Find out here](//localhost:1313/pages/learn/#q-general-9)
+
     - title: Can I design a BIOS base system or pre-boot software or environment that would forcefully install our management software itself
       content: >-
         Yes, this is possible.
 
-    - title: Can I develop, maintain and support such a software for common laptops, desktops produced by OEMs such as HP, Dell, and Lenovo?
+    - title: Can 3mdeb develop, maintain and support software for common laptops or desktops produced by OEMs such as HP, Dell, and Lenovo?
       content: >-
-        Yes, we would be but details of the such project should be discussed. How we
-        typically operate:
+        Yes, but details of such project should be discussed beforehand. How we typically operate:
 
         - Introductory call - if is fit then we continue to 2
 
