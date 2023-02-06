@@ -435,14 +435,7 @@ dasharo_faq:
       content: >-
         Yes, but details of such project should be discussed beforehand. How we typically operate:
 
-        - Introductory call - if is fit then we continue to 2
-
-        - Project Discovery phase which results in a clean Project Charter giving
-        project scope, budget, licensing, and delivery dates.
-
-        - Project execution
-
-        - Project maintenance
+        [Visit](https://3mdeb.com/contact/)
         
         We would be glad to start with point 1. Feel free to book a matching time
         in our [calendar](https://calendly.com/3mdeb/consulting-remote-meeting)
