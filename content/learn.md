@@ -246,6 +246,18 @@ dasharo_faq:
         - Even in the light of competitive advantage OEMs/ODMs usually do not have time and/or resources to increase brand awareness and customer value through BIOS firmware solutions  <br/>  <br/>
 
         If you don’t have a solution yet, let Dasharo become your answer. [Contact us](/#get-a-quote)
+    - title: What consulting services can Dasharo Team provide beyond online courses?
+      content: >-
+
+        We offer a wide range of consulting services at all stages of the
+        hardware life cycle. These include open-source firmware feasibility
+        analysis, proprietary to open-source transition plans, firmware
+        porting, custom development and debugging, automated firmware
+        validation, and maintenance through Dasharo open-source firmware
+        distribution. We also provide firmware incident response, Trusted
+        Computing consulting and development, Root of Trust implementation and
+        integration, and more. If you are interested in our services, feel free
+        to [contact us](/pages/contact).
 
   - title: Product Info
     icon: images/icons/knight-grey.png
