@@ -17,20 +17,21 @@ banner:
     icon: images/icons/rook-grey.png
     link: "#data-sheets"
 
-
 use_cases:
   title: Use <span>cases</span>
   content_in_progress: false
 
   content_list:
-  - title: Dasharo Supported Hardware
-    link: "https://docs.dasharo.com/unified/novacustom/overview/"
-    description: Dasharo open-source firmware distribution support multiple platforms from various segments laptops, desktops, workstation, servers and embedded.
-    
   - title: Dasharo Firewall
     link: "https://pcengines.github.io/"
-    description: Dasharo firmware for reference platform PC Engines apu2. Click to see the products included and the hardware compatibility list.
+    description: Dasharo firmware for reference platform PC Engines apu2.
+      Click to see the products included and the hardware compatibility list.
 
+  - title: Dasharo Supported Hardware
+    link: "https://docs.dasharo.com/unified/novacustom/overview/"
+    description: Dasharo open-source firmware distribution support multiple
+      platforms from various segments laptops, desktops, workstation, servers
+      and embedded.
 
 data_sheets:
   title: Data <span>sheets</span>
