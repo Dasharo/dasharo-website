@@ -259,10 +259,6 @@ dasharo_faq:
         integration, and more. If you are interested in our services, feel free
         to [contact us](/pages/contact).
 
-    - title: What consulting services can 3mdeb provide beyond online courses?
-      content: >-
-         In addition to training, we provide in-house development and maintenance to keep hardware and software up to date or provide ad-hoc support to your development team.
-
     - title: Where I can find your GitHub/issues?
       content: >-
         - Visit [github.com/Dasharo](https://github.com/Dasharo) where you can find details about our company and repositories.
