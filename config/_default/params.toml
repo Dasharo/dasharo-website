@@ -9,7 +9,7 @@ logo_text = "Dasharo"
 # purgeCSS
 purge_css = false
 # google tag manager, see https://developers.google.com/tag-manager/
-google_tag_manager = "GTM-KKH326X" # example: G-XXXXXXXXXX
+google_tag_manager = "G-CK3BQWWCHQ" # example: G-XXXXXXXXXX
 # custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
 custom_script = ""
 # copyright
