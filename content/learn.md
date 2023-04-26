@@ -21,11 +21,6 @@ banner:
     icon: images/icons/bishop-grey.png
     link: "#dasharo-diy"
 
-  - title: FA<span>Q</span>
-    icon: images/icons/queen-grey.png
-    link: "#dasharo-faq"
-
-
 how_dasharo_works:
   title: How Dasharo <span>works</span>
 
@@ -253,6 +248,7 @@ dasharo_diy:
       - Marketing support with technical writing, documentation releases, blog
         posts and newsletters
 
+<<<<<<< HEAD
 dasharo_faq:
   title: Dasharo <span>FAQ</span>
 
@@ -691,4 +687,6 @@ dasharo_faq:
         Details of such project should be discussed beforehand on the
         dedicated meeting, therefore feel free to book a matching time in our
         [calendar](https://calendly.com/3mdeb/consulting-remote-meeting).
+=======
+>>>>>>> remove FAQ
 ---

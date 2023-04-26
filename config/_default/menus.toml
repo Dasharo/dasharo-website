@@ -22,7 +22,7 @@ weight = 15
 [[main]]
 name = "FAQ"
 post = "Find the answer"
-url = "/pages/learn/#dasharo-faq"
+url = "https://docs.dasharo.com/osf-trivia-list/introduction/"
 weight = 20
 
 [[main]]
