@@ -2,7 +2,7 @@
 
 ## Local preview
 
-1. Run local server: `./scripts/local-preview.sh -b http://localhost:1313`
+1. Run local server: `./scripts/local-preview.sh http://localhost:1313`
 1. Go to [http://localhost:1313/](http://localhost:1313/) to view the changes.
 
 _NOTE_: Feel free to replace `http://localhost:1313` with desired IP address
