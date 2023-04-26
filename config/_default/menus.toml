@@ -2,9 +2,9 @@
 
 # main menu
 [[main]]
-name = "Products"
-post = "Dasharo product lines"
-url = "/products/"
+name = "Devices"
+post = "Devices with Dasharo"
+url = "/devices/"
 weight = 5
 
 [[main]]
