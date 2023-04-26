@@ -1,14 +1,14 @@
-.products-header__container {
+.devices-header__container {
   position: relative;
   width: 100%;
   min-height: 90vh;
   background: rgba(255, 255, 255, 0.7);
   padding: 0 10% 80px 10%;
 
-  .products-header__title-wrapper {
+  .devices-header__title-wrapper {
     margin: 10vh 0 0 0;
 
-    .products-header__title {
+    .devices-header__title {
       color: $grey;
       font-size: calc(50px + 76 * ((100vw - 320px) / 680));
       letter-spacing: -0.04em;
@@ -20,7 +20,7 @@
       }
     }
 
-    .products-header__description {
+    .devices-header__description {
       display: block;
       line-height: 180%;
       max-width: 550px;
@@ -30,11 +30,11 @@
     }
   }
 
-  .products-header__questions-list {
+  .devices-header__questions-list {
     display: flex;
     margin: 80px 0 100px 0;
 
-    .products-header__questions-item-wrapper {
+    .devices-header__questions-item-wrapper {
       width: 100%;
 
       a {
@@ -45,13 +45,13 @@
         align-items: center;
         cursor: pointer;
 
-        .products-header__questions-item-img {
+        .devices-header__questions-item-img {
           width: 80px;
           transition: 0.5s;
           opacity: 1;
         }
 
-        .products-header__questions-item {
+        .devices-header__questions-item {
           text-align: center;
           font-size: calc(22px + 10 * ((100vw - 320px) / 680));
           color: $grey;
@@ -64,13 +64,13 @@
         }
       }
 
-      &:hover .products-header__questions-item-img {
+      &:hover .devices-header__questions-item-img {
         -webkit-transform: scaleX(-1);
         transform: scaleX(-1);
         opacity: 0.4;
       }
 
-      &:hover .products-header__questions-item {
+      &:hover .devices-header__questions-item {
         color: $carbon;
 
         span {
@@ -84,7 +84,7 @@
     }
   }
 
-  .products-header__mouse-icon {
+  .devices-header__mouse-icon {
     position: absolute;
     top: 40%;
     left: 90%;
@@ -99,23 +99,23 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .products-header__container {
+  .devices-header__container {
     min-height: 85vh;
-    .products-header__title-wrapper {
+    .devices-header__title-wrapper {
       margin: 15vh 0 0 0;
     }
 
-    .products-header__questions-list {
+    .devices-header__questions-list {
       display: block;
       margin: 10% 0 100px 0;
 
-      .products-header__questions-item-wrapper {
+      .devices-header__questions-item-wrapper {
         a {
           flex-direction: row;
           margin-right: 0;
           margin-bottom: 2%;
 
-          .products-header__questions-item-img {
+          .devices-header__questions-item-img {
             margin-right: 10px;
             width: 40px;
           }
@@ -126,8 +126,8 @@
 }
 
 @media screen and (max-width: 840px) {
-  .products-header__container {
-    .products-header__mouse-icon {
+  .devices-header__container {
+    .devices-header__mouse-icon {
       position: absolute;
       top: 80%;
       left: calc(50% - 25px);
@@ -136,25 +136,25 @@
 }
 
 @media screen and (max-width: 740px) {
-  .products-header__container {
-    .products-header__title-wrapper {
+  .devices-header__container {
+    .devices-header__title-wrapper {
       margin: 120px 0 0 0;
     }
   }
 }
 
 @media screen and (max-width: 650px) {
-  .products-header__container {
-    .products-header__questions-list {
+  .devices-header__container {
+    .devices-header__questions-list {
       margin: 10% 0 60px 0;
 
-      .products-header__questions-item-wrapper {
+      .devices-header__questions-item-wrapper {
         a {
-          .products-header__questions-item-img {
+          .devices-header__questions-item-img {
             width: 30px;
           }
 
-          .products-header__questions-item {
+          .devices-header__questions-item {
             font-size: calc(20px + 6 * ((100vw - 320px) / 680));
           }
         }
@@ -164,16 +164,16 @@
 }
 
 @media screen and (max-width: 340px) {
-  .products-header__container {
+  .devices-header__container {
     min-height: 80vh;
-    .products-header__title-wrapper {
+    .devices-header__title-wrapper {
       margin: 20vh 0 0 0;
     }
 
-    .products-header__questions-list {
-      .products-header__questions-item-wrapper {
+    .devices-header__questions-list {
+      .devices-header__questions-item-wrapper {
         a {
-          .products-header__questions-item-img {
+          .devices-header__questions-item-img {
             width: 25px;
           }
         }

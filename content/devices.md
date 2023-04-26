@@ -1,45 +1,26 @@
 ---
-title: Dasharo Products
-description: Open Source BIOS firmware solution for selected platforms
+title: Dasharo Devices
+description: List of devices compatible with Dasharo open-source firmware distribution for which we offer subscirption.
 
-layout: products
+layout: devices
 
 banner:
-  title: Dasharo <br> <span>PRODUCTS</span>
-  description: Open Source BIOS firmware solution for selected platforms.
+  title: Dasharo <br> <span>DEVICES</span>
+  description: List of devices compatible with Dasharo open-source firmware distribution for which we offer subscirption.
 
   page_content_list:
-  - title: Use <span>cases</span>
+  - title: PC <span>Engines</span>
     icon: images/icons/knight-grey.png
-    link: "#use-cases"
-    
-  - title: Data <span>sheets</span>
-    icon: images/icons/rook-grey.png
-    link: "#data-sheets"
+    link: "#pc-engines"
 
-use_cases:
-  title: Use <span>cases</span>
+pc_engines:
+  title: PC <span>Engines</span>
   content_in_progress: false
 
   content_list:
-  - title: Dasharo Firewall
+  - title: Dasharo subscirption for PC Engines apu2/3/4/6
     link: "https://pcengines.github.io/"
     description: Dasharo firmware for reference platform PC Engines apu2.
       Click to see the products included and the hardware compatibility list.
-
-  - title: Dasharo Supported Hardware
-    link: "https://docs.dasharo.com/unified/novacustom/overview/"
-    description: Dasharo open-source firmware distribution support multiple
-      platforms from various segments laptops, desktops, workstation, servers
-      and embedded.
-
-data_sheets:
-  title: Data <span>sheets</span>
-  content_in_progress: true
-
-  content_list:
-  - title: Datasheet Dasharo Firewall
-    link: "/"
-    description: Features and specification of Dasharo for PC Engines apu2
 
 ---

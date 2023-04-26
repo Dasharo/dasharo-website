@@ -29,8 +29,8 @@ $font-secondary: '{{replace (replaceRE ":[ital,]*[ital@]*[wght@]*[0-9,;]+" "" .f
 @import "quote";
 @import "newsletter";
 @import "footer";
-@import "productsHeader";
-@import "useCases";
+@import "devicesHeader";
+@import "pcEngines";
 @import "dataSheets";
 @import "learnHeader";
 @import "howDasharoWorks";

@@ -2,52 +2,52 @@
 
 {{ with .Params.banner }}
 <section>
-  <div class="products-header__container">
-    <div class="products-header__title-wrapper">
-      <h1 class="products-header__title">{{.title | markdownify}}</h1>
-      <p class="products-header__description">{{.description | markdownify}}</p>
+  <div class="devices-header__container">
+    <div class="devices-header__title-wrapper">
+      <h1 class="devices-header__title">{{.title | markdownify}}</h1>
+      <p class="devices-header__description">{{.description | markdownify}}</p>
     </div>
 
     {{ with .page_content_list }}
-    <ul class="products-header__questions-list">
+    <ul class="devices-header__questions-list">
       {{ range . }}
-      <li class="products-header__questions-item-wrapper">
+      <li class="devices-header__questions-item-wrapper">
         <a href="{{.link}}" class="smooth-scroll">
-          {{ partial "image.html" (dict "Src" .icon "Alt" "chess figure icon" "Class" "products-header__questions-item-img" "Resize" false "Size" "80x") }}
-          <p class="products-header__questions-item">{{.title | markdownify}}</p>
+          {{ partial "image.html" (dict "Src" .icon "Alt" "chess figure icon" "Class" "devices-header__questions-item-img" "Resize" false "Size" "80x") }}
+          <p class="devices-header__questions-item">{{.title | markdownify}}</p>
         </a>
       </li>
       {{ end }}
     </ul>
     {{ end }}
 
-    {{ partial "image.html" (dict "Src" "images/icons/mouse-neon-green.png" "Alt" "mouse icon" "Class" "products-header__mouse-icon mouse-scroll" "Resize" false "Size" "50x") }}
+    {{ partial "image.html" (dict "Src" "images/icons/mouse-neon-green.png" "Alt" "mouse icon" "Class" "devices-header__mouse-icon mouse-scroll" "Resize" false "Size" "50x") }}
   </div>
 </section>
 {{ end }}
 
-{{ with .Params.use_cases }}
+{{ with .Params.pc_engines }}
 <section>
-  <div id="use-cases" class="use-cases__container">
-    <div class="use-cases__wrapper">
+  <div id="pc-engines" class="pc-engines__container">
+    <div class="pc-engines__wrapper">
       <a href="#{{.title | plainify | urlize}}">
-        <h2 class="use-cases__title">{{.title | markdownify}}</h2>
+        <h2 class="pc-engines__title">{{.title | markdownify}}</h2>
       </a>
-      <div class="use-cases__content-wrapper">
-        <ul class="use-cases__content-list">
+      <div class="pc-engines__content-wrapper">
+        <ul class="pc-engines__content-list">
           {{ range .content_list }}
-          <li class="use-cases__content-list-item">
-            <a class="use-cases__content-list-item-link" href="{{.link | safeURL}}" {{if findRE `^http` .link}}target="_blank" rel="noopener"{{end}}>
+          <li class="pc-engines__content-list-item">
+            <a class="pc-engines__content-list-item-link" href="{{.link | safeURL}}" {{if findRE `^http` .link}}target="_blank" rel="noopener"{{end}}>
               {{ partial "image.html" (dict "Src" "images/logo/dasharo-logo.png" "Alt" "icon" "Class" "quote__content-item-img" "Resize" false "Size" "187x") }}
               <p>{{.title | markdownify}}</p>
             </a>
-            <p class="use-cases__content-list-description">{{.description | markdownify}}</p>
+            <p class="pc-engines__content-list-description">{{.description | markdownify}}</p>
           </li>
           {{ end }}
         </ul>
       </div>
     </div>
-    {{ partial "image.html" (dict "Src" "images/icons/king-carbon.png" "Alt" "king chess icon" "Class" "use-cases__icon" "Resize" false "Size" "512x") }}
+    {{ partial "image.html" (dict "Src" "images/icons/king-carbon.png" "Alt" "king chess icon" "Class" "pc-engines__icon" "Resize" false "Size" "512x") }}
   </div>
 </section>
 {{ end }}
