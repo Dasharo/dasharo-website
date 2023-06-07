@@ -2,6 +2,10 @@
 <html lang="{{ site.LanguageCode | default `en-US` }}" itemscope itemtype="http://schema.org/WebPage">
 
 <head>
+  {{ if .Site.Params.googleAnalytics }}
+    {{ partial "essentials/analytics-gtag.html" . }}
+  {{ end }}
+
 	<!-- head (don't cache it) -->
 	{{ partial "essentials/head.html" . }}
 
@@ -14,13 +18,13 @@
 
 	<!-- manifest -->
 	{{ partialCached "manifest" . }}
-	
+
 	<!-- site verifications -->
 	{{ partialCached "site-verifications.html" . }}
-	
+
 	<!-- opengraph and twitter card -->
 	{{ partial "basic-seo.html" . }}
-	
+
 	<!-- google tag manager -->
 	{{ partialCached "components/gtm.html" . }}
 </head>
