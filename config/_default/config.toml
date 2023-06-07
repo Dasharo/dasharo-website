@@ -8,8 +8,9 @@ timeZone = "UTC"
 paginate = "6" # see https://gohugo.io/extras/pagination/
 # post excerpt
 summaryLength = "10" # see https://gohugo.io/content-management/excerpts/
+[params]
 # google analytics
-googleAnalytics = "" # example: UA-123-45, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
+googleAnalytics = "G-CK3BQWWCHQ" # example: UA-123-45, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
 
 ############################# Build ##############################
 [build]
