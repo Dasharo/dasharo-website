@@ -1,9 +1,9 @@
 {{ define "main" }}
 
-<!-- widget -->
+<!-- widget
 {{ $widget:= site.Params.widgets.sidebar }}
 {{ partialCached "widgets/widget-wrapper" ( dict "Widgets" $widget "Scope" . ) }}
-
+ -->
 <!-- start post range -->
 {{ $paginator:= .Paginate .Data.Pages }}
 {{ range $paginator.Pages }}
