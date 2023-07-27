@@ -57,3 +57,43 @@ jobs:
         uses: 3mdeb/seo-spy-action@main
         with:
           domain: 'http://localhost:1313'
+
+  seo_spy_canonical_links:
+    runs-on: ubuntu-latest
+    name: Check canonical links
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+        with:
+          submodules: true
+
+      - name: Checkout SEO Spy
+        uses: actions/checkout@v3
+        with:
+          repository: 3mdeb/seo-spy
+          path: seo-spy
+
+      - uses: actions/setup-python@v3
+        with:
+          python-version: '3.9'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r seo-spy/requirements.txt
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          extended: true
+
+      - name: Serve site
+        run: |
+          hugo serve -b http://localhost:1313 --bind=0.0.0.0 &
+          sleep 10
+
+      - name: Check canonical links
+        uses: 3mdeb/seo-spy-action@main
+        with:
+          domain: 'http://localhost:1313'
+          args: '-c'
