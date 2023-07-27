@@ -12,15 +12,15 @@ banner:
   - title: How Dasharo <span> works</span>
     icon: images/icons/knight-grey.png
     link: "#how-dasharo-works"
-    
+
   - title: Dasharo <span>modules</span>
     icon: images/icons/rook-grey.png
     link: "#dasharo-modules"
-    
+
   - title: DI<span>Y</span>
     icon: images/icons/bishop-grey.png
     link: "#dasharo-diy"
-    
+
   - title: FA<span>Q</span>
     icon: images/icons/queen-grey.png
     link: "#dasharo-faq"
@@ -329,7 +329,7 @@ dasharo_faq:
         reference OS, long maintenance and marketing support. Dasharo brings
         solutions to many of the problems of the traditional UEFI/BIOS firmware
         development provided by IBV, for example:
-        
+
         - Existing BIOS firmware products leaves burden of responsibility for
         optimization to end user <br/>
 
@@ -362,7 +362,7 @@ dasharo_faq:
     - title: Where can I find your GitHub repository to raise an issue/question
         as an active supporter/user?
       content: >-
-        - Visit [github.com/Dasharo/dasharo-issues](https://github.com/Dasharo/dasharo-issues) 
+        - Visit [github.com/Dasharo/dasharo-issues](https://github.com/Dasharo/dasharo-issues)
         where you can find details on how to raise an issue or question.
 
         - Optionally, use our [Matrix Dasharo Space](https://matrix.to/#/#dasharo:matrix.org)
@@ -375,7 +375,7 @@ dasharo_faq:
         go through steps below to make sure that you will get the recent news
         and find the desired support for your hardware:
 
-        - Join the newsletter with the latest firmware realeases and news -
+        - Join the newsletter with the latest firmware releases and news -
         [Dasharo External newsletter](https://newsletter.3mdeb.com/subscription/wwL90UkXP)
 
         - Find "Supported hardware" tab in our documentation database - [Docs
@@ -407,7 +407,7 @@ dasharo_faq:
 
           * [PC Engines Open Source Firmware Release](https://newsletter.3mdeb.com/subscription/ReBpt3IZY)
 
-        - There is also posibility to build it yourself, visit
+        - There is also possibility to build it yourself, visit
         [github.com/Dasharo](https://github.com/Dasharo) where you can find more
         information about coreboot build process.
 
@@ -419,7 +419,7 @@ dasharo_faq:
       content: >-
         Dasharo consists of four modules. Each covers a wide range of features
         from which the client can build up their own Dasharo firmware:
-        
+
         * Security Module - hardware protection features, eg. S-CRTM/DRTM
 
         * Performance Module - hardware performance optimization features, eg.
@@ -428,7 +428,7 @@ dasharo_faq:
 
         * Marketing Module - brand awareness and customer value features, eg.
           Newsletter campaigns
-        
+
         For the full list of features visit ["Dasharo
         Modules"](#dasharo-modules).
 
@@ -565,15 +565,15 @@ dasharo_faq:
       content: >-
         - Each Dasharo release contains a binary file, a SHA256 hash of a binary
         file and a signed hash with a Dasharo release key <br/>
-                  
+
         - Each Dasharo release includes a test report <br/>
-        
+
         - Dasharo generic test procedures from a given segment are described in
         the documentation <br/>
-        
+
         - Dasharo specific test procedures are delivered in the form of a PDF
         document with a release <br/>
-        
+
         - Each Dasharo release includes an integrity and signature verification
         procedure <br/>
 
@@ -581,15 +581,15 @@ dasharo_faq:
       content: >-
         - Each release of Dasharo includes a version compatible with [Semantic
         Versioning 2.0.0](https://semver.org/) <br />
-                  
+
         - Each Dasharo release includes a release note compliant with the [Keep
         A Changelog 1.0.0](https://keepachangelog.com/en/1.0.0/) specification
         <br />
-        
+
         - Each Dasharo release contains a detailed description of the components
         version and a link to the scope of changes introduced since the last
         release
-      
+
   - title: Payment
     icon: images/icons/bishop-grey.png
     icon_white: images/icons/bishop-white.png
