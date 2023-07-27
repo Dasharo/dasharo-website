@@ -11,7 +11,7 @@ banner:
 
 ---
 
-[dasharo.com](dasharo.com) is operated by 3mdeb Throughout the
+[dasharo.com](https://dasharo.com/) is operated by 3mdeb Throughout the
 site, the terms “we”, “us” and “our” refer to 3mdeb . 3mdeb offers
 this website, including all information, tools and services
 available from this site to you, the user, conditioned upon your

@@ -11,7 +11,7 @@ banner:
   - title: What is <span>Dasharo</span>
     icon: images/icons/knight-grey.png
     link: "#what-is-dasharo"
-    
+
   - title: Why do I need <span>Dasharo</span>
     icon: images/icons/bishop-grey.png
     link: "#why-do-i-need-dasharo"
@@ -32,7 +32,7 @@ what_is_dasharo:
       - Performance Module - hardware performance optimization features
       - Compatibility Module - maintenance and compatibility features
       - Marketing Module - brand awareness and customer value
-    
+
     note: "Each module contains a set of features that can be added to your Dasharo product."
 
 
@@ -141,7 +141,7 @@ get_a_quote:
 
 newsletter:
   title: <span>Join our newsletter</span> to receive monthly updates with big news and updates from the <span>Dasharo team</span>
-  mailchimp_form_action: "https://3mdeb.us16.list-manage.com/subscribe/post?u=fce95b885fc13fbf1db611816&amp;id=7085d28b61"
+  mailchimp_form_action: "https://3mdeb.us16.list-manage.com/subscribe/post?u=fce95b885fc13fbf1db611816&id=7085d28b61"
   mailchimp_form_name: "df0d0bf5-c867-4fe6-acee-6ba2c596a142"
 
 
