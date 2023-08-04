@@ -11,7 +11,7 @@ banner:
 
 ---
 
-[dasharo.com](dasharo.com) is operated by 3mdeb Throughout the
+[dasharo.com](https://dasharo.com/) is operated by 3mdeb Throughout the
 site, the terms “we”, “us” and “our” refer to 3mdeb . 3mdeb offers
 this website, including all information, tools and services
 available from this site to you, the user, conditioned upon your
@@ -19,8 +19,7 @@ acceptance of all terms, conditions, policies and notices stated
 here.
 {.cookies__first-p}
 
-## General Overview
-{.cookies__subtitle}
+## General Overview {.cookies__subtitle}
 
 It is 3mdeb's policy to respect your privacy regarding any
 information we may collect while operating our website. We respect
@@ -37,8 +36,7 @@ rules and policies governing your use of our Website. Depending on
 your activities when visiting our Website, you may be required to
 agree to additional terms of service.
 
-## Website Visitors
-{.cookies__subtitle}
+## Website Visitors {.cookies__subtitle}
 
 Like most website operators, 3mdeb collects
 non-personally-identifying information of the sort that web browsers
@@ -51,13 +49,12 @@ non-personally-identifying information in the aggregate, e.g., by
 publishing a report on trends in the usage of its website. 3mdeb
 also collects potentially personally-identifying information like
 Internet Protocol IP) addresses for logged in users and for users
-leaving comments on [https://dasharo.com/](https://dasharo.com/) blog posts. 3mdeb only
-discloses logged in user and commenter IP addresses under the same
+leaving comments on [https://dasharo.com/](https://dasharo.com/) blog posts.
+3mdeb only discloses logged in user and commenter IP addresses under the same
 circumstances that it uses and discloses personally-identifying
 information as described below.
 
-## Gathering of Personally-Identifying Information
-{.cookies__subtitle}
+## Gathering of Personally-Identifying Information {.cookies__subtitle}
 
 Certain visitors to dasharo.com choose to interact with 3mdeb in
 ways that require 3mdeb to gather personally-identifying
@@ -67,12 +64,11 @@ visitors who sign up for a newsletter at dasharo.com to provide a
 username and email address. We also use Google Analytics to help us
 understand how our customers use the Site–you can read more about
 how Google uses your Personal Information here:
-[https://www.google.com/intl/en/policies/privacy/](https://www.google.com/intl/en/policies/privacy/). You can also
-opt-out of Google Analytics here:
+[https://www.google.com/intl/en/policies/privacy/](https://www.google.com/intl/en/policies/privacy/).
+You can also opt-out of Google Analytics here:
 [https://tools.google.com/dlpage/gaoptout](https://tools.google.com/dlpage/gaoptout).
 
-## Security
-{.cookies__subtitle}
+## Security {.cookies__subtitle}
 
 The security of your Personal Information is important to us, but
 remember that no method of transmission over the Internet, or method
@@ -80,8 +76,7 @@ of electronic storage is 100% secure. While we strive to use
 commercially acceptable means to protect your Personal Information,
 we cannot guarantee its absolute security.
 
-## Behavioural advertising
-{.cookies__subtitle}
+## Behavioural advertising {.cookies__subtitle}
 
 As described above, we use your Personal Information to provide you
 with targeted advertisements or marketing communications we believe
@@ -90,14 +85,12 @@ advertising works, you can visit the Network Advertising
 Initiative’s (“NAI”) educational page at
 [http://www.networkadvertising.org/understanding-online-advertising/how-does-it-work](http://www.networkadvertising.org/understanding-online-advertising/how-does-it-work).
 
-## Do not track
-{.cookies__subtitle}
+## Do not track {.cookies__subtitle}
 
 Please note that we do not alter our Site’s data collection and use
 practices when we see a Do Not Track signal from your browser.
 
-## Links To External Sites
-{.cookies__subtitle}
+## Links To External Sites {.cookies__subtitle}
 
 Our Service may contain links to external sites that are not
 operated by us. If you click on a third party link, you will be
@@ -107,8 +100,7 @@ visit. We have no control over, and assume no responsibility for the
 content, privacy policies or practices of any third party sites,
 products or services.
 
-## Cookies
-{.cookies__subtitle}
+## Cookies {.cookies__subtitle}
 
 To enrich and perfect your online experience, 3mdeb uses "Cookies",
 similar technologies and services provided by others to display
@@ -126,8 +118,7 @@ without the aid of cookies. By continuing to navigate our website
 without changing your cookie settings, you hereby acknowledge and
 agree to 3mdeb's use of cookies.
 
-## Privacy Policy Changes
-{.cookies__subtitle}
+## Privacy Policy Changes {.cookies__subtitle}
 
 Although most changes are likely to be minor, 3mdeb may change its
 Privacy Policy from time to time, and in 3mdeb's sole discretion.

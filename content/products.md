@@ -12,7 +12,7 @@ banner:
   - title: Use <span>cases</span>
     icon: images/icons/knight-grey.png
     link: "#use-cases"
-    
+
   - title: Data <span>sheets</span>
     icon: images/icons/rook-grey.png
     link: "#data-sheets"

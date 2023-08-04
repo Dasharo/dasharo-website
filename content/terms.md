@@ -11,9 +11,7 @@ banner:
 
 ---
 
-## Terms <span>Overview</span>
-{.terms__content-header}
-
+## Terms <span>Overview</span> {.terms__content-header}
 
 This website is operated by 3mdeb. Throughout the site, the terms
 “we”, “us” and “our” refer to 3mdeb. 3mdeb offers this website,
@@ -21,7 +19,6 @@ including all information, tools and services available from this
 site to you, the user, conditioned upon your acceptance of all
 terms, conditions, policies and notices stated here.
 {.terms__content-description}
-
 
 By visiting our site and/or purchasing something from us, you
 engage in our “Service” and agree to be bound by the following
@@ -53,10 +50,7 @@ following the posting of any changes constitutes acceptance of
 those changes.
 {.terms__content-description}
 
-
-## Section 1 <span>Online Store Terms</span>
-{.terms__content-header}
-
+## Section 1 <span>Online Store Terms</span> {.terms__content-header}
 
 By agreeing to these Terms of Service, you represent that you are
 at least the age of majority in your state or province of
@@ -79,9 +73,7 @@ A breach or violation of any of the Terms will result in an
 immediate termination of your Services.
 {.terms__content-description}
 
-## Section 2 <span>General Conditions</span>
-{.terms__content-header}
-
+## Section 2 <span>General Conditions</span> {.terms__content-header}
 
 We reserve the right to refuse service to anyone for any reason at
 any time.
@@ -105,9 +97,7 @@ The headings used in this agreement are included for convenience
 only and will not limit or otherwise affect these Terms.
 {.terms__content-description}
 
-## Section 3 <span>Accuracy, completeness and timelines off information</span>
-{.terms__content-header}
-
+## Section 3 <span>Accuracy, completeness and timelines off information</span> {.terms__content-header}
 
 We are not responsible if information made available on this site
 is not accurate, complete or current. The material on this site is
@@ -126,9 +116,7 @@ information on our site. You agree that it is your responsibility
 to monitor changes to our site.
 {.terms__content-description}
 
-## Section 4 <span>Modifications to the service and prices</span>
-{.terms__content-header}
-
+## Section 4 <span>Modifications to the service and prices</span> {.terms__content-header}
 
 Prices for our products are subject to change without notice.
 {.terms__content-description}
@@ -143,9 +131,7 @@ modification, price change, suspension or discontinuance of the
 Service.
 {.terms__content-description}
 
-## Section 5 <span>Products or services (if applicable)</span>
-{.terms__content-header}
-
+## Section 5 <span>Products or services (if applicable)</span> {.terms__content-header}
 
 Certain products or services may be available exclusively online
 through the website. These products or services may have limited
@@ -176,9 +162,7 @@ meet your expectations, or that any errors in the Service will be
 corrected.
 {.terms__content-description}
 
-## Section 6 <span>Accuracy of billing and account information</span>
-{.terms__content-header}
-
+## Section 6 <span>Accuracy of billing and account information</span> {.terms__content-header}
 
 We reserve the right to refuse any order you place with us. We
 may, in our sole discretion, limit or cancel quantities purchased
@@ -204,9 +188,7 @@ needed.
 For more detail, please review our Returns Policy.
 {.terms__content-description}
 
-## Section 7 <span>Optional Tools</span>
-{.terms__content-header}
-
+## Section 7 <span>Optional Tools</span> {.terms__content-header}
 
 We may provide you with access to third-party tools over which we
 neither monitor nor have any control nor input.
@@ -231,9 +213,7 @@ resources). Such new features and/or services shall also be
 subject to these Terms of Service.
 {.terms__content-description}
 
-## Section 8 <span>Third-party Links</span>
-{.terms__content-header}
-
+## Section 8 <span>Third-party Links</span> {.terms__content-header}
 
 Certain content, products and services available via our Service
 may include materials from third-parties.
@@ -256,9 +236,7 @@ transaction. Complaints, claims, concerns, or questions regarding
 third-party products should be directed to the third-party.
 {.terms__content-description}
 
-## Section 9 <span>User comments, feedback and other submissions</span>
-{.terms__content-header}
-
+## Section 9 <span>User comments, feedback and other submissions</span> {.terms__content-header}
 
 If, at our request, you send certain specific submissions (for
 example contest entries) or without a request from us you send
@@ -293,17 +271,13 @@ accuracy. We take no responsibility and assume no liability for
 any comments posted by you or any third-party.
 {.terms__content-description}
 
-## Section 10 <span>Personal Information's</span>
-{.terms__content-header}
-
+## Section 10 <span>Personal Information's</span> {.terms__content-header}
 
 Your submission of personal information through the store is
 governed by our Privacy Policy. To view our Privacy Policy.
 {.terms__content-description}
 
-## Section 11 <span>Errors, inaccuracies and omissions</span>
-{.terms__content-header}
-
+## Section 11 <span>Errors, inaccuracies and omissions</span> {.terms__content-header}
 
 Occasionally there may be information on our site or in the
 Service that contains typographical errors, inaccuracies or
@@ -325,9 +299,7 @@ in the Service or on any related website has been modified or
 updated.
 {.terms__content-description}
 
-## Section 12 <span>Prohibited uses</span>
-{.terms__content-header}
-
+## Section 12 <span>Prohibited uses</span> {.terms__content-header}
 
 In addition to other prohibitions as set forth in the Terms of
 Service, you are prohibited from using the site or its content:
@@ -353,9 +325,7 @@ Service or any related website for violating any of the prohibited
 uses.
 {.terms__content-description}
 
-## Section 13 <span>Disclaimer of warranties; Limitation of liability</span>
-{.terms__content-header}
-
+## Section 13 <span>Disclaimer of warranties; Limitation of liability</span> {.terms__content-header}
 
 We do not guarantee, represent or warrant that your use of our
 service will be uninterrupted, timely, secure or error-free.
@@ -403,9 +373,7 @@ or jurisdictions, our liability shall be limited to the maximum
 extent permitted by law.
 {.terms__content-description}
 
-## Section 14 <span>Indemnification</span>
-{.terms__content-header}
-
+## Section 14 <span>Indemnification</span> {.terms__content-header}
 
 You agree to indemnify, defend and hold harmless 3mdeb Embedded
 Systems and our parent, subsidiaries, affiliates, partners,
@@ -418,9 +386,7 @@ reference, or your violation of any law or the rights of a
 third-party.
 {.terms__content-description}
 
-## Section 15 <span>Severability</span>
-{.terms__content-header}
-
+## Section 15 <span>Severability</span> {.terms__content-header}
 
 In the event that any provision of these Terms of Service is
 determined to be unlawful, void or unenforceable, such provision
@@ -431,9 +397,7 @@ shall not affect the validity and enforceability of any other
 remaining provisions.
 {.terms__content-description}
 
-## Section 16 <span>Termination</span>
-{.terms__content-header}
-
+## Section 16 <span>Termination</span> {.terms__content-header}
 
 The obligations and liabilities of the parties incurred prior to
 the termination date shall survive the termination of this
@@ -454,9 +418,7 @@ including the date of termination; and/or accordingly may deny you
 access to our Services (or any part thereof).
 {.terms__content-description}
 
-## Section 17 <span>Entire Agreement</span>
-{.terms__content-header}
-
+## Section 17 <span>Entire Agreement</span> {.terms__content-header}
 
 The failure of us to exercise or enforce any right or provision of
 these Terms of Service shall not constitute a waiver of such right
@@ -476,9 +438,7 @@ Any ambiguities in the interpretation of these Terms of Service
 shall not be construed against the drafting party.
 {.terms__content-description}
 
-## Section 18 <span>Governing Law</span>
-{.terms__content-header}
-
+## Section 18 <span>Governing Law</span> {.terms__content-header}
 
 These Terms of Service and any separate agreements whereby we
 provide you Services shall be governed by and construed in
@@ -486,9 +446,7 @@ accordance with the laws of Burgaska 9D/10, Gdańsk, PM, 80-287,
 Poland.
 {.terms__content-description}
 
-## Section 19 <span>Changes to terms of service</span>
-{.terms__content-header}
-
+## Section 19 <span>Changes to terms of service</span> {.terms__content-header}
 
 You can review the most current version of the Terms of Service at
 any time at this page.
@@ -502,8 +460,7 @@ to our website or the Service following the posting of any changes
 to these Terms of Service constitutes acceptance of those changes.
 {.terms__content-description}
 
-## Section 20 <span>Contact Information</span>
-{.terms__content-header}
+## Section 20 <span>Contact Information</span> {.terms__content-header}
 
 Questions about the Terms of Service should be sent to [us by email](mailto:contact@dasharo.com).
 {.terms__content-description}
