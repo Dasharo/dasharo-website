@@ -50,417 +50,425 @@ following the posting of any changes constitutes acceptance of
 those changes.
 {.terms__content-description}
 
-## Section 1 <span>Online Store Terms</span> {.terms__content-header}
+{.h2}
 
-By agreeing to these Terms of Service, you represent that you are
-at least the age of majority in your state or province of
-residence, or that you are the age of majority in your state or
-province of residence and you have given us your consent to allow
-any of your minor dependents to use this site.
+| Term      | Description |
+| ----------- | ----------- |
+| Service Provider/Seller | 3mdeb Spółka z ograniczoną odpowiedzialnością, having its registered office in Gdańsk at ul. Piastowska 7 loc. 20a, entered into the Register of Entrepreneurs of the National Court Register under number 0000946112, by the District Court for Gdańsk – Północ, 7th Commercial Division of the National Court Register, NIP 5842812770, REGON 52096779700000 |
+| Service Recipient/Buyer/Customer | a natural person, a legal person, or another organizational unit that has placed an order for a service offered by the Service Provider |
+| GTC | General Terms of Service, this document |
+| Conditions | a set of information about one of the Services (a specific Service) provided by the Service Provider, that is, in particular: basic functionalities of the Service, technical requirements necessary to launch the Service, cost of the Service, activation of the Service, minimum purchase, minimum service time, etc. |
+| Billing Period | the period for which the settlements of the Service Recipient's liabilities towards the Service Provider for the Services provided are made |
+| Standard Software | Software as an Open Source software, supplied with part of the Documentation (Standard Software Documentation with Open Source License) |
+| Software Developer  | an economic entity creating a given piece of software and/or hardware on the basis of which the Services are provided by the Service Provider |
+| Product | a physical object purchased by the Customer and offered by the Service Provider as part of its business activity|
+| Service | any action of the Supplier on behalf of the Customer, performed under or in connection with the performance of this Agreement |
+| Hardware | Hardware and IT infrastructure, including in particular tools, system software, databases, links, and all devices |
+| Parties | the Service Provider and the Service Recipient understood jointly |
+| Subscription | individual, paid access of the User to the selected service for the selected Subscription Period |
+| Auto-renewable Subscription | a type of Subscription that assumes automatic renewal of the Subscription Period for new Subscription Periods |
+| Subscription Period | the specified period for which the User can use the selected service as part of the Subscription |
+
+## § 1. <span>General Provisions</span> {.terms__content-header}
+
+1.1 The subject of this GTC is to determine the type and general terms and
+    conditions for the provision of Services by the Service Provider to the
+    Service Recipient.
+{.terms__content-description}
+1.2 The Service Provider shall provide the Services on terms and conditions
+    described herein, unless the Parties have agreed on individual conditions
+    for the provision of the Service in a separate document.
+{.terms__content-description}
+1.3 The Service Provider hereby reserves the right to modify the manner of
+    performance of the Services by the scope and conditions resulting from its
+    powers and knowledge.
+{.terms__content-description}
+1.4 Placing an order by the Service Recipient is tantamount to reading and
+    accepting all the provisions of the GTC.
+{.terms__content-description}
+1.5 The Customer confirms that, regardless of the content of the GTC, before
+    placing an order for the Service, he has become familiar with the essential
+    properties of the subject of the order, the price and fees, the rules for
+    payment of the price and fees, costs and the date and method of performance
+    of the Service, the period after which he can resign from the Service, as
+    well as the way of submitting complaints.
+{.terms__content-description}
+1.6 The Customer\'s personal data will be processed by the Service Provider on
+    the terms specified in the document available at
+    <https://3mdeb.com/privacy-policy/>.
 {.terms__content-description}
 
-You may not use our products for any illegal or unauthorized
-purpose nor may you, in the use of the Service, violate any laws
-in your jurisdiction (including but not limited to copyright
-laws).
+## § 2. <span>Rights and obligations</span> {.terms__content-header}
+
+2.1 The Service Provider undertakes to provide the Services with the utmost care
+    resulting from the specificity of its business.
+{.terms__content-description}
+2.2 The Service Provider shall not be liable for the content provided by the
+    Customer and/or published by the Client and for the use by unauthorized
+    persons of authorization data supplied to the Customer to access the
+    Services provided hereunder. The Customer is solely responsible for the
+    content and data provided and/or published by the Customer.
+{.terms__content-description}
+2.3 The Customer undertakes to secure and protect confidential data,
+    particularly authorization data, access to a given Service.
+{.terms__content-description}
+2.4 The Customer undertakes not to use the Services to carry out illegal
+    activities, particularly, not to publish or otherwise process data from an
+    illegal source or works that violate copyright or good manners.
+{.terms__content-description}
+2.5 The Customer undertakes not to violate the Service Provider\'s system
+    resources to which the Customer is not entitled.
+{.terms__content-description}
+2.6 Communication between the Customer and the Service Provider shall take place
+    by e-mail, available on the Service Provider\'s website at
+    [shopping\@3mdeb.com](mailto:shopping@3mdeb.com).
+{.terms__content-description}
+2.7 By purchasing a product or service, the Customer hereby acknowledges that he
+    has become acquainted with the properties of the purchased product or
+    service, including the results of tests available to the public and
+    presented by the Service Provider.
+{.terms__content-description}
+2.8 By purchasing a Product or Service, the Customer hereby agrees to subscribe
+    to the newsletter sent by the Service Provider containing information about
+    updates to the Products and Services.
+{.terms__content-description}
+2.9 When using the Services, the User warrants that:
+{.terms__content-description}
+- a) they do not perform any prohibited activities that are provided for in the
+   Act of 1 March 2018 on counteracting money laundering and terrorist financing
+   (i.e. Journal Of Laws of 2022, item 593, as amended), and in particular
+   guarantees that the money transferred as part of the Fees will not come from
+   money laundering;
+- b) they will not use the Services to obtain assistance for the purpose of
+   committing an act prohibited by law;
+- c) they will not use the Services for the unlawful depletion of any public
+   receivables, e.g. for the purpose of committing a criminal tax offense.
 {.terms__content-description}
 
-You must not transmit any worms or viruses or any code of a
-destructive nature.
+## § 3. <span>The Purchase of Products and Services</span> {.terms__content-header}
+
+3.1 All prices quoted by the Service Provider are gross prices expressed in euro
+    (including VAT). The prices do not include shipping costs.
+{.terms__content-description}
+3.2 The Buyer can change the currency to the Polish zloty (PLN) or US dollar
+    (USD).
+{.terms__content-description}
+3.3 Orders are accepted via the website or by e-mail.
+{.terms__content-description}
+3.4 Orders placed via the website (or by e-mail) can be placed 24 hours a day, 7
+    days a week throughout the year.
+{.terms__content-description}
+3.5 The Order is effective if the Buyer correctly fills in the order form and
+    precisely provides contact details, including the exact delivery address and
+    telephone number, and e-mail address. In the event of providing fictitious
+    data or making a purchase anonymously, the Buyer acknowledges and accepts
+    the fact that he will not be entitled to rights related to the warranty,
+    guarantee, and update of the subscription.
+{.terms__content-description}
+3.6 If the data provided is incomplete, the Seller will contact the Buyer. If
+    contacting the Buyer is impossible, the Seller shall have the right to
+    cancel the Order.
+{.terms__content-description}
+3.7 The Buyer agrees to issue and send electronically, to the e-mail address
+    indicated by him, an electronic image of settlement documents, in
+    particular, such as: VAT invoices with attachments, VAT invoices with
+    attachments, and forms.
+{.terms__content-description}
+3.8 The Buyer hereby agrees to the processing of his personal data in connection
+    with the implementation of the Order. The Buyer may use the registration
+    option (remembering his data by the system) to facilitate the process of
+    placing another Order. To that end, the Buyer should provide the login and
+    password necessary to access his account. Customer login is the email
+    address or login name provided by the Customer. The password is a string of
+    characters set by the Customer. The Customer\'s password is unknown to the
+    Seller, and the Customer must keep it secret and protect it from
+    unauthorized access by third parties. Registration is not necessary for the
+    execution of the Order. The data of an unregistered customer are processed
+    only for the purpose of processing a single Order.
+{.terms__content-description}
+3.9 In case of registration, the Buyer agrees to place personal data in the
+    database of the Seller\'s Online Store for processing in connection with the
+    implementation of Orders. The Buyer shall have the right to inspect his
+    data, correct them and request their removal.
+{.terms__content-description}
+3.10 After the Customer places an effective order, he will receive an automatic
+     response from the store confirming the acceptance of the order.
+{.terms__content-description}
+3.11 The time of commencement of the order implementation coincides with the
+     moment of receipt of the payment into the bank account specified in the
+     order confirmation (in the case of payment by bank transfer) or the moment
+     of placing the order with the completed payment in the electronic payment
+     system.
 {.terms__content-description}
 
-A breach or violation of any of the Terms will result in an
-immediate termination of your Services.
+## § <span>4. Implementation of services</span> {.terms__content-header}
+
+4.1 The ordered Service will be carried out by the current technical and
+    operational capabilities of the Customer and by the description of the
+    Services.
+{.terms__content-description}
+4.2 The Service Provider is not responsible for achieving specific results or a
+    particular purpose as a result of the Services. In addition, the Service
+    Provider is not responsible for the results unless it undertakes to achieve
+    them in a separate document.
+{.terms__content-description}
+4.3 The Services shall be provided based on the data and other information
+    provided by the Customer at a specific time, in accordance with the actual
+    facts.
+{.terms__content-description}
+4.4 The Service Provider has the right to perform the Services on a
+    subcontracting basis (through subcontractors, and suppliers related to the
+    Service Provider).
+{.terms__content-description}
+4.5 Any deadlines for implementing of the Services are binding only if their
+    binding nature has been expressly agreed with the Customer or expressly
+    confirmed by the Service Provider. In any case, the deadlines depend on the
+    joint clarification of all issues related to the Service and the fulfillment
+    of the requirement of efficient cooperation and technical support on the
+    part of the Customer.
+{.terms__content-description}
+4.6 In the event of any unforeseeable or unavoidable circumstances during the
+    performance of the Service, as well as in the event of any difficulties such
+    as force majeure and other disruptions to the activities of the Service
+    Provider or the Service Provider\'s suppliers or subcontractors, as well as
+    in the event of any delay in delivery, the Service Provider has the right to
+    extend the term of the Service by the duration of such difficulties. The
+    Customer will be informed about the time of occurrence and termination of
+    such circumstances in the shortest possible time.
+{.terms__content-description}
+4.7 The Customer has the right to claim compensation for delay if the Service
+    Provider is responsible for it and as a result of the Service Provider\'s
+    fault and as a result, the Customer incurred a loss. The Service Provider
+    shall be at fault when the Service is not performed at levels expressly
+    specified and confirmed by the Service Provider or if any Products are not
+    delivered to the Customer within the time agreed with the Customer due to
+    circumstances for which the Service Provider is responsible.
+{.terms__content-description}
+4.8 The Service provision of the within the agreed period is subject to timely
+    receipt of all documents, data, and other information from the Customer,
+    good cooperation to the necessary extent, and compliance with the agreed
+    payment terms and other obligations. If the above conditions are not met on
+    time, the time and manner of the Service implementation will be modified
+    accordingly. In such circumstances, it is assumed that the delay in the
+    Service provision of the or the failure to perform the Service results from
+    circumstances for which the Service Provider is not responsible and is not
+    at fault.
+{.terms__content-description}
+4.9 Any rights arising from the untimely performance of the Service (i.e. in the
+    event of delay or non-performance) may be enforced by the Customer only
+    after prior notification of the delay setting a deadline for its removal and
+    ineffective expiry of this deadline.
 {.terms__content-description}
 
-## Section 2 <span>General Conditions</span> {.terms__content-header}
+## § <span>5. Costs and date of shipment</span> {.terms__content-header}
 
-We reserve the right to refuse service to anyone for any reason at
-any time.
+5.1 The product is sent to the address indicated in the order form or provided
+    by phone or e-mail. The Service Provider shall immediately inform the
+    Customer about an incorrectly completed order form that prevents or may
+    delay shipment.
+{.terms__content-description}
+5.2 The goods are delivered using specialized courier companies. All parcels
+    sent have a unique number, thanks to which it is possible to track the
+    parcel online. The Customer will receive the shipment number and the address
+    on the tracking page, along with the confirmation of the shipped order.
+{.terms__content-description}
+5.3 Orders are shipped within 8 working days at the latest.
+{.terms__content-description}
+5.4 The Buyer is charged with the delivery (shipping) costs, which are given in
+    the order summary. The shipping cost is calculated automatically by the
+    store for the products ordered. The amount of fees depends on the type of
+    transport, method of payment, weight, and dimensions of the ordered items.
+    The Customer shall bear all shipping costs.
+{.terms__content-description}
+5.5 The Customer who makes a payment using payment services accepts the terms
+    and conditions of this service.
+{.terms__content-description}
+5.6 After making arrangements with the Service Provider, the Customer has the
+    opportunity to send their own equipment to the Service Provider\'s address,
+    on which they would like to install the purchased product or Service. The
+    Service Provider will determine individually the cost of such a service and
+    the time of its implementation. The Customer acknowledges and accepts that
+    he will deliver the equipment at his own expense and cover the costs of
+    returning the equipment after installation by the Service Provider. The
+    Customer will receive from the Service Provider a detailed instruction for
+    handing over the equipment and the method of its shipment and undertakes to
+    comply with it. At the same time, the Customer acknowledges and accepts that
+    failure to comply with the Service Provider\'s instructions may prevent or
+    hinder and prolong the implementation of the Service.
 {.terms__content-description}
 
-You understand that your content (not including credit card
-information), may be transferred unencrypted and involve (a)
-transmissions over various networks; and (b) changes to conform
-and adapt to technical requirements of connecting networks or
-devices. Credit card information is always encrypted during
-transfer over networks.
+## § <span>6. Guarantee</span> {.terms__content-header}
+
+6.1 The Service Provider guarantees the correct operation of the Product for two
+    years under the following conditions:
+{.terms__content-description}
+- a) The equipment used only the certified version of Dasharo products;
+- b) No traces of Customer interference in the platform or any element of the
+   Dasharo software.
+{.terms__content-description}
+6.2 The Customer is obliged to deliver at his own expense the purchased Product
+    for analysis and possible repair, along with a detailed description of the
+    problem.
+{.terms__content-description}
+6.3 Once all the above conditions have been met, the Service Provider will
+    endeavor to restore the original configuration and re-flash to Dasharo as
+    part of the warranty. The Service Provider shall return the platform to the
+    Customer at its own expense, provided that the Customer has not violated the
+    provisions of clauses 5.1 and 5.2.
+{.terms__content-description}
+6.4 In the event of non-compliance with the above conditions or culpable action
+    of the Customer, the warranty repair is not entitled, and the warranty for
+    the given element does not apply.
 {.terms__content-description}
 
-You agree not to reproduce, duplicate, copy, sell, resell or
-exploit any portion of the Service, use of the Service, or access
-to the Service or any contact on the website through which the
-service is provided, without express written permission by us.
+## § <span>7. Subscription</span> {.terms__content-header}
+
+7.1 The Service Provider provides a personalized digital Subscription service
+    under which:
+{.terms__content-description}
+- a) Service Recipient accesses the latest version of Dasharo and an exclusive
+   newsletter containing curated content and invaluable insights relevant to
+   their interests and requirements:
+- \- comprehensive and meaningful release notes,
+- \- in-depth feature documentation,
+- \- initial deployment and update procedures,
+- \- Software Bill of Materials (SBOM) details,
+- \- Compliant Supply Chain Information,
+- \- full access to Test Results Spreadsheet and test logs;
+- b) Service Recipient receives special updates, including early access to updates
+   enhancing privacy, security, performance, and compatibility. These updates
+   are released more frequently than community releases, with transparency of
+   reproducible binaries, signature chains, and an open-source code supply
+   chain;
+- c) Service Recipient is granted access to the Dasharo Primer Support invite-only
+   Matrix channel, facilitating direct engagement with the Dasharo Team and
+   fellow subscribers with personalized and priority assistance;
+- d) Service Recipient has the opportunity to influence the direction and
+   development of new features, ensuring that the Dasharo firmware evolves to
+   meet their specific needs and industry demands;
+- e) Access to the Service is obtained by obtaining an access key and password.
+{.terms__content-description}
+7.2 To use the Service, you must use a device that complies with the technical
+    requirements of Dasharo. The features available in the Service may vary
+    depending on the devices and platforms used. The list of technical
+    requirements related to the use of the Service can be found on the website
+    at the following link: <https://docs.dasharo.com/>.
+{.terms__content-description}
+7.3 The Service Provider reserves the right to change -- at any time -- the
+    technical requirements for using the Service and to change, add or remove
+    business partners and payment methods. Modifications and changes of this
+    type will be published on the Service Provider\'s website.
+{.terms__content-description}
+7.4 To purchase an Auto-Renewable Subscription, the Service Recipient is obliged
+    to:
+{.terms__content-description}
+- a) complete the Subscription Order Form;
+- b) choose payment by payment card;
+- c) connect the payment card in accordance with the instructions provided;
+- d) check the correctness and completeness of the data;
+- e) confirm the form with the appropriate button.
 {.terms__content-description}
 
-The headings used in this agreement are included for convenience
-only and will not limit or otherwise affect these Terms.
+## § <span>8. Logistics</span> {.terms__content-header}
+
+8.1 The Customer is hereby obliged to carry out shipments related to the
+    performance of the Agreement by the Service Provider\'s recommendations. The
+    Service Provider is entitled to send the Customer instructions regarding
+    shipments to the e-mail address indicated in the order.
+{.terms__content-description}
+8.2 The Customer must attach to each shipment a protocol containing a list of
+    Equipment sent to the Service Provider.
+{.terms__content-description}
+8.3 In the event of the Customer\'s failure to connect the required Equipment or
+    the Customer\'s failure to comply with the correct protocol, the Service
+    Provider may charge the Customer with any additional costs incurred in this
+    respect, in particular the costs of purchasing the Equipment, its transport
+    and logistics services.
+{.terms__content-description}
+8.4 The Service Provider is hereby released from any liability towards the
+    Customer in the event of delayed performance of the Agreement due to the
+    Customer\'s failure to connect the required Equipment or the Customer\'s
+    failure to comply with the correct protocol.
 {.terms__content-description}
 
-## Section 3 <span>Accuracy, completeness and timelines off information</span> {.terms__content-header}
+## § <span>9. Force Majeure</span> {.terms__content-header}
 
-We are not responsible if information made available on this site
-is not accurate, complete or current. The material on this site is
-provided for general information only and should not be relied
-upon or used as the sole basis for making decisions without
-consulting primary, more accurate, more complete or more timely
-sources of information. Any reliance on the material on this site
-is at your own risk.
+9.1 The Service Provider shall not be liable if any force majeure causes
+    difficulties in the performance of the Service. Force majeure includes all
+    events not foreseen by the Service Provider or the Customer, beyond the
+    control of the Service Provider and occurring after the conclusion of the
+    contract, including, but not limited to, operational disruptions of any
+    kind, fire, natural disasters, epidemic and pandemic states, weather
+    phenomena, flooding, war and other military conflicts, uprisings, acts of
+    terror, transport delays, strikes, reasonable lockouts, labor shortages,
+    energy or raw material shortages, delays caused by the requirement to obtain
+    official permits, measures taken by the authorities/head of any state,
+    embargoes, restrictions or sanctions regarding export control, unexpected
+    increase in the risk of sanctions (e.g. sanctions against third countries).
+{.terms__content-description}
+9.2 If the Service Provider cannot perform the Contractual Service as a result
+    of force majeure, this shall not be considered a breach of contract, and all
+    contractual deadlines shall be extended by an appropriate reasonable period.
+    The above also applies when any third-party service is delayed in relation
+    to the Service Provider due to force majeure.
 {.terms__content-description}
 
-This site may contain certain historical information. Historical
-information, necessarily, is not current and is provided for your
-reference only. We reserve the right to modify the contents of
-this site at any time, but we have no obligation to update any
-information on our site. You agree that it is your responsibility
-to monitor changes to our site.
+## § <span>10. Jurisdiction</span> {.terms__content-header}
+
+10.1 If the Customer is an entrepreneur, the sole place of jurisdiction for all
+     disputes arising out of this agreement is the Seller\'s registered office.
+     If the Customer has its registered office outside Poland, the exclusive
+     place of jurisdiction for all disputes arising from this agreement is the
+     Seller\'s registered office if the agreement or claims arising from the
+     agreement can be assigned to the professional or commercial activity of the
+     Customer. In the above cases, however, the Seller has the right in each
+     case to choose the court in the place of business of the Customer as the
+     competent place.
+{.terms__content-description}
+10.2 For consumers, the European Commission provides a platform for online
+     dispute resolution (OS) at: <http://ec.europa.eu/consumers/odr/>. The
+     Service Provider expresses its readiness to resolve the dispute with the
+     consumer in this mode. Applications should be addressed to the
+     representative office in Poland: Plac Powstańców Warszawy 1, 00-950 Warsaw,
+     <kontakt.adr@uokik.gov.pl>
+{.terms__content-description}
+10.3 The governing law for all Services and Products is the Polish law.
 {.terms__content-description}
 
-## Section 4 <span>Modifications to the service and prices</span> {.terms__content-header}
+## § <span>11. Final provisions</span> {.terms__content-header}
 
-Prices for our products are subject to change without notice.
+11.1 To the extent not regulated by these terms and conditions, the following
+     shall apply: order confirmation, separate agreements concluded between the
+     Parties, and provisions of generally applicable laws.
 {.terms__content-description}
-
-We reserve the right at any time to modify or discontinue the
-Service (or any part or content thereof) without notice at any
-time.
+11.2 In the event of a discrepancy between these General Terms and Conditions
+     and the provisions of the Order, the provisions of the Order shall prevail
+     unless otherwise expressly stated in these General Terms and Conditions.
 {.terms__content-description}
-
-We shall not be liable to you or to any third-party for any
-modification, price change, suspension or discontinuance of the
-Service.
+11.3 In the event of the ineffectiveness or invalidity of any provision of these
+     General Terms and Conditions, the remaining provisions shall remain in
+     force. In such a case, the ineffective or invalid provision is replaced by
+     an adequate and valid provision, which in legal and economic terms is
+     closest to what the parties intended to agree and/or agreed.
 {.terms__content-description}
-
-## Section 5 <span>Products or services (if applicable)</span> {.terms__content-header}
-
-Certain products or services may be available exclusively online
-through the website. These products or services may have limited
-quantities and are subject to return or exchange only according to
-our Return Policy.
+11.4 The Service Provider reserves the right to change the General Terms and
+     Conditions at any time. In the event of a decision to change the Terms, the
+     Service Provider will place a unified version of them on the website
+     ......................................... The Service Provider shall
+     provide the Customer with the modified document by e-mail to the e-mail
+     address he provided at the first login. When logging in, the Consumer will
+     be notified about the change of the Regulations and the possibility of its
+     acceptance, while the Consumer\'s acceptance of the changes is considered
+     to be the use of the Account and above all the placing of the Order.
 {.terms__content-description}
-
-We have made every effort to display as accurately as possible the
-colors and images of our products that appear at the store. We
-cannot guarantee that your computer monitor’s display of any color
-will be accurate.
-{.terms__content-description}
-
-We reserve the right, but are not obligated, to limit the sales of
-our products or Services to any person, geographic region or
-jurisdiction. We may exercise this right on a case-by-case basis.
-We reserve the right to limit the quantities of any products or
-services that we offer. All descriptions of products or product
-pricing are subject to change at anytime without notice, at the
-sole discretion of us. We reserve the right to discontinue any
-product at any time. Any offer for any product or service made on
-this site is void where prohibited.
-{.terms__content-description}
-
-We do not warrant that the quality of any products, services,
-information, or other material purchased or obtained by you will
-meet your expectations, or that any errors in the Service will be
-corrected.
-{.terms__content-description}
-
-## Section 6 <span>Accuracy of billing and account information</span> {.terms__content-header}
-
-We reserve the right to refuse any order you place with us. We
-may, in our sole discretion, limit or cancel quantities purchased
-per person, per household or per order. These restrictions may
-include orders placed by or under the same customer account, the
-same credit card, and/or orders that use the same billing and/or
-shipping address. In the event that we make a change to or cancel
-an order, we may attempt to notify you by contacting the e-mail
-and/or billing address/phone number provided at the time the order
-was made. We reserve the right to limit or prohibit orders that,
-in our sole judgment, appear to be placed by dealers, resellers or
-distributors.
-{.terms__content-description}
-
-You agree to provide current, complete and accurate purchase and
-account information for all purchases made at our store. You agree
-to promptly update your account and other information, including
-your email address and credit card numbers and expiration dates,
-so that we can complete your transactions and contact you as
-needed.
-{.terms__content-description}
-
-For more detail, please review our Returns Policy.
-{.terms__content-description}
-
-## Section 7 <span>Optional Tools</span> {.terms__content-header}
-
-We may provide you with access to third-party tools over which we
-neither monitor nor have any control nor input.
-{.terms__content-description}
-
-You acknowledge and agree that we provide access to such tools ”as
-is” and “as available” without any warranties, representations or
-conditions of any kind and without any endorsement. We shall have
-no liability whatsoever arising from or relating to your use of
-optional third-party tools.
-{.terms__content-description}
-
-Any use by you of optional tools offered through the site is
-entirely at your own risk and discretion and you should ensure
-that you are familiar with and approve of the terms on which tools
-are provided by the relevant third-party provider(s).
-{.terms__content-description}
-
-We may also, in the future, offer new services and/or features
-through the website (including, the release of new tools and
-resources). Such new features and/or services shall also be
-subject to these Terms of Service.
-{.terms__content-description}
-
-## Section 8 <span>Third-party Links</span> {.terms__content-header}
-
-Certain content, products and services available via our Service
-may include materials from third-parties.
-{.terms__content-description}
-
-Third-party links on this site may direct you to third-party
-websites that are not affiliated with us. We are not responsible
-for examining or evaluating the content or accuracy and we do not
-warrant and will not have any liability or responsibility for any
-third-party materials or websites, or for any other materials,
-products, or services of third-parties.
-{.terms__content-description}
-
-We are not liable for any harm or damages related to the purchase
-or use of goods, services, resources, content, or any other
-transactions made in connection with any third-party websites.
-Please review carefully the third-party’s policies and practices
-and make sure you understand them before you engage in any
-transaction. Complaints, claims, concerns, or questions regarding
-third-party products should be directed to the third-party.
-{.terms__content-description}
-
-## Section 9 <span>User comments, feedback and other submissions</span> {.terms__content-header}
-
-If, at our request, you send certain specific submissions (for
-example contest entries) or without a request from us you send
-creative ideas, suggestions, proposals, plans, or other materials,
-whether online, by email, by postal mail, or otherwise
-(collectively, ‘comments’), you agree that we may, at any time,
-without restriction, edit, copy, publish, distribute, translate
-and otherwise use in any medium any comments that you forward to
-us. We are and shall be under no obligation (1) to maintain any
-comments in confidence; (2) to pay compensation for any comments;
-or (3) to respond to any comments.
-{.terms__content-description}
-
-We may, but have no obligation to, monitor, edit or remove content
-that we determine in our sole discretion are unlawful, offensive,
-threatening, libelous, defamatory, pornographic, obscene or
-otherwise objectionable or violates any party’s intellectual
-property or these Terms of Service.
-{.terms__content-description}
-
-You agree that your comments will not violate any right of any
-third-party, including copyright, trademark, privacy, personality
-or other personal or proprietary right. You further agree that
-your comments will not contain libelous or otherwise unlawful,
-abusive or obscene material, or contain any computer virus or
-other malware that could in any way affect the operation of the
-Service or any related website. You may not use a false e-mail
-address, pretend to be someone other than yourself, or otherwise
-mislead us or third-parties as to the origin of any comments. You
-are solely responsible for any comments you make and their
-accuracy. We take no responsibility and assume no liability for
-any comments posted by you or any third-party.
-{.terms__content-description}
-
-## Section 10 <span>Personal Information's</span> {.terms__content-header}
-
-Your submission of personal information through the store is
-governed by our Privacy Policy. To view our Privacy Policy.
-{.terms__content-description}
-
-## Section 11 <span>Errors, inaccuracies and omissions</span> {.terms__content-header}
-
-Occasionally there may be information on our site or in the
-Service that contains typographical errors, inaccuracies or
-omissions that may relate to product descriptions, pricing,
-promotions, offers, product shipping charges, transit times and
-availability. We reserve the right to correct any errors,
-inaccuracies or omissions, and to change or update information or
-cancel orders if any information in the Service or on any related
-website is inaccurate at any time without prior notice (including
-after you have submitted your order).
-{.terms__content-description}
-
-We undertake no obligation to update, amend or clarify information
-in the Service or on any related website, including without
-limitation, pricing information, except as required by law. No
-specified update or refresh date applied in the Service or on any
-related website, should be taken to indicate that all information
-in the Service or on any related website has been modified or
-updated.
-{.terms__content-description}
-
-## Section 12 <span>Prohibited uses</span> {.terms__content-header}
-
-In addition to other prohibitions as set forth in the Terms of
-Service, you are prohibited from using the site or its content:
-(a) for any unlawful purpose; (b) to solicit others to perform or
-participate in any unlawful acts; (c) to violate any
-international, federal, provincial or state regulations, rules,
-laws, or local ordinances; (d) to infringe upon or violate our
-intellectual property rights or the intellectual property rights
-of others; (e) to harass, abuse, insult, harm, defame, slander,
-disparage, intimidate, or discriminate based on gender, sexual
-orientation, religion, ethnicity, race, age, national origin, or
-disability; (f) to submit false or misleading information; (g) to
-upload or transmit viruses or any other type of malicious code
-that will or may be used in any way that will affect the
-functionality or operation of the Service or of any related
-website, other websites, or the Internet; (h) to collect or track
-the personal information of others; (i) to spam, phish, pharm,
-pretext, spider, crawl, or scrape; (j) for any obscene or immoral
-purpose; or (k) to interfere with or circumvent the security
-features of the Service or any related website, other websites, or
-the Internet. We reserve the right to terminate your use of the
-Service or any related website for violating any of the prohibited
-uses.
-{.terms__content-description}
-
-## Section 13 <span>Disclaimer of warranties; Limitation of liability</span> {.terms__content-header}
-
-We do not guarantee, represent or warrant that your use of our
-service will be uninterrupted, timely, secure or error-free.
-{.terms__content-description}
-
-We do not warrant that the results that may be obtained from the
-use of the service will be accurate or reliable.
-{.terms__content-description}
-
-You agree that from time to time we may remove the service for
-indefinite periods of time or cancel the service at any time,
-without notice to you.
-{.terms__content-description}
-
-You expressly agree that your use of, or inability to use, the
-service is at your sole risk. The service and all products and
-services delivered to you through the service are (except as
-expressly stated by us) provided ‘as is’ and ‘as available’ for
-your use, without any representation, warranties or conditions of
-any kind, either express or implied, including all implied
-warranties or conditions of merchantability, merchantable quality,
-fitness for a particular purpose, durability, title, and
-non-infringement.
-{.terms__content-description}
-
-In no case shall 3mdeb, our directors, officers, employees,
-affiliates, agents, contractors, interns, suppliers, service
-providers or licensors be liable for any injury, loss, claim, or
-any direct, indirect, incidental, punitive, special, or
-consequential damages of any kind, including, without limitation
-lost profits, lost revenue, lost savings, loss of data,
-replacement costs, or any similar damages, whether based in
-contract, tort (including negligence), strict liability or
-otherwise, arising from your use of any of the service or any
-products procured using the service, or for any other claim
-related in any way to your use of the service or any product,
-including, but not limited to, any errors or omissions in any
-content, or any loss or damage of any kind incurred as a result
-of the use of the service or any content (or product) posted,
-transmitted, or otherwise made available via the service, even if
-advised of their possibility. Because some states or
-jurisdictions do not allow the exclusion or the limitation of
-liability for consequential or incidental damages, in such states
-or jurisdictions, our liability shall be limited to the maximum
-extent permitted by law.
-{.terms__content-description}
-
-## Section 14 <span>Indemnification</span> {.terms__content-header}
-
-You agree to indemnify, defend and hold harmless 3mdeb Embedded
-Systems and our parent, subsidiaries, affiliates, partners,
-officers, directors, agents, contractors, licensors, service
-providers, subcontractors, suppliers, interns and employees,
-harmless from any claim or demand, including reasonable attorneys’
-fees, made by any third-party due to or arising out of your breach
-of these Terms of Service or the documents they incorporate by
-reference, or your violation of any law or the rights of a
-third-party.
-{.terms__content-description}
-
-## Section 15 <span>Severability</span> {.terms__content-header}
-
-In the event that any provision of these Terms of Service is
-determined to be unlawful, void or unenforceable, such provision
-shall nonetheless be enforceable to the fullest extent permitted
-by applicable law, and the unenforceable portion shall be deemed
-to be severed from these Terms of Service, such determination
-shall not affect the validity and enforceability of any other
-remaining provisions.
-{.terms__content-description}
-
-## Section 16 <span>Termination</span> {.terms__content-header}
-
-The obligations and liabilities of the parties incurred prior to
-the termination date shall survive the termination of this
-agreement for all purposes.
-{.terms__content-description}
-
-These Terms of Service are effective unless and until terminated
-by either you or us. You may terminate these Terms of Service at
-any time by notifying us that you no longer wish to use our
-Services, or when you cease using our site.
-{.terms__content-description}
-
-If in our sole judgment you fail, or we suspect that you have
-failed, to comply with any term or provision of these Terms of
-Service, we also may terminate this agreement at any time without
-notice and you will remain liable for all amounts due up to and
-including the date of termination; and/or accordingly may deny you
-access to our Services (or any part thereof).
-{.terms__content-description}
-
-## Section 17 <span>Entire Agreement</span> {.terms__content-header}
-
-The failure of us to exercise or enforce any right or provision of
-these Terms of Service shall not constitute a waiver of such right
-or provision.
-{.terms__content-description}
-
-These Terms of Service and any policies or operating rules posted
-by us on this site or in respect to The Service constitutes the
-entire agreement and understanding between you and us and govern
-your use of the Service, superseding any prior or contemporaneous
-agreements, communications and proposals, whether oral or written,
-between you and us (including, but not limited to, any prior
-versions of the Terms of Service).
-{.terms__content-description}
-
-Any ambiguities in the interpretation of these Terms of Service
-shall not be construed against the drafting party.
-{.terms__content-description}
-
-## Section 18 <span>Governing Law</span> {.terms__content-header}
-
-These Terms of Service and any separate agreements whereby we
-provide you Services shall be governed by and construed in
-accordance with the laws of Burgaska 9D/10, Gdańsk, PM, 80-287,
-Poland.
-{.terms__content-description}
-
-## Section 19 <span>Changes to terms of service</span> {.terms__content-header}
-
-You can review the most current version of the Terms of Service at
-any time at this page.
-{.terms__content-description}
-
-We reserve the right, at our sole discretion, to update, change or
-replace any part of these Terms of Service by posting updates and
-changes to our website. It is your responsibility to check our
-website periodically for changes. Your continued use of or access
-to our website or the Service following the posting of any changes
-to these Terms of Service constitutes acceptance of those changes.
-{.terms__content-description}
-
-## Section 20 <span>Contact Information</span> {.terms__content-header}
-
-Questions about the Terms of Service should be sent to [us by email](mailto:contact@dasharo.com).
+11.5 Refusal to accept the change of the General Terms and Conditions is
+     tantamount to termination of the contract. The Consumer who does not accept
+     the changes to the General Terms and Conditions may terminate the contract
+     by submitting a statement by e-mail to the e-mail address
+     ......................................... be in writing to the address of
+     the Service Provider. The Agreement shall be terminated with immediate
+     effect, however, not earlier than until the final settlement (including
+     payment to the Service Provider in connection with the Orders placed). The
+     Consumer acknowledges and accepts that changes to the terms and conditions
+     may occur after each product update by the Service Provider.
 {.terms__content-description}
