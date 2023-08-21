@@ -21,7 +21,7 @@ banner:
 | Conditions | a set of information about one of the Services (a specific Service) provided by the Service Provider, that is, in particular: basic functionalities of the Service, technical requirements necessary to launch the Service, cost of the Service, activation of the Service, minimum purchase, minimum service time, etc. |
 | Billing Period | the period for which the settlements of the Service Recipient's liabilities towards the Service Provider for the Services provided are made |
 | Standard Software | Software as an Open Source software, supplied with part of the Documentation (Standard Software Documentation with Open Source License) |
-| Software Developer | an economic entity creating a given piece of software and/or hardware on the basis of which the Services are provided by the Service Provider |    
+| Software Developer | an economic entity creating a given piece of software and/or hardware on the basis of which the Services are provided by the Service Provider |
 | Product | a physical object purchased by the Customer and offered by the Service Provider as part of its business activity |
 | Reseller | a business entity that signed Dasharo Revenue Sharing Partnership Agreement with Service Provider and sold Dasharo Entry Subscription in accordance with following terms and conditions. |
 | Service | any action of the Supplier on behalf of the Customer, performed under or in connection with the performance of this Agreement |
@@ -65,7 +65,6 @@ banner:
     the terms specified in the document available at
     <https://shop.3mdeb.com/privacy-policy/>.
 {.terms__content-description}
-
 
 ## § 2. <span>Rights and obligations</span> {.terms__content-header}
 
@@ -149,6 +148,7 @@ a) Service Recipient accesses the latest version of Dasharo and an exclusive
    newsletter containing curated content and invaluable insights relevant to
    their interests and requirements:
 {.terms__content-description}
+
 - \- comprehensive and meaningful release notes,
 - \- in-depth feature documentation,
 - \- initial deployment and update procedures,
@@ -182,7 +182,7 @@ e) Access to the Service is obtained by obtaining an access key and password.
 4.3 The Service Provider reserves the right to change -- at any time -- the
     technical requirements for using the Service and to change, add or remove
     business partners and payment methods. Modifications and changes of this
-    type will be communicated via e-mail send to the Buyer. 
+    type will be communicated via e-mail send to the Buyer.
 {.terms__content-description}
 
 ## § 5. <span>Force Majeure</span> {.terms__content-header}
@@ -240,10 +240,10 @@ e) Access to the Service is obtained by obtaining an access key and password.
 {.terms__content-description}
 
 7.2 In the event of a discrepancy between these General Terms and Conditions
-     and the provisions of the Order, the provisions of the General Terms and 
+     and the provisions of the Order, the provisions of the General Terms and
      Conditions shall prevail.
 {.terms__content-description}
-    
+
 7.3 In the event of the ineffectiveness or invalidity of any provision of these
      General Terms and Conditions, the remaining provisions shall remain in
      force. In such a case, the ineffective or invalid provision is replaced by
