@@ -112,7 +112,7 @@ banner:
 2.9 When using the Services, the User warrants that:
 {.terms__content-description}
 
-a they do not perform any prohibited activities that are provided for in the
+a) they do not perform any prohibited activities that are provided for in the
    Act of 1 March 2018 on counteracting money laundering and terrorist financing
    (i.e. Journal Of Laws of 2022, item 593, as amended), and in particular
    guarantees that the money transferred as part of the Fees will not come from
@@ -145,39 +145,33 @@ b) No traces of Customer interference in the platform or any element of the
 4.1 The Service Provider provides a personalized digital Subscription service
     under which:
 {.terms__content-description}
-
 a) Service Recipient accesses the latest version of Dasharo and an exclusive
    newsletter containing curated content and invaluable insights relevant to
    their interests and requirements:
 {.terms__content-description}
-   - comprehensive and meaningful release notes,
-   - in-depth feature documentation,
-   - initial deployment and update procedures,
-   - Software Bill of Materials (SBOM) details,
-   - Compliant Supply Chain Information,
-   - full access to Test Results Spreadsheet and test logs;
+- \- comprehensive and meaningful release notes,
+- \- in-depth feature documentation,
+- \- initial deployment and update procedures,
+- \- Software Bill of Materials (SBOM) details,
+- \- Compliant Supply Chain Information,
+- \- full access to Test Results Spreadsheet and test logs;
 {.terms__content-description}
-
 b) Service Recipient receives special updates, including early access to updates
    enhancing privacy, security, performance, and compatibility. These updates
    are released more frequently than community releases, with transparency of
    reproducible binaries, signature chains, and an open-source code supply
    chain;
 {.terms__content-description}
-
 c) Service Recipient is granted access to the Dasharo Primer Support invite-only
    Matrix channel, facilitating direct engagement with the Dasharo Team and
    fellow subscribers with personalized and priority assistance;
 {.terms__content-description}
-
 d) Service Recipient has the opportunity to influence the direction and
    development of new features, ensuring that the Dasharo firmware evolves to
    meet their specific needs and industry demands;
 {.terms__content-description}
-
 e) Access to the Service is obtained by obtaining an access key and password.
 {.terms__content-description}
-
 4.2 To use the Service, you must use a device that complies with the technical
     requirements of Dasharo. The features available in the Service may vary
     depending on the devices and platforms used. The list of technical
