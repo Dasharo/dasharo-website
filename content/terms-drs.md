@@ -1,35 +1,59 @@
 ---
-title: Terms of Service for Dasharo Revenue Sharing
-description: Dasharo Privacy & Terms for DRS
+title: Dasharo Terms of Service for Dasharo Revenue Sharing
+description: Dasharo Terms of Service for Dasharo Entry Subscriptions sold by Dasharo Revenue Sharing partners.
 
 layout: terms
 url: pages/terms-drs/
 
 banner:
-  title: Terms of Service for <br> <span>DADHARO REVENUE SHARING</span>
-  description: Dasharo Privacy &amp; Terms
+  title: Terms of Service for <br> <span>DADHARO REVENUE SHARING PARTNERS</span>
+  description: Dasharo Terms of Service for Dasharo Entry Subscriptions sold by Dasharo Revenue Sharing partners.
 
 ---
 
-## Terms <span>Overview</span> {.terms__content-header}
+## <span>Definitions</span> {.terms__content-header}
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Service Provider/Seller | 3mdeb Spółka z ograniczoną odpowiedzialnością**,** having its registered office in Gdańsk at ul. Piastowska 7 loc. 20a, entered into the Register of Entrepreneurs of the National Court Register under number 0000946112, by the District Court for Gdańsk -- Północ, 7th Commercial Division of the National Court Register, NIP 5842812770, REGON 52096779700000 |
-| Service Recipient/Buyer/Customer/   | Client a natural person, a legal person, or another organizational unit that has placed an order for a service offered by the Service Provider      |
-| GTC | General Terms of Service, this document |
-| Conditions | a set of information about one of the Services (a specific Service) provided by the Service Provider, that is, in particular: basic functionalities of the Service, technical requirements necessary to launch the Service, cost of the Service, activation of the Service, minimum purchase, minimum service time, etc. |
-| Billing Period | the period for which the settlements of the Service Recipient's liabilities towards the Service Provider for the Services provided are made |
-| Standard Software | Software as an Open Source software, supplied with part of the Documentation (Standard Software Documentation with Open Source License) |
-| Software Developer | an economic entity creating a given piece of software and/or hardware on the basis of which the Services are provided by the Service Provider |
-| Product | a physical object purchased by the Customer and offered by the Service Provider as part of its business activity |
-| Reseller | a business entity that signed Dasharo Revenue Sharing Partnership Agreement with Service Provider and sold Dasharo Entry Subscription in accordance with following terms and conditions. |
-| Service | any action of the Supplier on behalf of the Customer, performed under or in connection with the performance of this Agreement |
-| Hardware | Hardware and IT infrastructure, including in particular tools, system software, databases, links, and all devices |
-| Parties | the Service Provider and the Service Recipient understood jointly |
-| Subscription | individual, paid access of the User to the selected service for the selected Subscription Period |
-| Auto-renewable Subscription | a type of Subscription that assumes automatic renewal of the Subscription Period for new Subscription Periods |
-| Subscription Period | the specified period for which the User can use the selected service as part of the Subscription
+* **Service Provider/Seller** - 3mdeb Spółka z ograniczoną odpowiedzialnością,
+  having its registered office in Gdańsk at ul. Piastowska 7 loc. 20a, entered
+  into the Register of Entrepreneurs of the National Court Register under
+  number 0000946112, by the District Court for Gdańsk -- Północ, 7th Commercial
+  Division of the National Court Register, NIP 5842812770, REGON 52096779700000.
+* **Service Recipient/Buyer/Customer/** - Client a natural person, a legal
+  person, or another organizational unit that has placed an order for a service
+  offered by the Service Provider.
+* **GTC** - General Terms of Service, this document.
+* **Conditions** - a set of information about one of the Services (a specific
+  Service) provided by the Service Provider, that is, in particular: basic
+  functionalities of the Service, technical requirements necessary to launch
+  the Service, cost of the Service, activation of the Service, minimum
+  purchase, minimum service time, etc.
+* **Billing Period** - the period for which the settlements of the Service
+  Recipient's liabilities towards the Service Provider for the Services
+  provided are made.
+* **Standard Software** - Software as an Open Source software, supplied with
+  part of the Documentation (Standard Software Documentation with Open Source
+  License).
+* **Software Developer** - an economic entity creating a given piece of
+  software and/or hardware on the basis of which the Services are provided by
+  the Service Provider.
+* **Product** - a physical object purchased by the Customer and offered by the
+  Service Provider as part of its business activity.
+* **Reseller** - a business entity that signed Dasharo Revenue Sharing
+  Partnership Agreement with Service Provider and sold Dasharo Entry
+  Subscription in accordance with following terms and conditions.
+* **Service** - any action of the Supplier on behalf of the Customer, performed
+  under or in connection with the performance of this Agreement.
+* **Hardware** - Hardware and IT infrastructure, including in particular tools,
+  system software, databases, links, and all devices.
+* **Parties** - the Service Provider and the Service Recipient understood
+  jointly.
+* **Subscription** - individual, paid access of the User to the selected
+  service for the selected Subscription Period.
+* **Auto-renewable Subscription** - a type of Subscription that assumes
+  automatic renewal of the Subscription Period for new Subscription Periods.
+* **Subscription Period** - the specified period for which the User can use the
+  selected service as part of the Subscription.
+
 {.terms__content-description}
 
 ## § 1. <span>General Provisions</span> {.terms__content-header}
@@ -252,24 +276,24 @@ e) Access to the Service is obtained by obtaining an access key and password.
 {.terms__content-description}
 
 7.4 The Service Provider reserves the right to change the General Terms and
-     Conditions at any time. In the event of a decision to change the Terms, the
-     Service Provider will place a unified version of them on the website
-     ......................................... The Service Provider shall
-     provide the Customer with the modified document by e-mail to the e-mail
-     address he provided at the first login. When logging in, the Consumer will
-     be notified about the change of the Regulations and the possibility of its
-     acceptance, while the Consumer's acceptance of the changes is considered
-     to be the use of the Account and above all the placing of the Order.
+Conditions at any time. In the event of a decision to change the Terms, the
+Service Provider will place a unified version of them on [the website](
+https://dasharo.com/pages/terms-drs). The Service Provider shall provide the
+Customer with the modified document by e-mail to the e-mail address he provided
+at the first login. When logging in, the Consumer will be notified about the
+change of the Regulations and the possibility of its acceptance, while the
+Consumer's acceptance of the changes is considered to be the use of the Account
+and above all the placing of the Order.
 {.terms__content-description}
 
 7.5 Refusal to accept the change of the General Terms and Conditions is
-     tantamount to termination of the contract. The Consumer who does not accept
-     the changes to the General Terms and Conditions may terminate the contract
-     by submitting a statement by e-mail to the e-mail address
-     ......................................... be in writing to the address of
-     the Service Provider. The Agreement shall be terminated with immediate
-     effect, however, not earlier than until the final settlement (including
-     payment to the Service Provider in connection with the Orders placed). The
-     Consumer acknowledges and accepts that changes to the terms and conditions
-     may occur after each product update by the Service Provider.
+tantamount to termination of the contract. The Consumer who does not accept the
+changes to the General Terms and Conditions may terminate the contract by
+submitting a statement by e-mail to the e-mail address
+`contact<at>dasharo<dot>com` be in writing to the address of the Service
+Provider. The Agreement shall be terminated with immediate effect, however, not
+earlier than until the final settlement (including payment to the Service
+Provider in connection with the Orders placed). The Consumer acknowledges and
+accepts that changes to the terms and conditions may occur after each product
+update by the Service Provider.
 {.terms__content-description}
