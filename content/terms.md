@@ -134,6 +134,7 @@ those changes.
 {.terms__content-description}
 2.9 When using the Services, the User warrants that:
 {.terms__content-description}
+
 - a) they do not perform any prohibited activities that are provided for in the
    Act of 1 March 2018 on counteracting money laundering and terrorist financing
    (i.e. Journal Of Laws of 2022, item 593, as amended), and in particular
@@ -302,6 +303,7 @@ those changes.
 6.1 The Service Provider guarantees the correct operation of the Product for two
     years under the following conditions:
 {.terms__content-description}
+
 - a) The equipment used only the certified version of Dasharo products;
 - b) No traces of Customer interference in the platform or any element of the
    Dasharo software.
@@ -326,6 +328,7 @@ those changes.
 7.1 The Service Provider provides a personalized digital Subscription service
     under which:
 {.terms__content-description}
+
 - a) Service Recipient accesses the latest version of Dasharo and an exclusive
    newsletter containing curated content and invaluable insights relevant to
    their interests and requirements:

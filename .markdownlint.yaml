@@ -1,4 +1,10 @@
 ---
+# MD013/line-length - Line length
+MD013:
+  # Number of characters for code blocks
+  code_block_line_length: 400
+  tables: false
+
 # MD033/no-inline-html - Triggered whenever raw HTML is used in a markdown
 MD033:
   allowed_elements:
