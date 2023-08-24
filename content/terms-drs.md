@@ -173,12 +173,12 @@ a) Service Recipient accesses the latest version of Dasharo and an exclusive
    their interests and requirements:
 {.terms__content-description}
 
-- \- comprehensive and meaningful release notes,
-- \- in-depth feature documentation,
-- \- initial deployment and update procedures,
-- \- Software Bill of Materials (SBOM) details,
-- \- Compliant Supply Chain Information,
-- \- full access to Test Results Spreadsheet and test logs;
+* \- comprehensive and meaningful release notes,
+* \- in-depth feature documentation,
+* \- initial deployment and update procedures,
+* \- Software Bill of Materials (SBOM) details,
+* \- Compliant Supply Chain Information,
+* \- full access to Test Results Spreadsheet and test logs;
 {.terms__content-description}
 b) Service Recipient receives special updates, including early access to updates
    enhancing privacy, security, performance, and compatibility. These updates
