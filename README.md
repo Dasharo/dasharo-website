@@ -37,6 +37,24 @@ Instead, use absolute links:
 [contact](https://www.dasharo.com/pages/contact/)
 ```
 
+### Linking to the newly created page
+
+If you want to add internal link to the page you are creating (new page is
+not deployed yet), please use:
+
+```md
+[link name](#new-page-header)
+```
+
+instead of:
+
+```md
+<https://www.dasharo.com/pages/new-page#new-page-header>
+```
+
+If you must use an absolute link, you can skip link checking by adding the
+site to the `.lycheeignore` file.
+
 ### pre-commit hooks
 
 - [Install pre-commit](https://pre-commit.com/index.html#install), if you
