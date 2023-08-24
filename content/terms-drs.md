@@ -245,7 +245,7 @@ in the place of business of the Customer as the competent place.
 {.terms__content-description}
 
 6.2 For consumers, the European Commission provides a platform for online
-dispute resolution (OS) at: <http://ec.europa.eu/consumers/odr/>. The Service
+dispute resolution (OS) at: <https://ec.europa.eu/consumers/odr/>. The Service
 Provider expresses its readiness to resolve the dispute with the consumer in
 this mode. Applications should be addressed to the representative office in
 Poland: Plac Powstańców Warszawy 1, 00-950 Warsaw, <kontakt.adr@uokik.gov.pl>
@@ -275,8 +275,8 @@ Poland: Plac Powstańców Warszawy 1, 00-950 Warsaw, <kontakt.adr@uokik.gov.pl>
 
 7.4 The Service Provider reserves the right to change the General Terms and
 Conditions at any time. In the event of a decision to change the Terms, the
-Service Provider will place a unified version of them on [the website](
-https://dasharo.com/pages/terms-drs). The Service Provider shall provide the
+Service Provider will place a unified version of them on
+<https://dasharo.com/pages/terms-drs>. The Service Provider shall provide the
 Customer with the modified document by e-mail to the e-mail address he provided
 at the first login. When logging in, the Consumer will be notified about the
 change of the Regulations and the possibility of its acceptance, while the
