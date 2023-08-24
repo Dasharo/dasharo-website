@@ -78,16 +78,16 @@ banner:
 {.terms__content-description}
 
 1.5 The Customer confirms that, regardless of the content of the GTC, before
-    placing an order for the Service, he has become familiar with the essential
-    properties of the subject of the order, the price and fees, the rules for
-    payment of the price and fees, costs and the date and method of performance
-    of the Service, the period after which he can resign from the Service, as
-    well as the way of submitting complaints.
+placing an order for the Service, he has become familiar with the essential
+properties of the subject of the order, the price and fees, the rules for
+payment of the price and fees, costs and the date and method of performance of
+the Service, the period after which he can resign from the Service, as well as
+the way of submitting complaints.
 {.terms__content-description}
 
 1.6 The Customer\'s personal data will be processed by the Service Provider on
-    the terms specified in the document available at
-    <https://shop.3mdeb.com/privacy-policy/>.
+the terms specified in the document available at
+<https://shop.3mdeb.com/privacy-policy/>.
 {.terms__content-description}
 
 ## § 2. <span>Rights and obligations</span> {.terms__content-header}
@@ -116,15 +116,15 @@ banner:
     resources to which the Customer is not entitled.
 {.terms__content-description}
 
-2.6 Communication between the Customer and the Service Provider shall take place
-    by e-mail, available on the Service Provider's website at
-    [dasharo.com](mailto:contact@dasharo.com).
+2.6 Communication between the Customer and the Service Provider shall take
+place by e-mail, available on the Service Provider's website at
+[dasharo.com](mailto:contact@dasharo.com).
 {.terms__content-description}
 
-2.7 By purchasing a product or service, the Customer hereby acknowledges that he
-    has become acquainted with the properties of the purchased product or
-    service, including the results of tests available to the public and
-    presented by the Service Provider.
+2.7 By purchasing a product or service, the Customer hereby acknowledges that
+he has become acquainted with the properties of the purchased product or
+service, including the results of tests available to the public and presented
+by the Service Provider.
 {.terms__content-description}
 
 2.8 By purchasing a Product or Service, the Customer hereby agrees to subscribe
@@ -136,10 +136,10 @@ banner:
 {.terms__content-description}
 
 a) they do not perform any prohibited activities that are provided for in the
-   Act of 1 March 2018 on counteracting money laundering and terrorist financing
-   (i.e. Journal Of Laws of 2022, item 593, as amended), and in particular
-   guarantees that the money transferred as part of the Fees will not come from
-   money laundering;
+Act of 1 March 2018 on counteracting money laundering and terrorist financing
+(i.e. Journal Of Laws of 2022, item 593, as amended), and in particular
+guarantees that the money transferred as part of the Fees will not come from
+money laundering;
 {.terms__content-description}
 
 b) they will not use the Services to obtain assistance for the purpose of
@@ -152,8 +152,8 @@ c) they will not use the Services for the unlawful depletion of any public
 
 ## § 3. <span>Guarantee</span> {.terms__content-header}
 
-3.1 The Service Provider guarantees the correct operation of the Product as long
-as the subscription is purchased, under the following conditions:
+3.1 The Service Provider guarantees the correct operation of the Product as
+long as the subscription is purchased, under the following conditions:
 {.terms__content-description}
 
 a) The equipment used only the certified version of Dasharo products;
@@ -180,15 +180,15 @@ a) Service Recipient accesses the latest version of Dasharo and an exclusive
 * \- Compliant Supply Chain Information,
 * \- full access to Test Results Spreadsheet and test logs;
 {.terms__content-description}
-b) Service Recipient receives special updates, including early access to updates
-   enhancing privacy, security, performance, and compatibility. These updates
-   are released more frequently than community releases, with transparency of
-   reproducible binaries, signature chains, and an open-source code supply
-   chain;
+b) Service Recipient receives special updates, including early access to
+updates enhancing privacy, security, performance, and compatibility. These
+updates are released more frequently than community releases, with transparency
+of reproducible binaries, signature chains, and an open-source code supply
+chain;
 {.terms__content-description}
-c) Service Recipient is granted access to the Dasharo Primer Support invite-only
-   Matrix channel, facilitating direct engagement with the Dasharo Team and
-   fellow subscribers with personalized and priority assistance;
+c) Service Recipient is granted access to the Dasharo Primer Support
+invite-only Matrix channel, facilitating direct engagement with the Dasharo
+Team and fellow subscribers with personalized and priority assistance;
 {.terms__content-description}
 d) Service Recipient has the opportunity to influence the direction and
    development of new features, ensuring that the Dasharo firmware evolves to
@@ -212,45 +212,43 @@ e) Access to the Service is obtained by obtaining an access key and password.
 ## § 5. <span>Force Majeure</span> {.terms__content-header}
 
 5.1 The Service Provider shall not be liable if any force majeure causes
-    difficulties in the performance of the Service. Force majeure includes all
-    events not foreseen by the Service Provider or the Customer, beyond the
-    control of the Service Provider and occurring after the conclusion of the
-    contract, including, but not limited to, operational disruptions of any
-    kind, fire, natural disasters, epidemic and pandemic states, weather
-    phenomena, flooding, war and other military conflicts, uprisings, acts of
-    terror, transport delays, strikes, reasonable lockouts, labor shortages,
-    energy or raw material shortages, delays caused by the requirement to obtain
-    official permits, measures taken by the authorities/head of any state,
-    embargoes, restrictions or sanctions regarding export control, unexpected
-    increase in the risk of sanctions (e.g. sanctions against third countries).
+difficulties in the performance of the Service. Force majeure includes all
+events not foreseen by the Service Provider or the Customer, beyond the control
+of the Service Provider and occurring after the conclusion of the contract,
+including, but not limited to, operational disruptions of any kind, fire,
+natural disasters, epidemic and pandemic states, weather phenomena, flooding,
+war and other military conflicts, uprisings, acts of terror, transport delays,
+strikes, reasonable lockouts, labor shortages, energy or raw material
+shortages, delays caused by the requirement to obtain official permits,
+measures taken by the authorities/head of any state, embargoes, restrictions or
+sanctions regarding export control, unexpected increase in the risk of
+sanctions (e.g. sanctions against third countries).
 {.terms__content-description}
 
 5.2 If the Service Provider cannot perform the Contractual Service as a result
-    of force majeure, this shall not be considered a breach of contract, and all
-    contractual deadlines shall be extended by an appropriate reasonable period.
-    The above also applies when any third-party service is delayed in relation
-    to the Service Provider due to force majeure.
+of force majeure, this shall not be considered a breach of contract, and all
+contractual deadlines shall be extended by an appropriate reasonable period.
+The above also applies when any third-party service is delayed in relation to
+the Service Provider due to force majeure.
 {.terms__content-description}
 
 ## § 6. <span>Jurisdiction</span> {.terms__content-header}
 
 6.1 If the Customer is an entrepreneur, the sole place of jurisdiction for all
-     disputes arising out of this agreement is the Seller\'s registered office.
-     If the Customer has its registered office outside Poland, the exclusive
-     place of jurisdiction for all disputes arising from this agreement is the
-     Seller\'s registered office if the agreement or claims arising from the
-     agreement can be assigned to the professional or commercial activity of the
-     Customer. In the above cases, however, the Seller has the right in each
-     case to choose the court in the place of business of the Customer as the
-     competent place.
+disputes arising out of this agreement is the Seller\'s registered office.  If
+the Customer has its registered office outside Poland, the exclusive place of
+jurisdiction for all disputes arising from this agreement is the Seller\'s
+registered office if the agreement or claims arising from the agreement can be
+assigned to the professional or commercial activity of the Customer. In the
+above cases, however, the Seller has the right in each case to choose the court
+in the place of business of the Customer as the competent place.
 {.terms__content-description}
 
 6.2 For consumers, the European Commission provides a platform for online
-     dispute resolution (OS) at: <http://ec.europa.eu/consumers/odr/>. The
-     Service Provider expresses its readiness to resolve the dispute with the
-     consumer in this mode. Applications should be addressed to the
-     representative office in Poland: Plac Powstańców Warszawy 1, 00-950 Warsaw,
-     <kontakt.adr@uokik.gov.pl>
+dispute resolution (OS) at: <http://ec.europa.eu/consumers/odr/>. The Service
+Provider expresses its readiness to resolve the dispute with the consumer in
+this mode. Applications should be addressed to the representative office in
+Poland: Plac Powstańców Warszawy 1, 00-950 Warsaw, <kontakt.adr@uokik.gov.pl>
 {.terms__content-description}
 
 6.3 The governing law for all Services and Products is the Polish law.
@@ -289,11 +287,11 @@ and above all the placing of the Order.
 7.5 Refusal to accept the change of the General Terms and Conditions is
 tantamount to termination of the contract. The Consumer who does not accept the
 changes to the General Terms and Conditions may terminate the contract by
-submitting a statement by e-mail to the e-mail address
-`contact<at>dasharo<dot>com` be in writing to the address of the Service
-Provider. The Agreement shall be terminated with immediate effect, however, not
-earlier than until the final settlement (including payment to the Service
-Provider in connection with the Orders placed). The Consumer acknowledges and
-accepts that changes to the terms and conditions may occur after each product
-update by the Service Provider.
+submitting a statement by e-mail to the [e-mail
+address](mailto:contact@dasharo.com) be in writing to the address of the
+Service Provider. The Agreement shall be terminated with immediate effect,
+however, not earlier than until the final settlement (including payment to the
+Service Provider in connection with the Orders placed). The Consumer
+acknowledges and accepts that changes to the terms and conditions may occur
+after each product update by the Service Provider.
 {.terms__content-description}
