@@ -6,68 +6,55 @@ layout: terms
 url: pages/terms/
 
 banner:
-  title: terms of <br> <span>SERVICE</span>
+  title: Terms of <br> <span>SERVICE</span>
   description: Dasharo Privacy &amp; Terms
 
 ---
 
-## Terms <span>Overview</span> {.terms__content-header}
+## <span>Definitions</span> {.terms__content-header}
 
-This website is operated by 3mdeb. Throughout the site, the terms
-“we”, “us” and “our” refer to 3mdeb. 3mdeb offers this website,
-including all information, tools and services available from this
-site to you, the user, conditioned upon your acceptance of all
-terms, conditions, policies and notices stated here.
+* **Service Provider/Seller** - 3mdeb Spółka z ograniczoną odpowiedzialnością,
+  having its registered office in Gdańsk at ul. Piastowska 7 loc. 20a, entered
+  into the Register of Entrepreneurs of the National Court Register under
+  number 0000946112, by the District Court for Gdańsk -- Północ, 7th Commercial
+  Division of the National Court Register, NIP 5842812770, REGON 52096779700000.
+* **Service Recipient/Buyer/Customer/** - Client a natural person, a legal
+  person, or another organizational unit that has placed an order for a service
+  offered by the Service Provider.
+* **GTC** - General Terms of Service, this document.
+* **Conditions** - a set of information about one of the Services (a specific
+  Service) provided by the Service Provider, that is, in particular: basic
+  functionalities of the Service, technical requirements necessary to launch
+  the Service, cost of the Service, activation of the Service, minimum
+  purchase, minimum service time, etc.
+* **Billing Period** - the period for which the settlements of the Service
+  Recipient's liabilities towards the Service Provider for the Services
+  provided are made.
+* **Standard Software** - Software as an Open Source software, supplied with
+  part of the Documentation (Standard Software Documentation with Open Source
+  License).
+* **Software Developer** - an economic entity creating a given piece of
+  software and/or hardware on the basis of which the Services are provided by
+  the Service Provider.
+* **Product** - a physical object purchased by the Customer and offered by the
+  Service Provider as part of its business activity.
+* **Reseller** - a business entity that signed Dasharo Revenue Sharing
+  Partnership Agreement with Service Provider and sold Dasharo Entry
+  Subscription in accordance with following terms and conditions.
+* **Service** - any action of the Supplier on behalf of the Customer, performed
+  under or in connection with the performance of this Agreement.
+* **Hardware** - Hardware and IT infrastructure, including in particular tools,
+  system software, databases, links, and all devices.
+* **Parties** - the Service Provider and the Service Recipient understood
+  jointly.
+* **Subscription** - individual, paid access of the User to the selected
+  service for the selected Subscription Period.
+* **Auto-renewable Subscription** - a type of Subscription that assumes
+  automatic renewal of the Subscription Period for new Subscription Periods.
+* **Subscription Period** - the specified period for which the User can use the
+  selected service as part of the Subscription.
+
 {.terms__content-description}
-
-By visiting our site and/or purchasing something from us, you
-engage in our “Service” and agree to be bound by the following
-terms and conditions (“Terms of Service”, “Terms”), including
-those additional terms and conditions and policies referenced here
-in and/or available by hyperlink. These Terms of Service apply to
-all users of the site, including without limitation users who are
-browsers, vendors, customers, merchants, and/or contributors of
-content.
-{.terms__content-description}
-
-Please read these Terms of Service carefully before accessing or
-using our website. By accessing or using any part of the site, you
-agree to be bound by these Terms of Service. If you do not agree
-to all the terms and conditions of this agreement, then you may
-not access the website or use any services. If these Terms of
-Service are considered an offer, acceptance is expressly limited
-to these Terms of Service.
-{.terms__content-description}
-
-Any new features or tools which are added to the current store
-shall also be subject to the Terms of Service. You can review the
-most current version of the Terms of Service at any time on this
-page. We reserve the right to update, change or replace any part
-of these Terms of Service by posting updates and/or changes to our
-website. It is your responsibility to check this page periodically
-for changes. Your continued use of or access to the website
-following the posting of any changes constitutes acceptance of
-those changes.
-{.terms__content-description}
-
-{.h2}
-
-| Term      | Description |
-| ----------- | ----------- |
-| Service Provider/Seller | 3mdeb Spółka z ograniczoną odpowiedzialnością, having its registered office in Gdańsk at ul. Piastowska 7 loc. 20a, entered into the Register of Entrepreneurs of the National Court Register under number 0000946112, by the District Court for Gdańsk – Północ, 7th Commercial Division of the National Court Register, NIP 5842812770, REGON 52096779700000 |
-| Service Recipient/Buyer/Customer | a natural person, a legal person, or another organizational unit that has placed an order for a service offered by the Service Provider |
-| GTC | General Terms of Service, this document |
-| Conditions | a set of information about one of the Services (a specific Service) provided by the Service Provider, that is, in particular: basic functionalities of the Service, technical requirements necessary to launch the Service, cost of the Service, activation of the Service, minimum purchase, minimum service time, etc. |
-| Billing Period | the period for which the settlements of the Service Recipient's liabilities towards the Service Provider for the Services provided are made |
-| Standard Software | Software as an Open Source software, supplied with part of the Documentation (Standard Software Documentation with Open Source License) |
-| Software Developer  | an economic entity creating a given piece of software and/or hardware on the basis of which the Services are provided by the Service Provider |
-| Product | a physical object purchased by the Customer and offered by the Service Provider as part of its business activity|
-| Service | any action of the Supplier on behalf of the Customer, performed under or in connection with the performance of this Agreement |
-| Hardware | Hardware and IT infrastructure, including in particular tools, system software, databases, links, and all devices |
-| Parties | the Service Provider and the Service Recipient understood jointly |
-| Subscription | individual, paid access of the User to the selected service for the selected Subscription Period |
-| Auto-renewable Subscription | a type of Subscription that assumes automatic renewal of the Subscription Period for new Subscription Periods |
-| Subscription Period | the specified period for which the User can use the selected service as part of the Subscription |
 
 ## § 1. <span>General Provisions</span> {.terms__content-header}
 
@@ -135,14 +122,18 @@ those changes.
 2.9 When using the Services, the User warrants that:
 {.terms__content-description}
 
-- a) they do not perform any prohibited activities that are provided for in the
+a) they do not perform any prohibited activities that are provided for in the
    Act of 1 March 2018 on counteracting money laundering and terrorist financing
    (i.e. Journal Of Laws of 2022, item 593, as amended), and in particular
    guarantees that the money transferred as part of the Fees will not come from
    money laundering;
-- b) they will not use the Services to obtain assistance for the purpose of
+{.terms__content-description}
+
+b) they will not use the Services to obtain assistance for the purpose of
    committing an act prohibited by law;
-- c) they will not use the Services for the unlawful depletion of any public
+{.terms__content-description}
+
+c) they will not use the Services for the unlawful depletion of any public
    receivables, e.g. for the purpose of committing a criminal tax offense.
 {.terms__content-description}
 
@@ -304,8 +295,10 @@ those changes.
     years under the following conditions:
 {.terms__content-description}
 
-- a) The equipment used only the certified version of Dasharo products;
-- b) No traces of Customer interference in the platform or any element of the
+a) The equipment used only the certified version of Dasharo products;
+{.terms__content-description}
+
+b) No traces of Customer interference in the platform or any element of the
    Dasharo software.
 {.terms__content-description}
 6.2 The Customer is obliged to deliver at his own expense the purchased Product
@@ -329,27 +322,42 @@ those changes.
     under which:
 {.terms__content-description}
 
-- a) Service Recipient accesses the latest version of Dasharo and an exclusive
+a) Service Recipient accesses the latest version of Dasharo and an exclusive
    newsletter containing curated content and invaluable insights relevant to
    their interests and requirements:
-- \- comprehensive and meaningful release notes,
-- \- in-depth feature documentation,
-- \- initial deployment and update procedures,
-- \- Software Bill of Materials (SBOM) details,
-- \- Compliant Supply Chain Information,
-- \- full access to Test Results Spreadsheet and test logs;
-- b) Service Recipient receives special updates, including early access to updates
+{.terms__content-description}
+
+* \- comprehensive and meaningful release notes,
+{.terms__content-description}
+* \- in-depth feature documentation,
+{.terms__content-description}
+* \- initial deployment and update procedures,
+{.terms__content-description}
+* \- Software Bill of Materials (SBOM) details,
+{.terms__content-description}
+* \- Compliant Supply Chain Information,
+{.terms__content-description}
+* \- full access to Test Results Spreadsheet and test logs;
+{.terms__content-description}
+
+b) Service Recipient receives special updates, including early access to updates
    enhancing privacy, security, performance, and compatibility. These updates
    are released more frequently than community releases, with transparency of
    reproducible binaries, signature chains, and an open-source code supply
    chain;
-- c) Service Recipient is granted access to the Dasharo Primer Support invite-only
+{.terms__content-description}
+
+c) Service Recipient is granted access to the Dasharo Primer Support invite-only
    Matrix channel, facilitating direct engagement with the Dasharo Team and
    fellow subscribers with personalized and priority assistance;
-- d) Service Recipient has the opportunity to influence the direction and
+{.terms__content-description}
+
+d) Service Recipient has the opportunity to influence the direction and
    development of new features, ensuring that the Dasharo firmware evolves to
    meet their specific needs and industry demands;
-- e) Access to the Service is obtained by obtaining an access key and password.
+{.terms__content-description}
+
+e) Access to the Service is obtained by obtaining an access key and password.
 {.terms__content-description}
 7.2 To use the Service, you must use a device that complies with the technical
     requirements of Dasharo. The features available in the Service may vary
@@ -365,11 +373,19 @@ those changes.
 7.4 To purchase an Auto-Renewable Subscription, the Service Recipient is obliged
     to:
 {.terms__content-description}
-- a) complete the Subscription Order Form;
-- b) choose payment by payment card;
-- c) connect the payment card in accordance with the instructions provided;
-- d) check the correctness and completeness of the data;
-- e) confirm the form with the appropriate button.
+a) complete the Subscription Order Form;
+{.terms__content-description}
+
+b) choose payment by payment card;
+{.terms__content-description}
+
+c) connect the payment card in accordance with the instructions provided;
+{.terms__content-description}
+
+d) check the correctness and completeness of the data;
+{.terms__content-description}
+
+e) confirm the form with the appropriate button.
 {.terms__content-description}
 
 ## § <span>8. Logistics</span> {.terms__content-header}
