@@ -31,38 +31,14 @@
   <div class="contact__content-container">
     <div class="contact-form-wrapper">
       <h2 class="contact-form__header-title">Send us a message</h2>
-      <form id="contact" class="contact-form__form" action="" method="post">
-        <div id="email-sent"></div>
-        <div class="form-group contact-form__form-field">
-          <label for="name">Name</label>
-          <input id="name" class="form-input" placeholder="enter your name" type="text" maxlength="40" tabindex="1" required="" autofocus="">
-        </div>
-        <div class="form-group contact-form__form-field">
-          <label for="user_email">Email</label>
-          <input id="user_email" class="form-input" placeholder="enter your email" type="email" tabindex="2" maxlength="40" title="" required="">
-        </div>
-        <div class="form-group contact-form__form-field">
-          <label for="mobile">Phone</label>
-          <input id="mobile" class="form-input" placeholder="enter your phone number (optional)" type="text" maxlength="12" required="">
-        </div>
-        <div class="form-group contact-form__form-field">
-          <label for="subject">Subject</label>
-          <input id="subject" class="form-input" placeholder="subject" type="text" maxlength="40" tabindex="4" required="">
-        </div>
-        <div class="form-group contact-form__form-field">
-          <label class="contact-form__form-field-textarea" for="textarea1">
-            <span>Message</span>
-            {{ partial "image.html" (dict "Src" "images/icons/knight-white.png" "Alt" "form icon" "Resize" false "Size" "50x") }}
-          </label>
-          <textarea id="textarea1" class="form-input" placeholder="enter your message" tabindex="5" maxlength="1000" required=""></textarea>
-        </div>
-        <div class="form-group contact-form__form-field contact-form__form-field-button">
-          <button id="send_email" class="contact-button contact-form__contact-button" name="submit" type="submit" data-submit="...Sending">
-            {{ partial "image.html" (dict "Src" "images/logo/dasharo-logo.png" "Alt" "Dasharo logo" "Resize" false "Size" "30x") }}
-            <span>Submit</span>
-          </button>
-        </div>
-      </form>
+      <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
+      <script>
+          hbspt.forms.create({
+              region: "eu1",
+              portalId: "143197783",
+              formId: "6029edc8-96d8-437a-ba3f-18de84d494fa"
+            });
+      </script>
       {{ partial "image.html" (dict "Src" "images/icons/king-grey.png" "Alt" "king chess icon" "Class" "contact-form__icon" "Resize" false "Size" "512x") }}
     </div>
   </div>
