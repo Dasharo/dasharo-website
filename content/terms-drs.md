@@ -6,7 +6,7 @@ layout: terms
 url: pages/terms-drs/
 
 banner:
-  title: Terms of Service for <br> <span>DADHARO REVENUE SHARING PARTNERS</span>
+  title: Terms of Service for <br> <span>DASHARO REVENUE SHARING PARTNERS</span>
   description: Dasharo Terms of Service for Dasharo Entry Subscriptions sold by Dasharo Revenue Sharing partners.
 
 ---
