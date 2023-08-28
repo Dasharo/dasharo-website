@@ -1,2 +1,3 @@
 [codespell]
 ignore-words = ignore.txt
+dictionary = dict.txt
