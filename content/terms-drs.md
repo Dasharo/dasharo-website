@@ -150,6 +150,16 @@ c) they will not use the Services for the unlawful depletion of any public
    receivables, e.g. for the purpose of committing a criminal tax offense.
 {.terms__content-description}
 
+2.10 The Reseller has the obligation to provide the Service Provider with the
+    Customer's email address for the purpose of service fulfillment.
+{.terms__content-description}
+
+2.11 The Service Provider hereby undertakes to process the email address in
+    accordance with the GDPR, Polish regulations adopted to enable the
+    application of the GDPR, other applicable laws, and the Terms and
+    Conditions of Service.
+{.terms__content-description}
+
 ## § 3. <span>Guarantee</span> {.terms__content-header}
 
 3.1 The Service Provider guarantees the correct operation of the Product as
