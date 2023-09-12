@@ -473,7 +473,7 @@ e) confirm the form with the appropriate button.
 11.4 The Service Provider reserves the right to change the General Terms and
      Conditions at any time. In the event of a decision to change the Terms, the
      Service Provider will place a unified version of them on the website
-     ......................................... The Service Provider shall
+     <https://dasharo.com/pages/terms> The Service Provider shall
      provide the Customer with the modified document by e-mail to the e-mail
      address he provided at the first login. When logging in, the Consumer will
      be notified about the change of the Regulations and the possibility of its
@@ -484,7 +484,7 @@ e) confirm the form with the appropriate button.
      tantamount to termination of the contract. The Consumer who does not accept
      the changes to the General Terms and Conditions may terminate the contract
      by submitting a statement by e-mail to the e-mail address
-     ......................................... be in writing to the address of
+     [e-mail address](mailto:contact@dasharo.com) be in writing to the address of
      the Service Provider. The Agreement shall be terminated with immediate
      effect, however, not earlier than until the final settlement (including
      payment to the Service Provider in connection with the Orders placed). The
