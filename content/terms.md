@@ -139,8 +139,8 @@ c) they will not use the Services for the unlawful depletion of any public
 
 ## § 3. <span>The Purchase of Products and Services</span> {.terms__content-header}
 
-3.1 All prices quoted by the Service Provider are gross prices expressed in euro
-    (including VAT). The prices do not include shipping costs.
+3.1 All prices quoted by the Service Provider are net prices expressed in euro
+    (excluding VAT). The prices do not include shipping costs.
 {.terms__content-description}
 3.2 The Buyer can change the currency to the Polish zloty (PLN) or US dollar
     (USD).
