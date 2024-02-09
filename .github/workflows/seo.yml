@@ -4,21 +4,21 @@ on:
   push:
     branches:
       - main
+      - develop
   pull_request:
     branches:
       - main
+      - develop
 
 jobs:
   linkChecker:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4.1.1
-      - name: Link Checker
-        id: lychee
-        uses: lycheeverse/lychee-action@v1.9.2
-        with:
-          fail: true
-          args: --max-redirects 10 -a 403,500,503 .
+      - name: Checkout repo
+        uses: actions/checkout@v4.1.1
+
+      - name: Test links
+        uses: 3mdeb/lychee-log-action@main
   seo_spy_orphan_pages:
     runs-on: ubuntu-latest
     name: Check orphan pages
