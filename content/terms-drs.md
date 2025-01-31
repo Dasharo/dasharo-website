@@ -1,13 +1,13 @@
 ---
 title: Dasharo Terms of Service for Dasharo Revenue Sharing
-description: Dasharo Terms of Service for Dasharo Entry Subscriptions sold by Dasharo Revenue Sharing partners.
+description: Dasharo Terms of Service for Dasharo Pro Package sold by Dasharo Revenue Sharing partners.
 
 layout: terms
 url: pages/terms-drs/
 
 banner:
   title: Terms of Service for <br> <span>DASHARO REVENUE SHARING PARTNERS</span>
-  description: Dasharo Terms of Service for Dasharo Entry Subscriptions sold by Dasharo Revenue Sharing partners.
+  description: Dasharo Terms of Service for Dasharo Pro Package sold by Dasharo Revenue Sharing partners.
 
 ---
 
