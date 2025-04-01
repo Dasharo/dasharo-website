@@ -141,9 +141,7 @@ get_a_quote:
 
 newsletter:
   title: <span>Join our newsletter</span> to receive monthly updates with big news and updates from the <span>Dasharo team</span>
-  mailchimp_form_action: "https://3mdeb.us16.list-manage.com/subscribe/post?u=fce95b885fc13fbf1db611816&id=7085d28b61"
-  mailchimp_form_name: "df0d0bf5-c867-4fe6-acee-6ba2c596a142"
-
-
+  subscription_form: "https://listmonk.3mdeb.com/subscription/form"
+  subscription_list: "dbbf5ff3-976f-478e-beaf-749a280358ea"
 
 ---
