@@ -1,8 +1,7 @@
 const cookiesInitialize = function () {
   const container = document.createElement("div");
   const link = document.createElement("strong");
-  const hrefContent =
-    window.location.href.indexOf("pages") != -1 ? "./policy" : "./pages/policy";
+  const hrefContent = window.location.origin + "/pages/policy";
 
   container.id = "cookies_info";
   container.innerHTML =
