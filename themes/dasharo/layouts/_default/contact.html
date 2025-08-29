@@ -31,19 +31,7 @@
   <div class="contact__content-container">
     <div class="contact-form-wrapper">
       <h2 class="contact-form__header-title">Send us a message</h2>
-      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <div id="zammad-feedback-form">Form div</div>
-        <script id="zammad_form_script" src="https://support.3mdeb.com/assets/form/form.js"></script>
-        <script>
-          $(function() {
-            $('#zammad-feedback-form').ZammadForm({
-              messageTitle: 'Contact Form',
-              messageSubmit: 'Submit',
-              messageThankYou: 'Thank you for your inquiry (#%s)! We\'ll contact you as soon as possible.',
-              noCSS: true,
-            });
-          });
-        </script>
+      {{ partial "components/contact-form.html" }}
       {{ partial "image.html" (dict "Src" "images/icons/king-grey.png" "Alt" "king chess icon" "Class" "contact-form__icon" "Resize" false "Size" "512x") }}
     </div>
   </div>
