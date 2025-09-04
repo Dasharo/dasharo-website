@@ -98,6 +98,43 @@
         font-size: calc(20px + 4 * ((100vw - 320px) / 680));
       }
 
+      #zammad-feedback-form {
+        input[type="text"],
+        input[type="email"],
+        textarea {
+          width: 100%;
+          box-sizing: border-box;
+          margin-bottom: 15px;
+          padding: 10px;
+          border-radius: 3px;
+          border: 1px solid #ccc;
+        }
+        textarea {
+          min-height: 150px;
+          resize: vertical;
+        }
+        .btn {
+          font-size: 19px;
+          color: $white;
+          z-index: 2;
+          line-height: 40px;
+          text-align: center;
+          appearance: push-button;
+          background-color: $carbon;
+          transition: 0.5s;
+          padding: 0 15px;
+
+          &:hover {
+            background-color: $greenTwo;
+          }
+        }
+        .js-thankyou {
+          font-size: calc(20px + 4 * ((100vw - 320px) / 680));
+          font-weight: 500;
+          line-height: 1.5;
+        }
+      }
+
       .contact-form__form {
         .contact-form__form-field {
           display: flex;
