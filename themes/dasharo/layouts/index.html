@@ -371,7 +371,7 @@
       </div>
       <iframe name="main" title="newsletter"> dd</iframe>
       <form
-        action="{{.mailchimp_form_action}}"
+        action="{{.subscription_form}}"
         method="post"
         id="mc-embedded-subscribe-form"
         name="mc-embedded-subscribe-form"
@@ -404,13 +404,13 @@
         </div>
         <p style="display: none">
           <input
-            id="df0d0"
+            id="dbbf5"
             type="checkbox"
             name="l"
-            value="{{.mailchimp_form_name}}"
+            value="{{.subscription_list}}"
             checked
           />
-          <label for="df0d0">Dasharo</label>
+          <label for="dbbf5">Dasharo</label>
         </p>
         <div class="newsletter__form-button-wrapper">
           {{ partial "image.html" (dict "Src" "images/logo/dasharo-logo.png" "Alt" "Dasharo logo" "Class" "newsletter__form-button-img" "Resize" false "Size" "32x30") }}

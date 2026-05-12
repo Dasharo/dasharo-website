@@ -22,7 +22,7 @@ jobs:
           hugo-version: "0.111.3"
           extended: true
 
-      - uses: actions/cache@v4.0.0
+      - uses: actions/cache@v3 # https://github.com/actions/cache?tab=readme-ov-file#%EF%B8%8F-important-changes
         with:
           path: /tmp/hugo_cache
           key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
