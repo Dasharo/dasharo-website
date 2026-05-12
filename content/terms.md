@@ -440,7 +440,6 @@ following legally binding terms:
   is not in a human readable form.
 
 {.terms__content-description}
-<br><br>
 **1. Restricted License & Hardware Limitation** The copy of the Object Code
 version of the software provided herein is subject to a restricted license. The
 End User is hereby notified that this software may only be used in conjunction
@@ -461,7 +460,7 @@ is strictly prohibited from:
   Software License (Open Source license) terms
 
 {.terms__content-description}
-<br><br>
+
 **3. Open Source Acknowledgement** The Dasharo release contains certain
 components (such as Standard Software) that are independently distributed under
 separate Free Software Licenses or Open Source licenses. This EULA Annex does
