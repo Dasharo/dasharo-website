@@ -46,6 +46,29 @@
       span {
         color: $grey;
       }
+
+      .heading-anchor {
+        display: inline-flex;
+        align-items: center;
+        margin-left: 0.35em;
+        opacity: 0;
+        transition: opacity 0.2s ease;
+        color: $grey;
+        text-decoration: none;
+        vertical-align: middle;
+
+        svg {
+          fill: currentColor;
+        }
+
+        &:hover {
+          color: $greenTwo;
+        }
+      }
+
+      &:hover .heading-anchor {
+        opacity: 1;
+      }
     }
 
     .terms__content-description {

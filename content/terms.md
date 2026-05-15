@@ -506,11 +506,16 @@ following legally binding terms:
 **Definitions:**
 {.terms__content-description}
 
+* \- **Object Code** means machine readable computer programming code files,
+    which is not in a human readable form.
 * \- **AMD Licensed Software** means the proprietary binary software Object Code,
-  and associated documentation provided by Advanced Micro Devices, Inc. (“AMD”)
-  and incorporated into the Dasharo release.
-* \- **Object Code** means machine readable computer programming code files, which
-  is not in a human readable form.
+    and associated documentation provided by Advanced Micro
+    Devices, Inc. (“AMD”) and incorporated into the Dasharo release.
+{.terms__content-description}
+
+*AMD is a trademark of Advanced Micro Devices, Inc. OCP is a trademark of the
+Open Compute Project Foundation. All other trademarks are the property of
+their respective owners.*
 {.terms__content-description}
 
 **1. Restricted License & Hardware Limitation** The copy of the Object Code
