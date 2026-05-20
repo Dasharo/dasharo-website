@@ -372,18 +372,18 @@ e) Access to the Service is obtained by obtaining an access key and password.
     at the following link: <https://docs.dasharo.com/>.
 {.terms__content-description}
 7.3 For Dasharo-adjacent hardware product lines, including BenchRack, the
-	applicable order, quote, product annex, or offer-specific terms may state
-	that support is provided at the Dasharo Enterprise Package level. The
-	product-specific document controls the support term, designated support
-	channels, covered firmware or hardware scope, exclusions, custody, shipping,
-	tax, and any repair or replacement commitments. Support channels not
-	designated in that product-specific document are not included unless the
-	Parties agree otherwise in writing.
+ applicable order, quote, product annex, or offer-specific terms may state
+ that support is provided at the Dasharo Enterprise Package level. The
+ product-specific document controls the support term, designated support
+ channels, covered firmware or hardware scope, exclusions, custody, shipping,
+ tax, and any repair or replacement commitments. Support channels not
+ designated in that product-specific document are not included unless the
+ Parties agree otherwise in writing.
 {.terms__content-description}
 7.4 The Service Provider reserves the right to change -- at any time -- the
-	technical requirements for using the Service and to change, add or remove
-	business partners and payment methods. Modifications and changes of this
-	type will be published on the Service Provider\'s website.
+ technical requirements for using the Service and to change, add or remove
+ business partners and payment methods. Modifications and changes of this
+ type will be published on the Service Provider\'s website.
 7.5 To purchase an Auto-Renewable Subscription, the Service Recipient is obliged
     to:
 {.terms__content-description}
