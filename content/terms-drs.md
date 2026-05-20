@@ -185,7 +185,7 @@ b) No traces of Customer interference in the platform or any element of the
    Dasharo software.
 {.terms__content-description}
 
-## § 4. <span>Subscription</span> {.terms__content-header}
+## § 4. <span>Dasharo Access and Support</span> {.terms__content-header}
 
 4.1 The Service Provider provides a personalized digital Dasharo service
     under which:
