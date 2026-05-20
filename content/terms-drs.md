@@ -38,6 +38,10 @@ banner:
   the Service Provider.
 * **Product** - a physical object purchased by the Customer and offered by the
   Service Provider as part of its business activity.
+* **Dasharo Package** - an offer-defined Dasharo Service that provides access to
+  selected Dasharo releases, documentation, support channels, and related
+  benefits for the term and entitlement boundary stated in the applicable order,
+  product page, product annex, or offer-specific terms
 * **Reseller** - a business entity that signed Dasharo Revenue Sharing
   Partnership Agreement with Service Provider and sold Dasharo Entry
   Subscription in accordance with following terms and conditions.
@@ -154,11 +158,19 @@ c) they will not use the Services for the unlawful depletion of any public
     Customer's email address for the purpose of service fulfillment.
 {.terms__content-description}
 
-2.11 The Service Provider hereby undertakes to process the email address in
-    accordance with the GDPR, Polish regulations adopted to enable the
-    application of the GDPR, other applicable laws, and the Terms and
-    Conditions of Service.
+2.11 The Reseller has the obligation to provide the Service Provider with the
+    Customer's email address for the purpose of service fulfillment.
 {.terms__content-description}
+
+2.12 The Service Provider hereby undertakes to process the email address in
+    accordance with the GDPR, Polish    regulations adopted to enable the
+    application of the GDPR, other applicable laws, and the Terms and Conditions
+    of Service.
+{.terms__content-description}
+
+2.13 The Reseller is responsible for managing initial Client inquiries and
+    directing the Client to the support level applicable to the purchased Dasharo
+Product or Dasharo Package. {.terms__content-description}
 
 ## § 3. <span>Guarantee</span> {.terms__content-header}
 
@@ -173,9 +185,9 @@ b) No traces of Customer interference in the platform or any element of the
    Dasharo software.
 {.terms__content-description}
 
-## § 4. <span>Subscription</span> {.terms__content-header}
+## § 4. <span>Dasharo Access and Support</span> {.terms__content-header}
 
-4.1 The Service Provider provides a personalized digital Subscription service
+4.1 The Service Provider provides a personalized digital Dasharo service
     under which:
 {.terms__content-description}
 a) Service Recipient accesses the latest version of Dasharo and an exclusive
@@ -196,9 +208,14 @@ updates are released more frequently than community releases, with transparency
 of reproducible binaries, signature chains, and an open-source code supply
 chain;
 {.terms__content-description}
-c) Service Recipient is granted access to the Dasharo Primer Support
-invite-only Matrix channel, facilitating direct engagement with the Dasharo
-Team and fellow subscribers with personalized and priority assistance;
+c) Service Recipient is granted access to the support channels applicable to
+the purchased Dasharo Package or other Service. Dasharo Pro Package support
+includes public support channels such as GitHub and the Dasharo support
+channel on Matrix, together with the Dasharo Premier Support invite-only
+Matrix channel. Dasharo Enterprise Package support includes the Dasharo Pro
+Package support channels and e-mail support, unless the applicable order,
+product page, product annex, or offer-specific terms designate different or
+narrower support channels for a specific engagement;
 {.terms__content-description}
 d) Service Recipient has the opportunity to influence the direction and
    development of new features, ensuring that the Dasharo firmware evolves to
