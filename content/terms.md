@@ -38,9 +38,10 @@ banner:
   the Service Provider.
 * **Product** - a physical object purchased by the Customer and offered by the
   Service Provider as part of its business activity.
-* **Reseller** - a business entity that signed Dasharo Revenue Sharing
-  Partnership Agreement with Service Provider and sold Dasharo Entry
-  Subscription in accordance with following terms and conditions.
+* **Dasharo Package** - an offer-defined Dasharo Service that provides access to
+  selected Dasharo releases, documentation, support channels, and related
+  benefits for the term and entitlement boundary stated in the applicable order,
+  product page, product annex, or offer-specific terms.
 * **Service** - any action of the Supplier on behalf of the Customer, performed
   under or in connection with the performance of this Agreement.
 * **Hardware** - Hardware and IT infrastructure, including in particular tools,
@@ -316,9 +317,9 @@ b) No traces of Customer interference in the platform or any element of the
     the given element does not apply.
 {.terms__content-description}
 
-## § <span>7. Subscription</span> {.terms__content-header}
+## § <span>7. Dasharo Access and Support</span> {.terms__content-header}
 
-7.1 The Service Provider provides a personalized digital Subscription service
+7.1 The Service Provider provides a personalized digital Dasharo service
     under which:
 {.terms__content-description}
 
@@ -347,9 +348,14 @@ b) Service Recipient receives special updates, including early access to updates
    chain;
 {.terms__content-description}
 
-c) Service Recipient is granted access to the Dasharo Primer Support invite-only
-   Matrix channel, facilitating direct engagement with the Dasharo Team and
-   fellow subscribers with personalized and priority assistance;
+c) Service Recipient is granted access to the support channels applicable to
+   the purchased Dasharo Package or other Service. Dasharo Pro Package support
+   includes public support channels such as GitHub and the Dasharo support
+   channel on Matrix, together with the Dasharo Premier Support invite-only
+   Matrix channel. Dasharo Enterprise Package support includes the Dasharo Pro
+   Package support channels and e-mail support, unless the applicable order,
+   product page, product annex, or offer-specific terms designate different or
+   narrower support channels for a specific engagement;
 {.terms__content-description}
 
 d) Service Recipient has the opportunity to influence the direction and
@@ -365,12 +371,20 @@ e) Access to the Service is obtained by obtaining an access key and password.
     requirements related to the use of the Service can be found on the website
     at the following link: <https://docs.dasharo.com/>.
 {.terms__content-description}
-7.3 The Service Provider reserves the right to change -- at any time -- the
-    technical requirements for using the Service and to change, add or remove
-    business partners and payment methods. Modifications and changes of this
-    type will be published on the Service Provider\'s website.
+7.3 For Dasharo-adjacent hardware product lines, including BenchRack, the
+	applicable order, quote, product annex, or offer-specific terms may state
+	that support is provided at the Dasharo Enterprise Package level. The
+	product-specific document controls the support term, designated support
+	channels, covered firmware or hardware scope, exclusions, custody, shipping,
+	tax, and any repair or replacement commitments. Support channels not
+	designated in that product-specific document are not included unless the
+	Parties agree otherwise in writing.
 {.terms__content-description}
-7.4 To purchase an Auto-Renewable Subscription, the Service Recipient is obliged
+7.4 The Service Provider reserves the right to change -- at any time -- the
+	technical requirements for using the Service and to change, add or remove
+	business partners and payment methods. Modifications and changes of this
+	type will be published on the Service Provider\'s website.
+7.5 To purchase an Auto-Renewable Subscription, the Service Recipient is obliged
     to:
 {.terms__content-description}
 a) complete the Subscription Order Form;
