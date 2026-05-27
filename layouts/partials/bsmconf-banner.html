@@ -92,7 +92,7 @@
   </button>
 </div>
 
-{{ else if eq $stage "schedule-announced" }}
+{{ else if eq $stage "program-live" }}
 <div id="bsmconf-banner" data-bsm-key="{{ $key }}" style="background:#fdfdfd;color:#0b0d12;border-bottom:1px solid #e4e4e7;">
   <span class="bsm-content">
     <span class="bsm-pill" style="background:#0b0d12;color:#fdfdfd;">Program live</span>
@@ -126,7 +126,7 @@
   </button>
 </div>
 
-{{ else if eq $stage "happening-now" }}
+{{ else if eq $stage "live" }}
 <div id="bsmconf-banner" data-bsm-key="{{ $key }}" style="background:#0b0d12;color:#e6e8ec;">
   <span class="bsm-content">
     <span class="bsm-pill" style="background:#22c55e;color:#062712;">

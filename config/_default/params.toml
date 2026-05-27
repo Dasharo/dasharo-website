@@ -37,9 +37,9 @@ mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"                  
 #   call-for-sponsors  — sponsorship slots open, warm/light strip
 #   call-for-papers    — CfP open, green gradient strip
 #   early-bird         — tickets live with early-bird pricing, dark strip
-#   schedule-announced — CfP closed, full program announced, light strip
+#   program-live       — CfP closed, full program announced, light strip
 #   last-chance        — final tickets, dark red strip
-#   happening-now      — conference live, dark strip with animated green dot
+#   live               — conference live, dark strip with animated green dot
 # Changing the stage resets the dismiss state for all visitors.
 [bsmconf_banner]
 enable = true
