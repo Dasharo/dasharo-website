@@ -1,0 +1,186 @@
+{{ $banner := site.Params.bsmconf_banner }}
+{{ if and $banner $banner.enable }}
+{{ $stage := $banner.stage | default "save-the-date" }}
+{{ $link  := "https://3mdeb.com/events/#_boot-security-mastery-conference" }}
+{{ $key   := printf "bsm26-banner-%s" $stage }}
+
+<style>
+:root{--bsm-h:40px}
+.navigation__container{top:var(--bsm-h)!important}
+#bsmconf-banner{width:100%;box-sizing:border-box;display:flex;align-items:center;justify-content:center;gap:14px;padding:10px 48px 10px 16px;position:fixed;top:0;left:0;z-index:20;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:14px;line-height:1.2;letter-spacing:.1px}
+#bsmconf-banner .bsm-content{display:inline-flex;align-items:center;flex-wrap:wrap;justify-content:center;gap:10px}
+#bsmconf-banner .bsm-cta{display:inline-flex;align-items:center;gap:6px;padding:4px 10px;border-radius:4px;font-weight:600;text-decoration:none;font-size:13px;letter-spacing:.2px;white-space:nowrap;transition:opacity .12s}
+#bsmconf-banner .bsm-cta:hover{opacity:.85}
+#bsmconf-banner .bsm-dismiss{position:absolute;right:10px;top:50%;transform:translateY(-50%);background:transparent;border:none;cursor:pointer;padding:6px;line-height:0;opacity:.55;border-radius:4px}
+#bsmconf-banner .bsm-dismiss:hover{opacity:1}
+#bsmconf-banner .bsm-pill{display:inline-flex;align-items:center;padding:2px 8px;border-radius:999px;font-size:11px;font-weight:700;letter-spacing:.8px;text-transform:uppercase}
+#bsmconf-banner .bsm-dot{display:inline-block;width:6px;height:6px;border-radius:999px;margin-right:8px;flex:none}
+@keyframes bsm-pulse{0%,100%{opacity:1}50%{opacity:.35}}
+#bsmconf-banner .bsm-live-dot{display:inline-block;width:6px;height:6px;border-radius:999px;background:#062712;margin-right:6px;animation:bsm-pulse 1.4s infinite}
+</style>
+
+{{ if eq $stage "save-the-date" }}
+<div id="bsmconf-banner" data-bsm-key="{{ $key }}" style="background:#0b0d12;color:#e6e8ec;">
+  <span class="bsm-content">
+    <span class="bsm-dot" style="background:#8ab4ff;"></span>
+    <strong>BSMconf 2026</strong>
+    <span style="opacity:.55;">·</span>
+    <span style="opacity:.85;">Boot Security Mastery Conference</span>
+    <span style="opacity:.55;">·</span>
+    <span style="opacity:.85;">Save the date</span>
+  </span>
+  <a href="{{ $link }}" target="_blank" rel="noopener" class="bsm-cta" style="background:#e6e8ec;color:#0b0d12;">
+    Learn more
+    <svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M1 5h8M5.5 1.5L9 5l-3.5 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </a>
+  <button class="bsm-dismiss" aria-label="Dismiss banner">
+    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2 2l8 8M10 2l-8 8" stroke="#e6e8ec" stroke-width="1.5" stroke-linecap="round"/></svg>
+  </button>
+</div>
+
+{{ else if eq $stage "call-for-sponsors" }}
+<div id="bsmconf-banner" data-bsm-key="{{ $key }}" style="background:#fffaf0;color:#3f2d10;border-bottom:1px solid #f1e3c2;">
+  <span class="bsm-content">
+    <span class="bsm-pill" style="background:#3f2d10;color:#fffaf0;">BSMconf 2026</span>
+    <span>
+      <strong>Sponsorship slots open</strong>
+      <span style="opacity:.75;"> — back the only conference dedicated to boot &amp; firmware security.</span>
+    </span>
+  </span>
+  <a href="{{ $link }}" target="_blank" rel="noopener" class="bsm-cta" style="background:#1f2937;color:#fff;">
+    Become a sponsor
+    <svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M1 5h8M5.5 1.5L9 5l-3.5 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </a>
+  <button class="bsm-dismiss" aria-label="Dismiss banner">
+    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2 2l8 8M10 2l-8 8" stroke="#3f2d10" stroke-width="1.5" stroke-linecap="round"/></svg>
+  </button>
+</div>
+
+{{ else if eq $stage "call-for-papers" }}
+<div id="bsmconf-banner" data-bsm-key="{{ $key }}" style="background:linear-gradient(90deg,#0b3d2e 0%,#0e5239 100%);color:#eafff5;">
+  <span class="bsm-content">
+    <span class="bsm-pill" style="background:rgba(255,255,255,.14);color:#eafff5;">CfP Open</span>
+    <span>
+      <strong>BSMconf 2026</strong>
+      <span style="opacity:.8;"> — Call for Papers closes soon. Share your firmware-security research.</span>
+    </span>
+  </span>
+  <a href="{{ $link }}" target="_blank" rel="noopener" class="bsm-cta" style="background:#eafff5;color:#0b3d2e;">
+    Submit your talk
+    <svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M1 5h8M5.5 1.5L9 5l-3.5 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </a>
+  <button class="bsm-dismiss" aria-label="Dismiss banner">
+    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2 2l8 8M10 2l-8 8" stroke="#eafff5" stroke-width="1.5" stroke-linecap="round"/></svg>
+  </button>
+</div>
+
+{{ else if eq $stage "early-bird" }}
+<div id="bsmconf-banner" data-bsm-key="{{ $key }}" style="background:#111827;color:#e5e7eb;">
+  <span class="bsm-content">
+    <span class="bsm-pill" style="background:#a3e635;color:#111827;">Early bird</span>
+    <span>
+      <strong>BSMconf 2026 tickets are live.</strong>
+      <span style="opacity:.75;"> Early-bird pricing until CfP closes.</span>
+    </span>
+  </span>
+  <a href="{{ $link }}" target="_blank" rel="noopener" class="bsm-cta" style="background:#a3e635;color:#111827;">
+    Get early-bird ticket
+    <svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M1 5h8M5.5 1.5L9 5l-3.5 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </a>
+  <button class="bsm-dismiss" aria-label="Dismiss banner">
+    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2 2l8 8M10 2l-8 8" stroke="#e5e7eb" stroke-width="1.5" stroke-linecap="round"/></svg>
+  </button>
+</div>
+
+{{ else if eq $stage "schedule-announced" }}
+<div id="bsmconf-banner" data-bsm-key="{{ $key }}" style="background:#fdfdfd;color:#0b0d12;border-bottom:1px solid #e4e4e7;">
+  <span class="bsm-content">
+    <span class="bsm-pill" style="background:#0b0d12;color:#fdfdfd;">Program live</span>
+    <span>
+      <strong>BSMconf 2026</strong>
+      <span style="opacity:.7;"> — full speaker line-up announced. Standard tickets on sale.</span>
+    </span>
+  </span>
+  <a href="{{ $link }}" target="_blank" rel="noopener" class="bsm-cta" style="background:#0b0d12;color:#fdfdfd;">
+    See the program
+    <svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M1 5h8M5.5 1.5L9 5l-3.5 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </a>
+  <button class="bsm-dismiss" aria-label="Dismiss banner">
+    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2 2l8 8M10 2l-8 8" stroke="#0b0d12" stroke-width="1.5" stroke-linecap="round"/></svg>
+  </button>
+</div>
+
+{{ else if eq $stage "last-chance" }}
+<div id="bsmconf-banner" data-bsm-key="{{ $key }}" style="background:#7f1d1d;color:#fff1f1;">
+  <span class="bsm-content">
+    <span class="bsm-dot" style="background:#fca5a5;"></span>
+    <strong>BSMconf 2026 — final tickets</strong>
+    <span style="opacity:.85;">Conference starts in 2 weeks. Seats running low.</span>
+  </span>
+  <a href="{{ $link }}" target="_blank" rel="noopener" class="bsm-cta" style="background:#fff1f1;color:#7f1d1d;">
+    Grab a seat
+    <svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M1 5h8M5.5 1.5L9 5l-3.5 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </a>
+  <button class="bsm-dismiss" aria-label="Dismiss banner">
+    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2 2l8 8M10 2l-8 8" stroke="#fff1f1" stroke-width="1.5" stroke-linecap="round"/></svg>
+  </button>
+</div>
+
+{{ else if eq $stage "happening-now" }}
+<div id="bsmconf-banner" data-bsm-key="{{ $key }}" style="background:#0b0d12;color:#e6e8ec;">
+  <span class="bsm-content">
+    <span class="bsm-pill" style="background:#22c55e;color:#062712;">
+      <span class="bsm-live-dot"></span>Live now
+    </span>
+    <span>
+      <strong>BSMconf 2026 is happening.</strong>
+      <span style="opacity:.75;"> Talks streaming all week.</span>
+    </span>
+  </span>
+  <a href="{{ $link }}" target="_blank" rel="noopener" class="bsm-cta" style="background:#22c55e;color:#062712;">
+    Watch live
+    <svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M1 5h8M5.5 1.5L9 5l-3.5 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </a>
+  <button class="bsm-dismiss" aria-label="Dismiss banner">
+    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2 2l8 8M10 2l-8 8" stroke="#e6e8ec" stroke-width="1.5" stroke-linecap="round"/></svg>
+  </button>
+</div>
+{{ end }}
+
+<script>
+// Synchronous: handle dismissed state before DOMContentLoaded to avoid nav flash.
+(function(){
+  var el=document.getElementById('bsmconf-banner');
+  if(!el)return;
+  if(localStorage.getItem(el.dataset.bsmKey)==='dismissed'){
+    el.style.display='none';
+    document.documentElement.style.setProperty('--bsm-h','0px');
+  }
+})();
+
+document.addEventListener('DOMContentLoaded',function(){
+  var el=document.getElementById('bsmconf-banner');
+  if(!el||el.style.display==='none')return;
+  var key=el.dataset.bsmKey;
+  var nav=document.querySelector('.navigation__container');
+  var main=document.querySelector('main');
+
+  function applyOffsets(){
+    var bh=el.offsetHeight;
+    document.documentElement.style.setProperty('--bsm-h',bh+'px');
+    if(main) main.style.paddingTop=bh+'px';
+  }
+
+  function dismiss(){
+    localStorage.setItem(key,'dismissed');
+    el.style.display='none';
+    document.documentElement.style.setProperty('--bsm-h','0px');
+    if(main) main.style.paddingTop='0';
+  }
+
+  applyOffsets();
+  window.addEventListener('resize',applyOffsets);
+  el.querySelector('.bsm-dismiss').addEventListener('click',dismiss);
+});
+</script>
+{{ end }}
