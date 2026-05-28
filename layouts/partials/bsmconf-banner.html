@@ -1,7 +1,8 @@
 {{ $banner := site.Params.bsmconf_banner }}
 {{ if and $banner $banner.enable }}
 {{ $stage := $banner.stage | default "save-the-date" }}
-{{ $link  := "https://3mdeb.com/events/#_boot-security-mastery-conference" }}
+{{ $link    := "https://3mdeb.com/events/#_boot-security-mastery-conference" }}
+{{ $tickets := "https://events.dasharo.com/event/11/boot-security-mastery-conference-2026" }}
 {{ $key   := printf "bsm26-banner-%s" $stage }}
 
 <style>
@@ -11,12 +12,18 @@
 #bsmconf-banner .bsm-content{display:inline-flex;align-items:center;flex-wrap:wrap;justify-content:center;gap:10px}
 #bsmconf-banner .bsm-cta{display:inline-flex;align-items:center;gap:6px;padding:4px 10px;border-radius:4px;font-weight:600;text-decoration:none;font-size:13px;letter-spacing:.2px;white-space:nowrap;transition:opacity .12s}
 #bsmconf-banner .bsm-cta:hover{opacity:.85}
+#bsmconf-banner .bsm-cta-tickets{background:transparent;border:1.5px solid currentColor}
 #bsmconf-banner .bsm-dismiss{position:absolute;right:10px;top:50%;transform:translateY(-50%);background:transparent;border:none;cursor:pointer;padding:6px;line-height:0;opacity:.55;border-radius:4px}
 #bsmconf-banner .bsm-dismiss:hover{opacity:1}
 #bsmconf-banner .bsm-pill{display:inline-flex;align-items:center;padding:2px 8px;border-radius:999px;font-size:11px;font-weight:700;letter-spacing:.8px;text-transform:uppercase}
 #bsmconf-banner .bsm-dot{display:inline-block;width:6px;height:6px;border-radius:999px;margin-right:8px;flex:none}
 @keyframes bsm-pulse{0%,100%{opacity:1}50%{opacity:.35}}
 #bsmconf-banner .bsm-live-dot{display:inline-block;width:6px;height:6px;border-radius:999px;background:#062712;margin-right:6px;animation:bsm-pulse 1.4s infinite}
+@media(max-width:768px){
+  #bsmconf-banner{flex-wrap:wrap;padding:10px 16px;row-gap:8px}
+  #bsmconf-banner .bsm-content{width:100%;padding-right:28px}
+  #bsmconf-banner .bsm-dismiss{top:12px;transform:none}
+}
 </style>
 
 {{ if eq $stage "save-the-date" }}
@@ -31,6 +38,10 @@
   </span>
   <a href="{{ $link }}" target="_blank" rel="noopener" class="bsm-cta" style="background:#e6e8ec;color:#0b0d12;">
     Learn more
+    <svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M1 5h8M5.5 1.5L9 5l-3.5 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </a>
+  <a href="{{ $tickets }}" target="_blank" rel="noopener" class="bsm-cta bsm-cta-tickets" style="color:#e6e8ec;">
+    Get tickets
     <svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M1 5h8M5.5 1.5L9 5l-3.5 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
   </a>
   <button class="bsm-dismiss" aria-label="Dismiss banner">
@@ -51,6 +62,10 @@
     Become a sponsor
     <svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M1 5h8M5.5 1.5L9 5l-3.5 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
   </a>
+  <a href="{{ $tickets }}" target="_blank" rel="noopener" class="bsm-cta bsm-cta-tickets" style="color:#3f2d10;">
+    Get tickets
+    <svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M1 5h8M5.5 1.5L9 5l-3.5 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </a>
   <button class="bsm-dismiss" aria-label="Dismiss banner">
     <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2 2l8 8M10 2l-8 8" stroke="#3f2d10" stroke-width="1.5" stroke-linecap="round"/></svg>
   </button>
@@ -67,6 +82,10 @@
   </span>
   <a href="{{ $link }}" target="_blank" rel="noopener" class="bsm-cta" style="background:#eafff5;color:#0b3d2e;">
     Submit your talk
+    <svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M1 5h8M5.5 1.5L9 5l-3.5 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </a>
+  <a href="{{ $tickets }}" target="_blank" rel="noopener" class="bsm-cta bsm-cta-tickets" style="color:#eafff5;">
+    Get tickets
     <svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M1 5h8M5.5 1.5L9 5l-3.5 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
   </a>
   <button class="bsm-dismiss" aria-label="Dismiss banner">
@@ -87,6 +106,10 @@
     Get early-bird ticket
     <svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M1 5h8M5.5 1.5L9 5l-3.5 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
   </a>
+  <a href="{{ $tickets }}" target="_blank" rel="noopener" class="bsm-cta bsm-cta-tickets" style="color:#e5e7eb;">
+    Get tickets
+    <svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M1 5h8M5.5 1.5L9 5l-3.5 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </a>
   <button class="bsm-dismiss" aria-label="Dismiss banner">
     <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2 2l8 8M10 2l-8 8" stroke="#e5e7eb" stroke-width="1.5" stroke-linecap="round"/></svg>
   </button>
@@ -105,6 +128,10 @@
     See the program
     <svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M1 5h8M5.5 1.5L9 5l-3.5 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
   </a>
+  <a href="{{ $tickets }}" target="_blank" rel="noopener" class="bsm-cta bsm-cta-tickets" style="color:#0b0d12;">
+    Get tickets
+    <svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M1 5h8M5.5 1.5L9 5l-3.5 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </a>
   <button class="bsm-dismiss" aria-label="Dismiss banner">
     <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2 2l8 8M10 2l-8 8" stroke="#0b0d12" stroke-width="1.5" stroke-linecap="round"/></svg>
   </button>
@@ -118,7 +145,11 @@
     <span style="opacity:.85;">Conference starts in 2 weeks. Seats running low.</span>
   </span>
   <a href="{{ $link }}" target="_blank" rel="noopener" class="bsm-cta" style="background:#fff1f1;color:#7f1d1d;">
-    Grab a seat
+    Learn more
+    <svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M1 5h8M5.5 1.5L9 5l-3.5 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </a>
+  <a href="{{ $tickets }}" target="_blank" rel="noopener" class="bsm-cta bsm-cta-tickets" style="color:#fff1f1;">
+    Get tickets
     <svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M1 5h8M5.5 1.5L9 5l-3.5 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
   </a>
   <button class="bsm-dismiss" aria-label="Dismiss banner">
