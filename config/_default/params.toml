@@ -30,6 +30,21 @@ enable = false
 mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
 mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"                                                           # replace this code with yours
 
+# BSMconf 2026 conference banner
+# Set enable = false to hide the banner entirely.
+# Stages in chronological order (pick one active stage at a time):
+#   save-the-date      — early announcement, dark/neutral strip
+#   call-for-sponsors  — sponsorship slots open, warm/light strip
+#   call-for-papers    — CfP open, green gradient strip
+#   early-bird         — tickets live with early-bird pricing, dark strip
+#   program-live       — CfP closed, full program announced, light strip
+#   last-chance        — final tickets, dark red strip
+#   live               — conference live, dark strip with animated green dot
+# Changing the stage resets the dismiss state for all visitors.
+[bsmconf_banner]
+enable = true
+stage  = "save-the-date"
+
 ############################# social site ########################
 
 [[social]]
