@@ -43,7 +43,7 @@ mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"                  
 # Changing the stage resets the dismiss state for all visitors.
 [bsmconf_banner]
 enable = true
-stage  = "save-the-date"
+stage  = "call-for-papers"
 
 ############################# social site ########################
 
