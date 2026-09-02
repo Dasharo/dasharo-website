@@ -55,10 +55,10 @@
     <span class="bsm-pill" style="background:#3f2d10;color:#fffaf0;">BSMconf 2026</span>
     <span>
       <strong>Sponsorship slots open</strong>
-      <span style="opacity:.75;"> — back the only conference dedicated to boot &amp; firmware security.</span>
+      <span style="opacity:.75;"> Back the only conference dedicated to boot &amp; firmware security.</span>
     </span>
   </span>
-  <a href="{{ $link }}" target="_blank" rel="noopener" class="bsm-cta" style="background:#1f2937;color:#fff;">
+  <a href="{{ $link }}" target="_blank" rel="noopener" class="bsm-cta" style="background:#38d430;color:#0b0d12;">
     Become a sponsor
     <svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M1 5h8M5.5 1.5L9 5l-3.5 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
   </a>
@@ -77,10 +77,10 @@
     <span class="bsm-pill" style="background:rgba(255,255,255,.14);color:#eafff5;">CfP Open</span>
     <span>
       <strong>BSMconf 2026</strong>
-      <span style="opacity:.8;"> — Call for Papers closes soon. Share your firmware-security research.</span>
+      <span style="opacity:.8;"> Call for Papers closes soon. Share your firmware-security research.</span>
     </span>
   </span>
-  <a href="{{ $link }}" target="_blank" rel="noopener" class="bsm-cta" style="background:#eafff5;color:#0b3d2e;">
+  <a href="{{ $link }}" target="_blank" rel="noopener" class="bsm-cta" style="background:#38d430;color:#0b3d2e;">
     Submit your talk
     <svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M1 5h8M5.5 1.5L9 5l-3.5 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
   </a>
@@ -96,13 +96,13 @@
 {{ else if eq $stage "early-bird" }}
 <div id="bsmconf-banner" data-bsm-key="{{ $key }}" style="background:#111827;color:#e5e7eb;">
   <span class="bsm-content">
-    <span class="bsm-pill" style="background:#a3e635;color:#111827;">Early bird</span>
+    <span class="bsm-pill" style="background:#38d430;color:#111827;">Early bird</span>
     <span>
       <strong>BSMconf 2026 tickets are live.</strong>
       <span style="opacity:.75;"> Early-bird pricing until CfP closes.</span>
     </span>
   </span>
-  <a href="{{ $link }}" target="_blank" rel="noopener" class="bsm-cta" style="background:#a3e635;color:#111827;">
+  <a href="{{ $link }}" target="_blank" rel="noopener" class="bsm-cta" style="background:#38d430;color:#111827;">
     Get early-bird ticket
     <svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M1 5h8M5.5 1.5L9 5l-3.5 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
   </a>
@@ -121,10 +121,10 @@
     <span class="bsm-pill" style="background:#0b0d12;color:#fdfdfd;">Program live</span>
     <span>
       <strong>BSMconf 2026</strong>
-      <span style="opacity:.7;"> — full speaker line-up announced. Standard tickets on sale.</span>
+      <span style="opacity:.7;"> Full speaker line-up announced. Standard tickets on sale.</span>
     </span>
   </span>
-  <a href="{{ $link }}" target="_blank" rel="noopener" class="bsm-cta" style="background:#0b0d12;color:#fdfdfd;">
+  <a href="{{ $link }}" target="_blank" rel="noopener" class="bsm-cta" style="background:#38d430;color:#0b0d12;">
     See the program
     <svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M1 5h8M5.5 1.5L9 5l-3.5 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
   </a>
@@ -138,29 +138,31 @@
 </div>
 
 {{ else if eq $stage "last-chance" }}
-<div id="bsmconf-banner" data-bsm-key="{{ $key }}" style="background:#7f1d1d;color:#fff1f1;">
+<div id="bsmconf-banner" data-bsm-key="{{ $key }}-v2" style="background:#29363b;color:#f5f5f5;">
   <span class="bsm-content">
-    <span class="bsm-dot" style="background:#fca5a5;"></span>
-    <strong>BSMconf 2026 — final tickets</strong>
-    <span style="opacity:.85;">Conference starts in 2 weeks. Seats running low.</span>
+    <span class="bsm-pill" style="background:#f2b400;color:#29363b;">Final days</span>
+    <span>
+      <strong>BSMconf 2026</strong>
+      <span style="opacity:.85;"> Hands-on pre-conference trainings (21-23 Sep) and the main conference (24-25 Sep) in Gdańsk.</span>
+    </span>
   </span>
-  <a href="{{ $link }}" target="_blank" rel="noopener" class="bsm-cta" style="background:#fff1f1;color:#7f1d1d;">
-    Learn more
+  <a href="{{ $link }}" target="_blank" rel="noopener" class="bsm-cta" style="background:#38d430;color:#0b0d12;">
+    See trainings &amp; program
     <svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M1 5h8M5.5 1.5L9 5l-3.5 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
   </a>
-  <a href="{{ $tickets }}" target="_blank" rel="noopener" class="bsm-cta bsm-cta-tickets" style="color:#fff1f1;">
+  <a href="{{ $tickets }}" target="_blank" rel="noopener" class="bsm-cta bsm-cta-tickets" style="color:#f5f5f5;">
     Get tickets
     <svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M1 5h8M5.5 1.5L9 5l-3.5 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
   </a>
   <button class="bsm-dismiss" aria-label="Dismiss banner">
-    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2 2l8 8M10 2l-8 8" stroke="#fff1f1" stroke-width="1.5" stroke-linecap="round"/></svg>
+    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2 2l8 8M10 2l-8 8" stroke="#f5f5f5" stroke-width="1.5" stroke-linecap="round"/></svg>
   </button>
 </div>
 
 {{ else if eq $stage "live" }}
 <div id="bsmconf-banner" data-bsm-key="{{ $key }}" style="background:#0b0d12;color:#e6e8ec;">
   <span class="bsm-content">
-    <span class="bsm-pill" style="background:#22c55e;color:#062712;">
+    <span class="bsm-pill" style="background:#38d430;color:#062712;">
       <span class="bsm-live-dot"></span>Live now
     </span>
     <span>
@@ -168,7 +170,7 @@
       <span style="opacity:.75;"> Talks streaming all week.</span>
     </span>
   </span>
-  <a href="{{ $link }}" target="_blank" rel="noopener" class="bsm-cta" style="background:#22c55e;color:#062712;">
+  <a href="{{ $link }}" target="_blank" rel="noopener" class="bsm-cta" style="background:#38d430;color:#062712;">
     Watch live
     <svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M1 5h8M5.5 1.5L9 5l-3.5 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
   </a>
