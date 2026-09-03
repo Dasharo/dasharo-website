@@ -38,12 +38,13 @@ mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"                  
 #   call-for-papers    — CfP open, green gradient strip
 #   early-bird         — tickets live with early-bird pricing, dark strip
 #   program-live       — CfP closed, full program announced, light strip
-#   last-chance        — final tickets, dark red strip
+#   last-chance        — final days; charcoal/amber strip promoting the 21-23
+#                        Sep pre-conference trainings alongside the conference
 #   live               — conference live, dark strip with animated green dot
 # Changing the stage resets the dismiss state for all visitors.
 [bsmconf_banner]
 enable = true
-stage  = "call-for-sponsors"
+stage  = "last-chance"
 
 ############################# social site ########################
 
