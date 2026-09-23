@@ -40,11 +40,11 @@ mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"                  
 #   program-live       — CfP closed, full program announced, light strip
 #   last-chance        — final days; charcoal/amber strip promoting the 21-23
 #                        Sep pre-conference trainings alongside the conference
-#   live               — conference live, dark strip with animated green dot
+#   live               — conference happening now, dark strip with animated green dot
 # Changing the stage resets the dismiss state for all visitors.
 [bsmconf_banner]
 enable = true
-stage  = "last-chance"
+stage  = "live"
 
 ############################# social site ########################
 
