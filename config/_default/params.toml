@@ -43,7 +43,7 @@ mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"                  
 #   live               — conference happening now, dark strip with animated green dot
 # Changing the stage resets the dismiss state for all visitors.
 [bsmconf_banner]
-enable = true
+enable = false
 stage  = "live"
 
 ############################# social site ########################
