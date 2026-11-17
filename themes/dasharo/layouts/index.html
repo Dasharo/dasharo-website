@@ -139,6 +139,14 @@
       <a href="#get-a-quote">
         <h2 class="quote__title">{{.title | markdownify}}</h2>
       </a>
+      {{ with or .book_a_call_link site.Params.booking_url }}
+      <div class="quote__book-call">
+        <span class="quote__book-call-text">Prefer to talk it through?</span>
+        <a class="quote__book-call-btn" href="{{. | safeURL}}" target="_blank" rel="noopener">
+          Book a call with us
+        </a>
+      </div>
+      {{ end }}
     </div>
     {{ partial "image.html" (dict "Src" "images/icons/king-white.png" "Alt" "king chess" "Class" "quote__icon" "Resize" false "Size" "512x") }}
 
@@ -254,11 +262,6 @@
         <h3 class="quote__contact-us-title">{{.title | markdownify}}</h3>
         <div class="container contact-wrapper">
           <div id="email-sent"></div>
-          {{ with .book_a_call_link }}
-          <a class="bookCall" href="{{. | safeURL}}"
-            >Book a call with us
-          </a>
-          {{ end }}
           <div>
             <div class="form-group">
               <label class="form-label" for="name">Your name</label>

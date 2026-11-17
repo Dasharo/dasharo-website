@@ -325,13 +325,44 @@ button {
   min-width: 100%;
 }
 
-a.bookCall {
-  display: inline-block;
-  margin-bottom: 10px;
-  transition: 0.5s;
-  font-size: 18px;
-  &:hover {
+.quote__book-call {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px 20px;
+  margin-top: 30px;
+
+  .quote__book-call-text {
+    color: $grey;
+    font-size: 18px;
+  }
+
+  .quote__book-call-btn {
+    display: inline-block;
+    padding: 12px 28px;
+    border: 2px solid $greenTwo;
+    border-radius: 3px;
+    background: $greenTwo;
     color: $carbon;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+
+    &:hover,
+    &:focus-visible {
+      background: transparent;
+      color: $carbon;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .quote__book-call {
+    justify-content: center;
+    text-align: center;
   }
 }
 
