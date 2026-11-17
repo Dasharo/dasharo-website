@@ -16,6 +16,9 @@ custom_script = ""
 theme_copyright = false
 copyright = "[3mdeb](https://3mdeb.com/) | All rights reserved."
 
+# Booking link for "Book a call" buttons (3mdeb calendar appointment page)
+booking_url = "https://calendar.3mdeb.com/index.php/apps/calendar/appointment/n7T65toSaD9t"
+
 # seo meta data for OpenGraph / Twitter Card
 [metadata]
 keywords = ["coreboot", "BIOS", "UEFI", "firmware", "open-source"]

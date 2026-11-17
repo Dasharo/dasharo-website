@@ -136,7 +136,6 @@ get_a_quote:
 
   form_step_four:
     title: Contact us
-    book_a_call_link: "https://calendly.com/3mdeb"
 
 
 newsletter:
