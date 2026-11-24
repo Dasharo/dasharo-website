@@ -1,13 +1,44 @@
+{{- /* Cache-buster for Zammad's form.js. support.3mdeb.com serves
+       /assets/form/form.js with a 10-year Cache-Control, so returning
+       visitors keep running a stale copy after Zammad upgrades (e.g. one
+       without honeypot/ALTCHA support, which then fails with 401).
+       Bump this value (e.g. to the form.js Last-Modified date) after every
+       Zammad upgrade. form.js derives its API endpoints by replacing only
+       the "/assets/form/form.js" part of its own src, so the query string
+       is harmless. */ -}}
+{{- $zammadFormVersion := "20261005" -}}
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <div id="zammad-feedback-form">Form div</div>
-<script id="zammad_form_script" src="https://support.3mdeb.com/assets/form/form.js"></script>
+<script id="zammad_form_script" src="https://support.3mdeb.com/assets/form/form.js?v={{ $zammadFormVersion }}"></script>
 <script>
-    $(function() {
-    $('#zammad-feedback-form').ZammadForm({
-        messageTitle: 'Contact Form',
-        messageSubmit: 'Submit',
-        messageThankYou: 'Thank you for your inquiry (#%s)! We\'ll contact you as soon as possible.',
-        noCSS: true,
+  $(function() {
+    // Zammad binds the form token to a browser "fingerprint" made from
+    // canvas.toDataURL(). Anti-fingerprinting browsers/extensions (Brave,
+    // Firefox resistFingerprinting, Safari advanced privacy, CanvasBlocker...)
+    // add random noise to every canvas read, so the fingerprint sent on submit
+    // differs from the one sent to /api/v1/form_config and Zammad answers 401.
+    // Capture the fingerprint used for the config request and reuse it on
+    // submit. Spam filtering (honeypot + ALTCHA) is enforced server-side and
+    // is not affected.
+    var configFingerprint = null;
+    $.ajaxPrefilter(function(options, originalOptions) {
+      if (configFingerprint === null &&
+          options.url && options.url.indexOf('/api/v1/form_config') !== -1 &&
+          originalOptions.data && originalOptions.data.fingerprint) {
+        configFingerprint = originalOptions.data.fingerprint;
+      }
     });
+
+    var $form = $('#zammad-feedback-form').ZammadForm({
+      messageTitle: 'Contact Form',
+      messageSubmit: 'Submit',
+      messageThankYou: 'Thank you for your inquiry (#%s)! We\'ll contact you as soon as possible.',
+      noCSS: true,
     });
+
+    var plugin = $form.data('plugin_ZammadForm');
+    if (plugin && configFingerprint !== null) {
+      plugin.fingerprint = function() { return configFingerprint; };
+    }
+  });
 </script>
