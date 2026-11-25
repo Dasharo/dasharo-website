@@ -40,5 +40,62 @@
     if (plugin && configFingerprint !== null) {
       plugin.fingerprint = function() { return configFingerprint; };
     }
+
+    // Lightweight, privacy-friendly bot checks run in the browser before the
+    // form is sent to Zammad. They stop bots that drive the page (the spam we
+    // see solves ALTCHA and leaves the honeypot empty), but not bots that
+    // POST to Zammad directly - those are handled by Zammad triggers.
+    //  - time trap: humans need more than a few seconds to fill the form,
+    //  - interaction: at least one real (isTrusted) key/pointer/input event,
+    //  - message sanity: a minimum length and more than one word (catches
+    //    random single-string bodies such as "oljqXFGOFVvKeBBUqbI").
+    if (plugin && plugin.$form) {
+      var MIN_FILL_MS = 4000;
+      var MIN_MESSAGE_LENGTH = 15;
+      var MIN_MESSAGE_WORDS = 3;
+      var renderedAt = Date.now();
+      var interacted = false;
+      var $zammadForm = plugin.$form;
+      var $body = $zammadForm.find('[name="body"]');
+
+      $zammadForm.on('keydown pointerdown input', function(e) {
+        var original = e.originalEvent;
+        if (original && original.isTrusted) {
+          interacted = true;
+        }
+      });
+
+      // Clear the custom error once the visitor edits the message again.
+      $body.on('input', function() {
+        this.setCustomValidity('');
+      });
+
+      var messageProblem = function(text) {
+        var trimmed = $.trim(text || '');
+        var words = trimmed.split(/\s+/).filter(function(w) { return w.length > 0; });
+        if (trimmed.length < MIN_MESSAGE_LENGTH || words.length < MIN_MESSAGE_WORDS) {
+          return 'Please describe your inquiry in a few words (at least ' +
+            MIN_MESSAGE_WORDS + ' words).';
+        }
+        return null;
+      };
+
+      var originalSubmit = plugin.submit;
+      plugin.submit = function() {
+        if (!interacted || Date.now() - renderedAt < MIN_FILL_MS) {
+          alert('The form could not be submitted. Please wait a moment and try again.');
+          return;
+        }
+
+        var problem = messageProblem($body.val());
+        if (problem && $body.length) {
+          $body[0].setCustomValidity(problem);
+          $body[0].reportValidity();
+          return;
+        }
+
+        return originalSubmit.apply(this, arguments);
+      };
+    }
   });
 </script>
